@@ -35,7 +35,7 @@ def create_pptx():
         {
             "type": "title",
             "title": "Reinsurance Portfolio Analytics & Data Assurance Platform",
-            "subtitle": "Global Reinsurance Training & Operational Playbook | AXA XL Portfolio Analytics",
+            "subtitle": "Global Reinsurance Training & Operational Playbook | Enterprise Portfolio Governance",
             "bullets": [
                 "Single Version of the Truth for Underwriting, Actuarial & Senior Management",
                 "Automated Excel MI Packs, Power BI & Qlik Integration, VBA Macros & Data Quality Engine",
@@ -292,7 +292,7 @@ def create_pptx():
         {
             "type": "content",
             "title": "15. Summary & Best Practices for Reinsurance Analysts",
-            "subtitle": "Core Principles for Success in AXA XL Reinsurance Portfolio Analytics",
+            "subtitle": "Core Principles for Success in Reinsurance Portfolio Analytics",
             "boxes": [
                 {"title": "Key Takeaways", "items": [
                     "Always verify reconciliation (Source = Core + Quarantined) before sending reports.",
@@ -301,7 +301,7 @@ def create_pptx():
                     "Refer to docs/Data_Dictionary.xlsx and docs/User_Guide.md for metric definitions."
                 ]},
                 {"title": "Support & Contacts", "items": [
-                    "Team: AXA XL Reinsurance Portfolio Analytics (Gurgaon / Global)",
+                    "Team: Reinsurance Portfolio Analytics (Global Portfolio Management)",
                     "Lead: Corporate Actuarial | Repository: reinsurance-analytics",
                     "Documentation: docs/User_Guide.md | UAT Log: docs/UAT_Test_Plan.md"
                 ]}
@@ -404,7 +404,7 @@ def create_html_presentation():
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AXA XL Reinsurance Analytics Training Deck</title>
+<title>Global Reinsurance Portfolio Analytics Training Deck</title>
 <style>
     :root {
         --navy: #002060;
@@ -530,11 +530,11 @@ def create_html_presentation():
     <div class="slide active">
         <div class="slide-header">
             <h1>Reinsurance Portfolio Analytics & Data Assurance Platform</h1>
-            <p>AXA XL Portfolio Analytics | Global Training & Operational Playbook</p>
+            <p>Reinsurance Portfolio Analytics | Global Training & Operational Playbook</p>
         </div>
         <div class="slide-body" style="justify-content: center; align-items: center;">
             <div style="background: white; padding: 40px; border-radius: 12px; border-left: 6px solid var(--teal); max-width: 800px;">
-                <h2>Welcome to AXA XL Reinsurance Analytics Training</h2>
+                <h2>Welcome to Reinsurance Analytics Training</h2>
                 <ul style="font-size: 16px; line-height: 1.8;">
                     <li><b>Single Version of the Truth:</b> Standardized metrics across Underwriting, Actuarial & Management.</li>
                     <li><b>End-to-End Automation:</b> ETL Pipeline, 28 Data Quality Checks, Excel MI Pack, Power BI & Qlik.</li>

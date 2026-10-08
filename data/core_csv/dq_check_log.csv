@@ -1,29 +1,29 @@
 run_ts,check_id,check_name,category,severity,records_tested,records_failed,status,action_taken
-2026-10-08 15:11:51,C01,Treaty has blank region,Completeness,Medium,703,20,FAIL,Mapped to Unassigned
-2026-10-08 15:11:51,C02,Treaty has blank underwriter,Completeness,Low,703,15,FAIL,Mapped to Unassigned
-2026-10-08 15:11:51,C03,Treaty has blank currency,Completeness,High,703,0,PASS,None required
-2026-10-08 15:11:51,C04,Premium transaction has null gross premium,Completeness,High,8058,0,PASS,None required
-2026-10-08 15:11:51,V01,Claim loss date before treaty inception,Validity,High,6018,20,FAIL,Quarantined
-2026-10-08 15:11:51,V02,Claim loss date after treaty expiry,Validity,High,6018,15,FAIL,Quarantined
-2026-10-08 15:11:51,V03,Premium transaction zero or negative,Validity,High,8058,17,FAIL,Quarantined
-2026-10-08 15:11:51,V04,Claim status code not in mapping,Validity,Medium,6018,10,FAIL,Loaded as Unmapped
-2026-10-08 15:11:51,V05,Line-of-business code not in mapping,Validity,Medium,703,8,FAIL,Loaded as Unmapped
-2026-10-08 15:11:51,V06,Currency not in mapping (no FX rate),Validity,High,703,0,PASS,None required
-2026-10-08 15:11:51,V07,Non-blank region not in mapping,Validity,Medium,703,0,PASS,None required
-2026-10-08 15:11:51,V08,Negative claim amount,Validity,High,6018,0,PASS,None required
-2026-10-08 15:11:51,V09,Treaty expiry on/before inception,Validity,High,703,0,PASS,None required
-2026-10-08 15:11:51,V10,Claim incurred exceeds treaty limit,Validity,Medium,6018,12,FAIL,Flagged
-2026-10-08 15:11:51,K01,Incurred does not equal paid + case reserve,Consistency,Medium,6018,30,FAIL,Corrected
-2026-10-08 15:11:51,K02,System C premium differs from System A annual estimate (>2%),Consistency,Medium,587,10,FAIL,Flagged
-2026-10-08 15:11:51,K03,Earned premium exceeds gross premium,Consistency,Medium,8058,0,PASS,None required
-2026-10-08 15:11:51,K04,Ceded premium exceeds gross premium,Consistency,Medium,8058,0,PASS,None required
-2026-10-08 15:11:51,U01,Duplicate treaty ID in System A,Uniqueness,High,703,3,FAIL,Quarantined
-2026-10-08 15:11:51,U02,Duplicate claim ID in System B,Uniqueness,High,6018,15,FAIL,Quarantined
-2026-10-08 15:11:51,U03,"Duplicate premium transaction (same treaty, date, amount)",Uniqueness,High,8058,151,FAIL,Quarantined
-2026-10-08 15:11:51,R01,Claim references a treaty that does not exist,Referential integrity,High,6018,25,FAIL,Quarantined
-2026-10-08 15:11:51,R02,Premium transaction references an unknown treaty,Referential integrity,High,8058,6,FAIL,Quarantined
-2026-10-08 15:11:51,R03,Exposure record references an unknown treaty,Referential integrity,Medium,700,0,PASS,None required
-2026-10-08 15:11:51,R04,Treaty incepted but has no premium booked,Referential integrity,Low,703,0,PASS,None required
-2026-10-08 15:11:51,T01,Monthly gross premium moves >35% vs prior month,Trend,Medium,57,2,FAIL,Flagged - investigate
-2026-10-08 15:11:51,Z01,Premium: source = core + quarantined (USD),Reconciliation,High,1,0,PASS,None required
-2026-10-08 15:11:51,Z02,Paid + reserve: source = core + quarantined (USD),Reconciliation,High,1,0,PASS,None required
+2026-10-08 17:15:41,C01,Treaty has blank region,Completeness,Medium,703,20,FAIL,Mapped to Unassigned
+2026-10-08 17:15:41,C02,Treaty has blank underwriter,Completeness,Low,703,15,FAIL,Mapped to Unassigned
+2026-10-08 17:15:41,C03,Treaty has blank currency,Completeness,High,703,0,PASS,None required
+2026-10-08 17:15:41,C04,Premium transaction has null gross premium,Completeness,High,8058,0,PASS,None required
+2026-10-08 17:15:41,V01,Claim loss date before treaty inception,Validity,High,6018,20,FAIL,Quarantined
+2026-10-08 17:15:41,V02,Claim loss date after treaty expiry,Validity,High,6018,15,FAIL,Quarantined
+2026-10-08 17:15:41,V03,Premium transaction zero or negative,Validity,High,8058,17,FAIL,Quarantined
+2026-10-08 17:15:41,V04,Claim status code not in mapping,Validity,Medium,6018,10,FAIL,Loaded as Unmapped
+2026-10-08 17:15:41,V05,Line-of-business code not in mapping,Validity,Medium,703,8,FAIL,Loaded as Unmapped
+2026-10-08 17:15:41,V06,Currency not in mapping (no FX rate),Validity,High,703,0,PASS,None required
+2026-10-08 17:15:41,V07,Non-blank region not in mapping,Validity,Medium,703,0,PASS,None required
+2026-10-08 17:15:41,V08,Negative claim amount,Validity,High,6018,0,PASS,None required
+2026-10-08 17:15:41,V09,Treaty expiry on/before inception,Validity,High,703,0,PASS,None required
+2026-10-08 17:15:41,V10,Claim incurred exceeds treaty limit,Validity,Medium,6018,12,FAIL,Flagged
+2026-10-08 17:15:41,K01,Incurred does not equal paid + case reserve,Consistency,Medium,6018,30,FAIL,Corrected
+2026-10-08 17:15:41,K02,System C premium differs from System A annual estimate (>2%),Consistency,Medium,587,10,FAIL,Flagged
+2026-10-08 17:15:41,K03,Earned premium exceeds gross premium,Consistency,Medium,8058,0,PASS,None required
+2026-10-08 17:15:41,K04,Ceded premium exceeds gross premium,Consistency,Medium,8058,0,PASS,None required
+2026-10-08 17:15:41,U01,Duplicate treaty ID in System A,Uniqueness,High,703,3,FAIL,Quarantined
+2026-10-08 17:15:41,U02,Duplicate claim ID in System B,Uniqueness,High,6018,15,FAIL,Quarantined
+2026-10-08 17:15:41,U03,"Duplicate premium transaction (same treaty, date, amount)",Uniqueness,High,8058,151,FAIL,Quarantined
+2026-10-08 17:15:41,R01,Claim references a treaty that does not exist,Referential integrity,High,6018,25,FAIL,Quarantined
+2026-10-08 17:15:41,R02,Premium transaction references an unknown treaty,Referential integrity,High,8058,6,FAIL,Quarantined
+2026-10-08 17:15:41,R03,Exposure record references an unknown treaty,Referential integrity,Medium,700,0,PASS,None required
+2026-10-08 17:15:41,R04,Treaty incepted but has no premium booked,Referential integrity,Low,703,0,PASS,None required
+2026-10-08 17:15:41,T01,Monthly gross premium moves >35% vs prior month,Trend,Medium,57,2,FAIL,Flagged - investigate
+2026-10-08 17:15:41,Z01,Premium: source = core + quarantined (USD),Reconciliation,High,1,0,PASS,None required
+2026-10-08 17:15:41,Z02,Paid + reserve: source = core + quarantined (USD),Reconciliation,High,1,0,PASS,None required

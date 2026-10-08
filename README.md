@@ -2,7 +2,7 @@
 
 An end-to-end analytics platform simulating the work of a Reinsurance Portfolio Analytics team: ingest data from three
 source systems, **validate and map it**, load a clean star schema, and deliver **automated standard reports** and an
-interactive dashboard to underwriters, actuaries and management. Built to match the AXA XL *Actuarial Analyst* job description
+interactive dashboard to underwriters, actuaries and management. Built for global *Reinsurance Portfolio Analytics & Actuarial Analyst* roles
 (SQL, Excel/VBA, BI, Python, data checks, mappings, documentation, testing, training).
 
 ## What it does
