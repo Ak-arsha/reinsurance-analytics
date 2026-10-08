@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Reinsurance Portfolio Analytics & Data Assurance Platform</title>
+    <title>Reinsurance Portfolio Analytics & Management Portal</title>
     <style>
         :root {
             --deloitte-black: #000000;
@@ -80,24 +80,12 @@
             color: var(--deloitte-green);
         }
 
-        /* Hero Banner */
+        /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #000000 0%, #111827 60%, #1f2937 100%);
             color: #ffffff;
-            padding: 80px 40px 100px 40px;
+            padding: 80px 40px 90px 40px;
             position: relative;
-            overflow: hidden;
-        }
-
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 350px;
-            height: 100%;
-            background: radial-gradient(circle, rgba(134, 188, 37, 0.15) 0%, rgba(0,0,0,0) 70%);
-            pointer-events: none;
         }
 
         .hero-container {
@@ -115,7 +103,7 @@
         }
 
         .hero h1 {
-            font-size: 44px;
+            font-size: 42px;
             font-weight: 800;
             line-height: 1.2;
             margin-bottom: 20px;
@@ -124,67 +112,44 @@
         }
 
         .hero p {
-            font-size: 19px;
+            font-size: 18px;
             color: #9ca3af;
             max-width: 800px;
             margin-bottom: 35px;
             font-weight: 400;
         }
 
-        .hero-cta {
-            display: flex;
-            gap: 18px;
-            flex-wrap: wrap;
-        }
-
-        .btn-primary {
+        .btn-hero {
             background-color: var(--deloitte-green);
             color: #000000;
-            padding: 14px 28px;
+            padding: 16px 32px;
             border-radius: 4px;
             font-weight: 700;
-            font-size: 15px;
+            font-size: 16px;
             text-decoration: none;
             transition: all 0.2s ease;
             display: inline-flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
         }
 
-        .btn-primary:hover {
+        .btn-hero:hover {
             background-color: var(--deloitte-green-hover);
             transform: translateY(-2px);
             box-shadow: 0 4px 15px rgba(134, 188, 37, 0.3);
         }
 
-        .btn-secondary {
-            background-color: transparent;
-            color: #ffffff;
-            border: 2px solid #374151;
-            padding: 12px 26px;
-            border-radius: 4px;
-            font-weight: 600;
-            font-size: 15px;
-            text-decoration: none;
-            transition: all 0.2s ease;
-        }
-
-        .btn-secondary:hover {
-            border-color: var(--deloitte-green);
-            color: var(--deloitte-green);
-        }
-
         /* Main Container */
         .container {
             max-width: 1200px;
-            margin: -40px auto 60px auto;
+            margin: -35px auto 60px auto;
             padding: 0 20px;
             position: relative;
             z-index: 10;
         }
 
-        /* Metrics Grid */
-        .metrics-grid {
+        /* Metrics Banner */
+        .metrics-banner {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
@@ -193,15 +158,15 @@
 
         .metric-card {
             background: var(--card-bg);
-            padding: 28px 24px;
+            padding: 26px 22px;
             border-radius: 8px;
             border-top: 4px solid var(--deloitte-green);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
             text-align: left;
         }
 
         .metric-num {
-            font-size: 34px;
+            font-size: 32px;
             font-weight: 800;
             color: var(--deloitte-black);
             line-height: 1;
@@ -213,17 +178,16 @@
         }
 
         .metric-title {
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 700;
             color: var(--slate-gray);
             text-transform: uppercase;
             letter-spacing: 1px;
         }
 
-        /* Solutions Grid */
+        /* Solutions Portal Grid */
         .section-header {
             margin-bottom: 30px;
-            text-align: left;
         }
 
         .section-header h2 {
@@ -238,14 +202,14 @@
             color: var(--slate-gray);
         }
 
-        .solutions-grid {
+        .portal-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 25px;
-            margin-bottom: 60px;
+            margin-bottom: 50px;
         }
 
-        .solution-card {
+        .portal-card {
             background: var(--card-bg);
             border-radius: 8px;
             border: 1px solid var(--border-color);
@@ -257,7 +221,7 @@
             position: relative;
         }
 
-        .solution-card::before {
+        .portal-card::before {
             content: '';
             position: absolute;
             top: 0;
@@ -269,13 +233,13 @@
             border-radius: 8px 8px 0 0;
         }
 
-        .solution-card:hover {
-            transform: translateY(-5px);
+        .portal-card:hover {
+            transform: translateY(-4px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08);
             border-color: #cbd5e1;
         }
 
-        .solution-card:hover::before {
+        .portal-card:hover::before {
             width: 100%;
         }
 
@@ -288,21 +252,21 @@
             margin-bottom: 12px;
         }
 
-        .solution-card h3 {
+        .portal-card h3 {
             font-size: 22px;
             font-weight: 700;
             color: var(--deloitte-black);
             margin-bottom: 12px;
         }
 
-        .solution-card p {
+        .portal-card p {
             font-size: 15px;
             color: var(--slate-gray);
             margin-bottom: 25px;
             line-height: 1.6;
         }
 
-        .card-link {
+        .card-btn {
             display: inline-flex;
             align-items: center;
             gap: 8px;
@@ -313,82 +277,78 @@
             transition: color 0.2s;
         }
 
-        .card-link:hover {
+        .card-btn:hover {
             color: var(--emerald);
         }
 
-        /* Architecture Details Card */
-        .info-card {
+        /* Business Executive Briefing Box */
+        .briefing-card {
             background: var(--card-bg);
             border-radius: 8px;
             border: 1px solid var(--border-color);
-            padding: 40px;
+            padding: 36px;
             margin-bottom: 40px;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
         }
 
-        .info-card h3 {
+        .briefing-card h3 {
             font-size: 24px;
             font-weight: 800;
             color: var(--deloitte-black);
             margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
-        .info-card p {
-            font-size: 16px;
+        .briefing-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .briefing-list li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 14px;
+            font-size: 15px;
             color: var(--slate-gray);
-            margin-bottom: 25px;
         }
 
-        .pipeline-flow {
+        .briefing-list li::before {
+            content: '•';
+            position: absolute;
+            left: 8px;
+            color: var(--deloitte-green);
+            font-size: 24px;
+            line-height: 1;
+        }
+
+        /* Business Glossary Grid */
+        .glossary-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-top: 25px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
         }
 
-        .step-box {
-            background-color: #f1f5f9;
+        .glossary-item {
+            background-color: #f8fafc;
             padding: 20px;
             border-radius: 6px;
             border-left: 3px solid var(--deloitte-black);
         }
 
-        .step-num {
-            font-size: 12px;
-            font-weight: 800;
-            color: var(--emerald);
-            text-transform: uppercase;
-        }
-
-        .step-name {
-            font-size: 15px;
+        .glossary-term {
             font-weight: 700;
             color: var(--deloitte-black);
-            margin-top: 4px;
+            font-size: 15px;
+            margin-bottom: 6px;
         }
 
-        .step-desc {
+        .glossary-def {
             font-size: 13px;
             color: var(--slate-gray);
-            margin-top: 6px;
-        }
-
-        .skills-pills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 20px;
-        }
-
-        .pill {
-            background-color: #f1f5f9;
-            color: var(--deloitte-black);
-            padding: 8px 16px;
-            border-radius: 4px;
-            font-size: 13px;
-            font-weight: 600;
-            border: 1px solid #e2e8f0;
+            line-height: 1.5;
         }
 
         /* Footer */
@@ -401,12 +361,6 @@
             border-top: 1px solid #1f2937;
         }
 
-        footer p {
-            max-width: 800px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-
         footer strong {
             color: #ffffff;
         }
@@ -414,37 +368,36 @@
 </head>
 <body>
 
-    <!-- Header Navigation -->
+    <!-- Top Navigation Bar -->
     <nav class="navbar">
         <a href="#" class="brand-logo">
             reinsurance.analytics <span class="brand-dot"></span>
         </a>
         <div class="nav-links">
             <a href="dashboard/reinsurance_dashboard.html" target="_blank">Executive Dashboard</a>
-            <a href="docs/Reinsurance_Analytics_Training_Deck.html" target="_blank">Training Deck</a>
-            <a href="https://github.com/Ak-arsha/reinsurance-analytics" target="_blank">GitHub Code Base</a>
+            <a href="reports/Monthly_MI_Pack.xlsx" target="_blank">Download Excel Report</a>
+            <a href="distribution/email_summary.txt" target="_blank">Executive Briefing</a>
+            <a href="docs/User_Guide.md" target="_blank">User Guide & FAQ</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Banner -->
     <section class="hero">
         <div class="hero-container">
             <div class="hero-tag">Enterprise Portfolio Governance</div>
-            <h1>Global Reinsurance Analytics & Data Assurance Platform</h1>
-            <p>An end-to-end financial modeling, data quality validation, and management intelligence platform built for underwriting, actuarial, and executive portfolio management.</p>
-            <div class="hero-cta">
-                <a href="dashboard/reinsurance_dashboard.html" target="_blank" class="btn-primary">Launch Live Dashboard ➔</a>
-                <a href="docs/Reinsurance_Analytics_Training_Deck.html" target="_blank" class="btn-secondary">Open Training Presentation</a>
-                <a href="https://github.com/Ak-arsha/reinsurance-analytics" target="_blank" class="btn-secondary">View GitHub Repository</a>
+            <h1>Reinsurance Portfolio Analytics & Management Portal</h1>
+            <p>A comprehensive monthly reporting, risk monitoring, and portfolio performance suite designed for underwriters, actuaries, and executive leadership.</p>
+            <div>
+                <a href="dashboard/reinsurance_dashboard.html" target="_blank" class="btn-hero">Launch Interactive Dashboard ➔</a>
             </div>
         </div>
     </section>
 
-    <!-- Main Content Container -->
+    <!-- Main Content Area -->
     <div class="container">
 
-        <!-- Metrics Grid -->
-        <div class="metrics-grid">
+        <!-- Portfolio Key Metrics Banner -->
+        <div class="metrics-banner">
             <div class="metric-card">
                 <div class="metric-num">$1,289.5<span>M</span></div>
                 <div class="metric-title">Gross Written Premium</div>
@@ -459,122 +412,110 @@
             </div>
             <div class="metric-card">
                 <div class="metric-num">700</div>
-                <div class="metric-title">Active Treaties</div>
+                <div class="metric-title">Booked Treaties</div>
             </div>
             <div class="metric-card">
-                <div class="metric-num">44<span>/44</span></div>
-                <div class="metric-title">UAT Tests Passed</div>
+                <div class="metric-num">100<span>%</span></div>
+                <div class="metric-title">Data Reconciled</div>
             </div>
         </div>
 
-        <!-- Section Header -->
+        <!-- Section Title -->
         <div class="section-header">
-            <h2>Platform Deliverables & Solutions</h2>
-            <p>Access live executive dashboards, business intelligence models, and technical documentation.</p>
+            <h2>Management Portal Deliverables</h2>
+            <p>Select an option below to open executive reports, interactive tools, or business guides.</p>
         </div>
 
-        <!-- Solutions Grid -->
-        <div class="solutions-grid">
+        <!-- Portal Actions Grid (Unique Buttons Only) -->
+        <div class="portal-grid">
             
-            <div class="solution-card">
+            <div class="portal-card">
                 <div>
-                    <div class="card-tag">Management Intelligence</div>
-                    <h3>Executive Web Dashboard</h3>
-                    <p>Interactive 5-page analytics portal featuring regional loss ratios, catastrophe exposure bands, watchlist treaties, and live data-quality health scores.</p>
+                    <div class="card-tag">Visual Drilldowns</div>
+                    <h3>Interactive Dashboard</h3>
+                    <p>Explore portfolio metrics interactively by region, business line, catastrophe exposure, and watchlist status.</p>
                 </div>
-                <a href="dashboard/reinsurance_dashboard.html" target="_blank" class="card-link">Launch Live Dashboard ➔</a>
+                <a href="dashboard/reinsurance_dashboard.html" target="_blank" class="card-btn">Open Visual Dashboard ➔</a>
             </div>
 
-            <div class="solution-card">
+            <div class="portal-card">
                 <div>
-                    <div class="card-tag">Executive Presentation</div>
-                    <h3>Training & Operational Deck</h3>
-                    <p>16-slide interactive deck detailing portfolio architecture, actuarial definitions (Earned vs Written, Loss Ratio), VBA macro usage, and UAT test results.</p>
+                    <div class="card-tag">Financial Spreadsheets</div>
+                    <h3>Monthly Excel Report Pack</h3>
+                    <p>Download the complete automated Excel financial workbook containing live formulas, summary KPIs, and treaty line data.</p>
                 </div>
-                <a href="docs/Reinsurance_Analytics_Training_Deck.html" target="_blank" class="card-link">View Web Slide Deck ➔</a>
+                <a href="reports/Monthly_MI_Pack.xlsx" target="_blank" class="card-btn">Download Excel Pack (.xlsx) ➔</a>
             </div>
 
-            <div class="solution-card">
+            <div class="portal-card">
                 <div>
-                    <div class="card-tag">Business Intelligence</div>
-                    <h3>Power BI Project (.pbip)</h3>
-                    <p>Enterprise Power BI project featuring a conformed Tabular star-schema model, 28 governed DAX measures, time-intelligence, and 5 report page definitions.</p>
+                    <div class="card-tag">Monthly Briefing</div>
+                    <h3>Executive Summary Report</h3>
+                    <p>Read the written monthly executive summary highlighting regional performance, loss trends, and portfolio hotspots.</p>
                 </div>
-                <a href="https://github.com/Ak-arsha/reinsurance-analytics/tree/master/powerbi" target="_blank" class="card-link">Explore Power BI Model ➔</a>
+                <a href="distribution/email_summary.txt" target="_blank" class="card-btn">Read Executive Briefing ➔</a>
             </div>
 
-            <div class="solution-card">
+            <div class="portal-card">
                 <div>
-                    <div class="card-tag">Associative Modeling</div>
-                    <h3>Qlik Sense Load Script</h3>
-                    <p>Production Qlik Sense QVS script with automated mapping tables, master calendar generation, and Qlik master measure definitions.</p>
+                    <div class="card-tag">Business Documentation</div>
+                    <h3>User Guide & Instructions</h3>
+                    <p>Learn how to interpret loss ratios, combined ratios, limit utilisation, and how to request custom portfolio cuts.</p>
                 </div>
-                <a href="https://github.com/Ak-arsha/reinsurance-analytics/tree/master/qlik" target="_blank" class="card-link">Inspect Qlik Script ➔</a>
+                <a href="docs/User_Guide.md" target="_blank" class="card-btn">Open User Guide ➔</a>
             </div>
 
-            <div class="solution-card">
+            <div class="portal-card">
                 <div>
-                    <div class="card-tag">Database Architecture</div>
-                    <h3>PostgreSQL DDL & Views</h3>
-                    <p>Production-grade PostgreSQL schema definitions (`SERIAL`, `NUMERIC`, `INDEX`), native SQL MI views, and 15 analytical query suites.</p>
+                    <div class="card-tag">Field Glossary</div>
+                    <h3>Data Dictionary & Definitions</h3>
+                    <p>Access the master dictionary containing business definitions and data sources for all 48 portfolio fields.</p>
                 </div>
-                <a href="https://github.com/Ak-arsha/reinsurance-analytics/tree/master/sql" target="_blank" class="card-link">View PostgreSQL SQL ➔</a>
+                <a href="docs/Data_Dictionary.xlsx" target="_blank" class="card-btn">Download Data Dictionary (.xlsx) ➔</a>
             </div>
 
-            <div class="solution-card">
+            <div class="portal-card">
                 <div>
-                    <div class="card-tag">Automation & Quality</div>
-                    <h3>VBA Macros & UAT Suite</h3>
-                    <p>Automated Excel VBA pre-release audit (`ValidatePack`), regional pack splitting (`SplitByRegion`), and 44 automated regression test cases.</p>
+                    <div class="card-tag">Regional Reports</div>
+                    <h3>Regional Financial Packs</h3>
+                    <p>Access individual regional Excel report packs for North America, Europe, Asia Pacific, Latin America, and Middle East.</p>
                 </div>
-                <a href="https://github.com/Ak-arsha/reinsurance-analytics/tree/master/python" target="_blank" class="card-link">View Test Framework ➔</a>
+                <a href="https://github.com/Ak-arsha/reinsurance-analytics/tree/master/reports/regional" target="_blank" class="card-btn">View Regional Reports Folder ➔</a>
             </div>
 
         </div>
 
-        <!-- Architecture & Pipeline Section -->
-        <div class="info-card">
-            <h3>Enterprise Data Architecture & Governance</h3>
-            <p>Ingests synthetic multi-system reinsurance extracts (700 treaties, ~8,000 premium transactions, ~6,000 claims) into a star-schema warehouse with a governed SQL MI view layer enforcing a single version of the truth.</p>
-            
-            <div class="pipeline-flow">
-                <div class="step-box">
-                    <div class="step-num">Step 1</div>
-                    <div class="step-name">Multi-System Ingestion</div>
-                    <div class="step-desc">System A (Treaties), System B (Claims), System C (Premium/Exposure).</div>
-                </div>
+        <!-- Monthly Briefing Highlights Card -->
+        <div class="briefing-card">
+            <h3>📌 Portfolio Highlights & Monthly Executive Briefing</h3>
+            <ul class="briefing-list">
+                <li><b>North America Portfolio:</b> Largest region representing 40% of premium ($513.3M GWP) with a loss ratio of 73.8% (+5.1 pts vs portfolio average of 68.8%).</li>
+                <li><b>Line Performance:</b> Casualty line is underperforming with a combined ratio of 101.5%. Financial Lines is top-performing with a 78.1% combined ratio.</li>
+                <li><b>Key Hotspot:</b> North America Property ($161M premium) runs a high loss ratio of 87.9% due to catastrophe claims.</li>
+                <li><b>Risk Watchlist:</b> 10 treaties have consumed 80% or more of their limit exposure and require underwriter capacity review.</li>
+                <li><b>Data Confidence:</b> 100% of source premium ($1,292.9M) reconciled; 252 invalid source records quarantined for data steward review.</li>
+            </ul>
+        </div>
 
-                <div class="step-box">
-                    <div class="step-num">Step 2</div>
-                    <div class="step-name">28 Data Quality Checks</div>
-                    <div class="step-desc">Reconciliation rule: Source = Core Loaded + Quarantined ($0 unaccounted).</div>
+        <!-- Non-Technical Business Glossary Card -->
+        <div class="briefing-card">
+            <h3>📖 Business User Metric Glossary</h3>
+            <div class="glossary-grid">
+                <div class="glossary-item">
+                    <div class="glossary-term">Gross Written Premium (GWP)</div>
+                    <div class="glossary-def">Total premium booked on booked reinsurance treaties converted to USD at valuation date rates.</div>
                 </div>
-
-                <div class="step-box">
-                    <div class="step-num">Step 3</div>
-                    <div class="step-name">Conformed Star Schema</div>
-                    <div class="step-desc">dim_treaty, dim_cedant, dim_region, fact_premium, fact_claims.</div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Earned Premium</div>
+                    <div class="glossary-def">The portion of GWP earned over elapsed policy risk coverage periods.</div>
                 </div>
-
-                <div class="step-box">
-                    <div class="step-num">Step 4</div>
-                    <div class="step-name">SQL MI View Layer</div>
-                    <div class="step-desc">v_treaty_summary locks Loss Ratio & Combined Ratio calculations.</div>
+                <div class="glossary-item">
+                    <div class="glossary-term">Loss Ratio</div>
+                    <div class="glossary-def">Incurred Losses divided by Earned Premium. Measures primary underwriting profitability.</div>
                 </div>
-            </div>
-
-            <div style="margin-top: 30px;">
-                <h4 style="font-size: 16px; font-weight: 700; color: var(--deloitte-black); margin-bottom: 12px;">Technical Skills Demonstrated</h4>
-                <div class="skills-pills">
-                    <span class="pill">Advanced SQL (CTEs, Window Functions, HAVING, CASE)</span>
-                    <span class="pill">PostgreSQL & SQLite Architecture</span>
-                    <span class="pill">Excel & VBA Macro Automation</span>
-                    <span class="pill">Power BI Project (.pbip) & DAX Modeling</span>
-                    <span class="pill">Qlik Sense QVS Scripting</span>
-                    <span class="pill">Python ETL & Automated Pipelines</span>
-                    <span class="pill">Reinsurance Actuarial Analytics</span>
-                    <span class="pill">Data Governance & Mapping Ownership</span>
-                    <span class="pill">Automated UAT Regression Testing (44/44 Pass)</span>
+                <div class="glossary-item">
+                    <div class="glossary-term">Combined Ratio</div>
+                    <div class="glossary-def">Loss Ratio + Commission Ratio + 5% Admin Expense. Values above 100% represent underwriting losses.</div>
                 </div>
             </div>
         </div>
@@ -583,8 +524,8 @@
 
     <!-- Footer -->
     <footer>
-        <p><strong>Global Reinsurance Portfolio Analytics & Data Assurance Platform</strong><br>
-        Developed for Actuarial & Portfolio Analytics Roles | Built with Python, SQL, Excel/VBA, Power BI & Qlik Sense</p>
+        <p><strong>Reinsurance Portfolio Analytics & Management Portal</strong><br>
+        Designed for Underwriting, Actuarial, and Management Teams</p>
     </footer>
 
 </body>
