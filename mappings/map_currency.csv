@@ -1,0 +1,5 @@
+source_value,mapped_value,rate_to_usd,source_system,effective_date,added_by,added_on
+USD,USD,1.0,ALL,2026-09-30,Analytics,2026-10-01
+EUR,EUR,1.08,ALL,2026-09-30,Analytics,2026-10-01
+GBP,GBP,1.27,ALL,2026-09-30,Analytics,2026-10-01
+INR,INR,0.012,ALL,2026-09-30,Analytics,2026-10-01

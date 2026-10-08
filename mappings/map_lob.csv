@@ -1,0 +1,6 @@
+source_value,mapped_value,source_system,effective_date,added_by,added_on
+PROP,Property,A,2021-01-01,Analytics,2026-01-05
+CAS,Casualty,A,2021-01-01,Analytics,2026-01-05
+SPEC,Specialty,A,2021-01-01,Analytics,2026-01-05
+PROF,Professional,A,2021-01-01,Analytics,2026-01-05
+FINL,Financial Lines,A,2021-01-01,Analytics,2026-01-05

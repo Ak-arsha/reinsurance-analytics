@@ -1,0 +1,55 @@
+// dax_measures.dax : paste into Power BI (Modeling > New measure) or Tabular Editor.
+// Tables come from data/core_csv/ (or the SQLite/PostgreSQL warehouse): dim_treaty, dim_cedant, dim_lob, dim_region,
+// dim_underwriter, dim_date, fact_premium, fact_claims, fact_exposure.
+// Create a measure table called "_Measures" and a dim_date[date] column of type Date (convert date_key in Power Query).
+
+// ---------- Base measures ----------
+Gross Written Premium = SUM ( fact_premium[gross_written_premium] )
+Ceded Premium         = SUM ( fact_premium[ceded_premium] )
+Net Premium           = [Gross Written Premium] - [Ceded Premium]
+Earned Premium        = SUM ( fact_premium[earned_premium] )
+Earned Commission     = SUM ( fact_premium[earned_commission] )
+Paid Losses           = SUM ( fact_claims[paid_amount] )
+Case Reserves         = SUM ( fact_claims[case_reserve] )
+Incurred Losses       = SUM ( fact_claims[incurred_amount] )
+Claim Count           = COUNTROWS ( fact_claims )
+Treaty Count          = DISTINCTCOUNT ( dim_treaty[treaty_id] )
+Total Exposure        = SUM ( fact_exposure[limit_exposure_usd] )
+Average Premium       = DIVIDE ( [Gross Written Premium], [Treaty Count] )
+Average Claim         = DIVIDE ( [Incurred Losses], [Claim Count] )
+
+// ---------- Ratios ----------
+Loss Ratio         = DIVIDE ( [Incurred Losses], [Earned Premium] )
+Commission Ratio   = DIVIDE ( [Earned Commission], [Earned Premium] )
+Admin Expense Ratio = 0.05            // assumption, mirrors ref_assumptions.admin_expense_ratio
+Combined Ratio     = [Loss Ratio] + [Commission Ratio] + [Admin Expense Ratio]
+Claim Frequency    = DIVIDE ( [Claim Count], [Treaty Count] )           // claims per treaty
+Claim Severity     = DIVIDE ( [Incurred Losses], [Claim Count] )
+Open Claim Share   = DIVIDE ( CALCULATE ( [Incurred Losses], fact_claims[status] IN { "Open", "Reopened" } ), [Incurred Losses] )
+
+// ---------- Risk ----------
+Limit Utilisation  = DIVIDE ( [Incurred Losses], SUM ( dim_treaty[limit_usd] ) )
+Watchlist Treaties =
+    COUNTROWS ( FILTER ( VALUES ( dim_treaty[treaty_id] ), [Limit Utilisation] >= 0.8 ) )
+Exceeds-Limit Claims = CALCULATE ( [Claim Count], fact_claims[exceeds_limit] = 1 )
+
+// ---------- Comparison to portfolio (feeds Executive Insights) ----------
+Premium Share of Portfolio = DIVIDE ( [Gross Written Premium], CALCULATE ( [Gross Written Premium], ALL ( dim_region ), ALL ( dim_lob ) ) )
+Loss Ratio Gap (pts)       = ( [Loss Ratio] - CALCULATE ( [Loss Ratio], ALL ( dim_region ), ALL ( dim_lob ) ) ) * 100
+
+// ---------- Time intelligence (dim_date relationships: fact_premium[txn_date] and fact_claims[loss_date], both active) ----------
+GWP Prior Year = CALCULATE ( [Gross Written Premium], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+GWP YoY Growth = DIVIDE ( [Gross Written Premium] - [GWP Prior Year], [GWP Prior Year] )
+GWP YTD        = TOTALYTD ( [Gross Written Premium], dim_date[date] )
+Monthly Claims = [Incurred Losses]                                       // use with dim_date[year_month] on the axis
+Incurred Rolling 3M =
+    DIVIDE ( CALCULATE ( [Incurred Losses], DATESINPERIOD ( dim_date[date], MAX ( dim_date[date] ), -3, MONTH ) ), 3 )
+Loss Ratio Rolling 12M =
+    VAR w = DATESINPERIOD ( dim_date[date], MAX ( dim_date[date] ), -12, MONTH )
+    RETURN DIVIDE ( CALCULATE ( [Incurred Losses], w ), CALCULATE ( [Earned Premium], w ) )
+
+// ---------- Dynamic insight text (card / text box) ----------
+Insight Text =
+    SELECTEDVALUE ( dim_region[region_name], "Portfolio" ) & " writes "
+    & FORMAT ( [Premium Share of Portfolio], "0%" ) & " of premium with a loss ratio of "
+    & FORMAT ( [Loss Ratio], "0.0%" ) & " (" & FORMAT ( [Loss Ratio Gap (pts)], "+0.0;-0.0" ) & " pts vs portfolio)."

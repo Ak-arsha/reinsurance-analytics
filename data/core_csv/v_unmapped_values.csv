@@ -1,0 +1,3 @@
+field,source_value,records
+lob_code,FIN,8
+claim_status,X,10

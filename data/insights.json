@@ -1,0 +1,14 @@
+{
+ "insights": [
+  "North America is the largest region at 40% of gross written premium, with a loss ratio of 73.8% (+5.1 pts vs the portfolio's 68.8%).",
+  "Asia Pacific deviates most from the portfolio loss ratio: 63.1% (-5.7 pts) on 21% of premium.",
+  "Casualty has the weakest result: combined ratio 101.5%, loss ratio 76.5%. Financial Lines is strongest at 78.1%.",
+  "Hotspot: North America Property ($161M premium) runs a loss ratio of 87.9%.",
+  "10 treaties have incurred losses at or above 80% of limit and should be reviewed for capacity ($27M of combined limit).",
+  "Underwriting year 2025 is the weakest underwriting year (excluding the part-year 2026) at a 74.8% loss ratio with 54% of incurred still open.",
+  "Calendar-year gross written premium grew +37.7% in 2025 versus 2024.",
+  "The five largest cedants write 20% of premium (concentration to monitor).",
+  "Data confidence: 12 of 28 data checks passed; 252 source records were quarantined and are excluded. 31% of incurred is on open claims, so recent underwriting years are provisional."
+ ],
+ "portfolio_loss_ratio": 0.6877732461920611
+}

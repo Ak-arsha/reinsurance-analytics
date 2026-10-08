@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reinsurance Portfolio MI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#e8edf1;--panel:#f6f8fa;--ink:#13242e;--mute:#5a6b76;--line:#c9d4dc;--prem:#0b6e6e;--clm:#b4540a;--bad:#b42318;--ok:#1b7a43;--hi:#d8e6ee;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1b22;--panel:#16262f;--ink:#e6eef3;--mute:#94a7b3;--line:#2b3f4b;--prem:#3fb6b0;--clm:#e8914d;--bad:#ff8a7a;--ok:#5fd18a;--hi:#1f3745}}
+:root[data-theme="dark"]{--bg:#0f1b22;--panel:#16262f;--ink:#e6eef3;--mute:#94a7b3;--line:#2b3f4b;--prem:#3fb6b0;--clm:#e8914d;--bad:#ff8a7a;--ok:#5fd18a;--hi:#1f3745}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 "IBM Plex Sans",system-ui,sans-serif;min-height:100%}
+.shell{display:grid;grid-template-columns:200px 1fr;max-width:1320px;margin:0 auto}
+nav{padding:22px 16px;border-right:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);align-self:start;height:100vh}
+nav h1{font:600 19px/1.15 "Source Serif 4",Georgia,serif;margin:0 0 4px}nav small{color:var(--mute);display:block;margin-bottom:22px}
+nav button{display:block;width:100%;text-align:left;background:none;border:0;border-left:3px solid transparent;padding:9px 10px;color:var(--mute);font:inherit;cursor:pointer}
+nav button[aria-selected=true]{color:var(--ink);border-left-color:var(--prem);background:var(--hi);font-weight:600}
+nav button:focus-visible,select:focus-visible,tr[data-k]:focus-visible,.hb [data-k]:focus-visible{outline:2px solid var(--prem);outline-offset:2px}
+main{padding:20px 24px 40px;min-width:0}
+.bar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.bar label{color:var(--mute);font-size:12px}select{font:inherit;padding:6px 8px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:4px}
+.pill{margin-left:auto;padding:5px 10px;border:1px solid var(--line);border-radius:99px;background:var(--panel);font-size:12px}.pill b{color:var(--bad)}
+.kpi{display:flex;flex-wrap:wrap;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);margin-bottom:22px}
+.kpi div{flex:1 1 130px;padding:12px 14px 12px 0;margin-right:14px;border-right:1px solid var(--line)}.kpi div:last-child{border:0}
+.kpi span{display:block;color:var(--mute);font-size:12px}.kpi b{font:500 27px/1.15 "Source Serif 4",Georgia,serif}
+.kpi b.bad{color:var(--bad)}.kpi b.ok{color:var(--ok)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:18px}
+section{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px 16px;min-width:0}
+h2{font:600 15px/1.2 "Source Serif 4",Georgia,serif;margin:0 0 10px}h2 small{font:400 12px "IBM Plex Sans";color:var(--mute);margin-left:6px}
+.note{border-left:3px solid var(--clm);padding:2px 0 2px 14px}.note p{margin:0 0 9px}.note p:last-child{margin:0}
+.hb>div{display:grid;grid-template-columns:130px 1fr 74px;gap:8px;align-items:center;padding:3px 4px;border-radius:4px}
+.hb [data-k]{cursor:pointer}.hb .sel{background:var(--hi)}.hb i{display:block;height:11px;border-radius:2px;background:var(--prem)}
+.hb .c i{background:var(--clm)}.hb .r{text-align:right;font-variant-numeric:tabular-nums}.hb .l{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wide{overflow-x:auto}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th{font-weight:500;color:var(--mute);text-align:right;border-bottom:1px solid var(--line);padding:5px 8px;font-size:12px}th:first-child,td:first-child{text-align:left}
+td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}tr[data-k]{cursor:pointer}tr.sel td{background:var(--hi)}
+.bad{color:var(--bad);font-weight:600}.ok{color:var(--ok)}svg text{fill:var(--mute);font:11px "IBM Plex Sans",sans-serif}
+.leg{font-size:12px;color:var(--mute);margin-top:4px}.leg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 10px;vertical-align:-1px}
+.full{grid-column:1/-1}
+@media (max-width:820px){.shell{grid-template-columns:1fr}nav{position:static;height:auto;border:0;border-bottom:1px solid var(--line);padding:14px 16px 0}nav small{margin-bottom:8px}
+nav div{display:flex;overflow-x:auto}nav button{border-left:0;border-bottom:3px solid transparent;width:auto;white-space:nowrap}nav button[aria-selected=true]{border-bottom-color:var(--prem)}main{padding:16px}.hb>div{grid-template-columns:96px 1fr 64px}}
+</style></head><body>
+<div class="shell">
+<nav><h1>Reinsurance Portfolio MI</h1><small>Valuation <span id="val"></span></small>
+<div role="tablist" id="tabs"></div></nav>
+<main>
+<div class="bar"><label for="fr">Region</label><select id="fr"></select><label for="fl">Line of business</label><select id="fl"></select>
+<button id="rs" style="font:inherit;padding:6px 10px;background:none;border:1px solid var(--line);border-radius:4px;color:var(--ink);cursor:pointer">Clear filters</button>
+<span class="pill" id="dqp"></span></div>
+<div id="view"></div>
+</main></div>
+<script>
+const D=/*DATA*/null;
+const $=s=>document.querySelector(s),st={r:-1,l:-1,tab:'ov'};
+const TABS=[['ov','Overview'],['rk','Portfolio risk'],['lb','Line of business'],['cl','Claims'],['dq','Data quality']];
+const sg=v=>v<0?'−':'',fm=v=>sg(v)+'$'+Math.round(Math.abs(v)).toLocaleString('en-US')+'M',f1=v=>sg(v)+'$'+Math.abs(v).toFixed(1)+'M',pc=v=>isFinite(v)?(v*100).toFixed(1)+'%':'–';
+const sum=(a,i)=>a.reduce((s,x)=>s+x[i],0),div=(a,b)=>b?a/b:NaN;
+// cube column positions of [lob, region]
+const POS={P:[1,2],C:[1,2],T:[0,1],R:[0,1],U:[1,2]};
+function sel(k,useL=true,useR=true){const [li,ri]=POS[k];return D[k].filter(x=>(!useL||st.l<0||x[li]==st.l)&&(!useR||st.r<0||x[ri]==st.r))}
+function tot(){const p=sel('P'),c=sel('C'),r=sel('R');const g=sum(p,3),e=sum(p,4),i=sum(c,4),cm=sum(p,6);
+ return {g,e,i,ce:sum(p,5),lr:div(i,e),cr:div(i,e)+div(cm,e)+D.admin,ex:sum(r,4),n:sum(r,3),cn:sum(c,3)}}
+function hbar(items,cls=''){const mx=Math.max(...items.map(x=>x.v),1e-9);
+ return '<div class="hb '+cls+'">'+items.map(x=>`<div ${x.k?`data-k="${x.k}" tabindex="0" role="button"`:''} class="${x.sel?'sel':''}"><span class="l" title="${x.n}">${x.n}</span><i style="width:${Math.max(1,x.v/mx*100)}%"></i><span class="r ${x.bad?'bad':''}">${x.t}</span></div>`).join('')+'</div>'}
+function lines(labels,series){const W=640,H=210,p={l:44,b:24,t:8,r:8},mx=Math.max(...series.flatMap(s=>s.v),1)*1.08,n=labels.length;
+ const X=i=>p.l+i*(W-p.l-p.r)/Math.max(n-1,1),Y=v=>H-p.b-v/mx*(H-p.b-p.t);let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Quarterly trend">`;
+ for(let k=0;k<=3;k++){const v=mx*k/3;s+=`<line x1="${p.l}" x2="${W-p.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${p.l-6}" y="${Y(v)+4}" text-anchor="end">${Math.round(v)}</text>`}
+ labels.forEach((l,i)=>{if(i%3==0)s+=`<text x="${X(i)}" y="${H-6}" text-anchor="middle">${l.replace('-Q',' Q')}</text>`});
+ series.forEach(z=>{s+=`<polyline fill="none" stroke="${z.c}" stroke-width="2.2" points="${z.v.map((v,i)=>X(i)+','+Y(v)).join(' ')}"/>`});
+ return s+'</svg><div class="leg">'+series.map(z=>`<i style="background:${z.c}"></i>${z.n}`).join('')+' &nbsp;($M per quarter)</div>'}
+const qser=(rows,qi,vi,nq)=>{const a=Array(nq).fill(0);rows.forEach(x=>{if(x[qi]>=0)a[x[qi]]+=x[vi]});return a};
+const lrcls=v=>v>1?'bad':'';
+function kpi(t,items){return '<div class="kpi">'+items.map(([a,b,c])=>`<div><span>${a}</span><b class="${c||''}">${b}</b></div>`).join('')+'</div>'}
+function regBars(){const rows=sel('P',true,false),by={};D.P.length&&rows.forEach(x=>by[x[2]]=(by[x[2]]||0)+x[3]);const cm=sel('C',true,false);
+ const inc={};cm.forEach(x=>inc[x[2]]=(inc[x[2]]||0)+x[4]);const ea={};rows.forEach(x=>ea[x[2]]=(ea[x[2]]||0)+x[4]);
+ return hbar(D.regs.map((n,i)=>({n,k:'r'+i,v:by[i]||0,t:fm(by[i]||0),sel:st.r==i})).filter(x=>x.v>0).sort((a,b)=>b.v-a.v))}
+function lobLR(){const out=D.lobs.map((n,i)=>{const p=D.P.filter(x=>x[1]==i&&(st.r<0||x[2]==st.r)),c=D.C.filter(x=>x[1]==i&&(st.r<0||x[2]==st.r));
+ const e=sum(p,4),lr=div(sum(c,4),e);return {n,k:'l'+i,v:lr||0,t:pc(lr),bad:lr>0.8,sel:st.l==i,e}}).filter(x=>x.e>0);return hbar(out.sort((a,b)=>b.v-a.v),'c')}
+function uwy(){const u=sel('U'),ys=[...new Set(D.U.map(x=>x[0]))].sort();
+ return hbar(ys.map(y=>{const r=u.filter(x=>x[0]==y),lr=div(sum(r,5),sum(r,4));return {n:'UW '+y,v:lr||0,t:pc(lr),bad:lr>0.8}}),'c')}
+const V={
+ov(){const t=tot(),nq=D.qs.length;
+ return kpi('',[['Gross written premium',fm(t.g)],['Earned premium',fm(t.e)],['Incurred losses',fm(t.i)],['Loss ratio',pc(t.lr),t.lr>0.8?'bad':''],['Combined ratio',pc(t.cr),t.cr>1?'bad':'ok'],['Limit exposure',fm(t.ex)],['Treaties',t.n.toLocaleString()]])+
+ `<div class="grid"><section class="full"><h2>Executive insights<small>whole portfolio, generated from the warehouse</small></h2><div class="note">${D.insights.map(x=>'<p>'+x+'</p>').join('')}</div></section>
+ <section><h2>Premium by region<small>click to filter</small></h2>${regBars()}</section>
+ <section><h2>Loss ratio by line of business<small>click to filter</small></h2>${lobLR()}</section>
+ <section class="full"><h2>Quarterly premium vs incurred losses</h2>${lines(D.qs,[{n:'Gross written premium',c:'var(--prem)',v:qser(sel('P'),0,3,nq)},{n:'Incurred losses (by loss date)',c:'var(--clm)',v:qser(sel('C'),0,4,nq)}])}</section>
+ <section><h2>Loss ratio by underwriting year</h2>${uwy()}<div class="leg">Recent years are immature: open claims still develop.</div></section></div>`},
+rk(){const r=sel('R'),t=tot();
+ const bands=D.bands.map((b,i)=>{const x=r.filter(y=>y[2]==i);return `<tr><td>${b}</td><td>${sum(x,3)}</td><td>${fm(sum(x,4))}</td><td>${fm(sum(x,5))}</td><td>${pc(div(sum(x,7),sum(x,6)))}</td></tr>`}).join('');
+ const rg=D.regs.map((n,i)=>{const x=D.R.filter(y=>y[1]==i&&(st.l<0||y[0]==st.l));return {n,v:sum(x,4),t:fm(sum(x,4)),k:'r'+i,sel:st.r==i}}).filter(x=>x.v>0).sort((a,b)=>b.v-a.v);
+ const wl=D.wl.filter(x=>(st.l<0||x[2]==st.l)&&(st.r<0||x[3]==st.r));
+ return kpi('',[['Limit exposure',fm(t.ex)],['Treaties',t.n],['High + critical treaties',sum(r.filter(x=>x[2]>=2),3)],['Critical (≥80% of limit)',sum(r.filter(x=>x[2]==3),3),'bad'],['Loss ratio',pc(t.lr)]])+
+ `<div class="grid"><section><h2>Risk band<small>by share of limit consumed by incurred losses</small></h2><div class="wide"><table><tr><th>Band</th><th>Treaties</th><th>Exposure</th><th>GWP</th><th>Loss ratio</th></tr>${bands}</table></div><div class="leg">Low &lt;20% · Medium 20–50% · High 50–80% · Critical ≥80%</div></section>
+ <section><h2>Exposure by region<small>click to filter</small></h2>${hbar(rg)}</section>
+ <section class="full"><h2>Watchlist: treaties at or above 80% of limit</h2><div class="wide"><table><tr><th>Treaty</th><th>Cedant</th><th>Line</th><th>Region</th><th>Limit</th><th>Incurred</th><th>Utilisation</th></tr>${wl.map(x=>`<tr><td>${x[0]}</td><td style="text-align:left">${x[1]}</td><td>${D.lobs[x[2]]}</td><td>${D.regs[x[3]]}</td><td>${f1(x[4])}</td><td>${f1(x[5])}</td><td class="bad">${(x[6]*100).toFixed(0)}%</td></tr>`).join('')||'<tr><td colspan=7>No treaties on the watchlist for this selection.</td></tr>'}</table></div></section>
+ <section class="full"><h2>Largest cedants<small>portfolio-wide</small></h2><div class="wide"><table><tr><th>Cedant</th><th>Country</th><th>Treaties</th><th>GWP</th><th>Loss ratio</th><th>Exposure</th></tr>${D.ced.map(x=>`<tr><td>${x[0]}</td><td>${x[1]}</td><td>${x[2]}</td><td>${fm(x[3])}</td><td class="${lrcls(x[4]-0.2)}">${pc(x[4])}</td><td>${fm(x[5])}</td></tr>`).join('')}</table></div></section></div>`},
+lb(){const rows=D.lobs.map((n,i)=>{const p=D.P.filter(x=>x[1]==i&&(st.r<0||x[2]==st.r)),c=D.C.filter(x=>x[1]==i&&(st.r<0||x[2]==st.r)),e=sum(p,4);if(!e)return '';
+  const lr=div(sum(c,4),e),cr=lr+div(sum(p,6),e)+D.admin,ex=sum(D.R.filter(x=>x[0]==i&&(st.r<0||x[1]==st.r)),4);
+  return `<tr data-k="l${i}" tabindex="0" class="${st.l==i?'sel':''}"><td>${n}</td><td>${fm(sum(p,3))}</td><td>${fm(sum(c,4))}</td><td class="${lr>0.8?'bad':''}">${pc(lr)}</td><td class="${cr>1?'bad':'ok'}">${pc(cr)}</td><td>${fm(ex)}</td><td>${f1(sum(p,4)-sum(c,4)-sum(p,6))}</td></tr>`}).join('');
+ const t=tot();
+ return kpi('',[['Selection',st.l<0?'All lines':D.lobs[st.l]],['Premium',fm(t.g)],['Claims (incurred)',fm(t.i)],['Loss ratio',pc(t.lr),t.lr>0.8?'bad':''],['Exposure',fm(t.ex)],['Underwriting result',f1(t.e-t.i-sum(sel('P'),6)),(t.e-t.i-sum(sel('P'),6))<0?'bad':'ok']])+
+ `<div class="grid"><section class="full"><h2>Compare lines of business<small>click a row to select it (region filter applies)</small></h2><div class="wide"><table><tr><th>Line</th><th>GWP</th><th>Incurred</th><th>Loss ratio</th><th>Combined ratio</th><th>Exposure</th><th>Earned − incurred − commission</th></tr>${rows}</table></div></section>
+ <section><h2>Loss ratio by underwriting year<small>${st.l<0?'all lines':D.lobs[st.l]}</small></h2>${uwy()}</section>
+ <section><h2>Quarterly premium vs incurred</h2>${lines(D.qs,[{n:'Premium',c:'var(--prem)',v:qser(sel('P'),0,3,D.qs.length)},{n:'Incurred',c:'var(--clm)',v:qser(sel('C'),0,4,D.qs.length)}])}</section></div>`},
+cl(){const c=sel('C'),T=sel('T'),t=tot(),by=(a,i,j)=>{const o={};a.forEach(x=>o[x[i]]=(o[x[i]]||0)+x[j]);return o};
+ const ty=by(T,2,5),rg=by(sel('T',true,false),1,5),sv=by(T,3,5),sn=by(T,3,4);
+ const top=D.top.filter(x=>(st.l<0||x[2]==st.l)&&(st.r<0||x[3]==st.r)).slice(0,10);
+ const open=(sv[1]||0)+(sv[2]||0);
+ return kpi('',[['Claims',t.cn.toLocaleString()],['Incurred',fm(t.i)],['Paid',fm(sum(c,5))],['Open + reopened share',pc(div(open,t.i))],['Average claim',f1(div(t.i,t.cn))]])+
+ `<div class="grid"><section class="full"><h2>Claims trend by loss date<small>incurred $M per quarter</small></h2>${lines(D.qs,[{n:'Incurred',c:'var(--clm)',v:qser(c,0,4,D.qs.length)},{n:'Paid',c:'var(--prem)',v:qser(c,0,5,D.qs.length)}])}</section>
+ <section><h2>Claims by type</h2>${hbar(Object.entries(ty).map(([i,v])=>({n:D.types[i],v,t:fm(v)})).sort((a,b)=>b.v-a.v),'c')}</section>
+ <section><h2>Claims by region<small>click to filter</small></h2>${hbar(Object.entries(rg).map(([i,v])=>({n:D.regs[i],k:'r'+i,v,t:fm(v),sel:st.r==i})).sort((a,b)=>b.v-a.v),'c')}</section>
+ <section><h2>Settled vs open</h2>${hbar(D.stats.map((n,i)=>({n,v:sv[i]||0,t:fm(sv[i]||0)+' · '+(sn[i]||0)})).filter(x=>x.v>0))}<div class="leg">Incurred $M · claim count. Open claims are still developing.</div></section>
+ <section class="full"><h2>Top claims</h2><div class="wide"><table><tr><th>Claim</th><th>Cedant</th><th>Line</th><th>Region</th><th>Loss date</th><th>Type</th><th>Status</th><th>Incurred</th></tr>${top.map(x=>`<tr><td>${x[0]}</td><td style="text-align:left">${x[1]}</td><td>${D.lobs[x[2]]}</td><td>${D.regs[x[3]]}</td><td>${x[4]}</td><td>${x[5]}</td><td>${x[6]}</td><td>${f1(x[7])}</td></tr>`).join('')}</table></div></section></div>`},
+dq(){const h=D.health;
+ return kpi('',[['Checks passed',h.passed+' of '+h.total],['High-severity failures',h.high,h.high?'bad':'ok'],['Records quarantined',h.quar.toLocaleString(),h.quar?'bad':'ok']])+
+ `<section><h2>Data checks<small>latest pipeline run. Quarantined records are excluded from every figure on these pages.</small></h2><div class="wide"><table><tr><th>ID</th><th style="text-align:left">Check</th><th>Category</th><th>Severity</th><th>Tested</th><th>Failed</th><th>Status</th><th>Action</th></tr>${D.dq.map(x=>`<tr><td>${x[0]}</td><td style="text-align:left">${x[1]}</td><td>${x[2]}</td><td>${x[3]}</td><td>${x[4].toLocaleString()}</td><td>${x[5]}</td><td class="${x[6]=='PASS'?'ok':'bad'}">${x[6]}</td><td>${x[7]}</td></tr>`).join('')}</table></div></section>`}};
+function opt(el,items,v){el.innerHTML='<option value="-1">All</option>'+items.map((n,i)=>`<option value="${i}">${n}</option>`).join('');el.value=v}
+function draw(){$('#tabs').innerHTML=TABS.map(([k,n])=>`<button role="tab" data-t="${k}" aria-selected="${st.tab==k}">${n}</button>`).join('');
+ opt($('#fr'),D.regs,st.r);opt($('#fl'),D.lobs,st.l);$('#view').innerHTML=V[st.tab]();}
+document.addEventListener('click',e=>{const t=e.target.closest('[data-t]');if(t){st.tab=t.dataset.t;draw();return}
+ const k=e.target.closest('[data-k]');if(k){const v=k.dataset.k,i=+v.slice(1);if(v[0]=='r')st.r=st.r==i?-1:i;else st.l=st.l==i?-1:i;draw()}});
+document.addEventListener('keydown',e=>{if(e.key=='Enter'&&e.target.dataset&&e.target.dataset.k)e.target.click()});
+$('#fr').onchange=e=>{st.r=+e.target.value;draw()};$('#fl').onchange=e=>{st.l=+e.target.value;draw()};$('#rs').onclick=()=>{st.r=st.l=-1;draw()};
+$('#val').textContent=D.val;$('#dqp').innerHTML=`Data health: <b>${D.health.passed}/${D.health.total}</b> checks passed`;draw();
+</script></body></html>

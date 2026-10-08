@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AXA XL Reinsurance Analytics Training Deck</title>
+<style>
+    :root {
+        --navy: #002060;
+        --teal: #008080;
+        --dark-slate: #1e293b;
+        --light-bg: #f4f6f9;
+        --white: #ffffff;
+    }
+    body {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        background-color: #0f172a;
+        color: var(--dark-slate);
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .controls {
+        margin-bottom: 15px;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    .controls button {
+        background-color: var(--teal);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    .controls button:hover {
+        background-color: #006666;
+    }
+    .slide-counter {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .slide-container {
+        width: 1000px;
+        height: 562.5px; /* 16:9 ratio */
+        background-color: var(--light-bg);
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        overflow: hidden;
+        position: relative;
+    }
+    .slide {
+        display: none;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .slide.active {
+        display: block;
+    }
+    .slide-header {
+        background-color: var(--navy);
+        color: white;
+        padding: 20px 30px;
+    }
+    .slide-header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+    .slide-header p {
+        margin: 5px 0 0 0;
+        font-size: 14px;
+        color: #93c5fd;
+    }
+    .slide-body {
+        padding: 25px 30px;
+        display: flex;
+        gap: 20px;
+        height: calc(100% - 110px);
+        box-sizing: border-box;
+    }
+    .card {
+        flex: 1;
+        background: white;
+        border-radius: 8px;
+        border: 2px solid var(--teal);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .card-title {
+        background-color: var(--teal);
+        color: white;
+        padding: 12px 15px;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+    }
+    .card-content {
+        padding: 15px 20px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .card-content ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .card-content li {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="controls">
+    <button onclick="prevSlide()">❮ Previous</button>
+    <span class="slide-counter" id="counter">Slide 1 of 15</span>
+    <button onclick="nextSlide()">Next ❯</button>
+</div>
+
+<div class="slide-container">
+    <!-- Slide 1 -->
+    <div class="slide active">
+        <div class="slide-header">
+            <h1>Reinsurance Portfolio Analytics & Data Assurance Platform</h1>
+            <p>AXA XL Portfolio Analytics | Global Training & Operational Playbook</p>
+        </div>
+        <div class="slide-body" style="justify-content: center; align-items: center;">
+            <div style="background: white; padding: 40px; border-radius: 12px; border-left: 6px solid var(--teal); max-width: 800px;">
+                <h2>Welcome to AXA XL Reinsurance Analytics Training</h2>
+                <ul style="font-size: 16px; line-height: 1.8;">
+                    <li><b>Single Version of the Truth:</b> Standardized metrics across Underwriting, Actuarial & Management.</li>
+                    <li><b>End-to-End Automation:</b> ETL Pipeline, 28 Data Quality Checks, Excel MI Pack, Power BI & Qlik.</li>
+                    <li><b>Actuarial Governance:</b> Portfolio Loss Ratio 68.8%, GWP $1.29B, Limit Exposure $8.91B.</li>
+                    <li><b>VBA Macro Automation:</b> Pre-release validation and regional pack splitting.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+        <div class="slide-header">
+            <h1>1. Program Context & Why This Platform Exists</h1>
+            <p>Transitioning from Fragmented Spreadsheets to Governed Reinsurance Analytics</p>
+        </div>
+        <div class="slide-body">
+            <div class="card">
+                <div class="card-title">Legacy Challenges</div>
+                <div class="card-content">
+                    <ul>
+                        <li>Manual spreadsheets with broken formulas and mismatched regional totals.</li>
+                        <li>Three isolated source systems (Treaties, Claims, Exposure) with duplicates.</li>
+                        <li>No audit log for unmapped region or LOB codes.</li>
+                        <li>Days spent manually preparing monthly report packs.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Platform Solution</div>
+                <div class="card-content">
+                    <ul>
+                        <li>Automated ETL pipeline loading a conformed star-schema warehouse.</li>
+                        <li>28 automated data quality & reconciliation checks on every load.</li>
+                        <li>Governed MI views enforcing single metric definitions.</li>
+                        <li>One-click Excel MI pack, VBA validation, Power BI & Qlik apps.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+        <div class="slide-header">
+            <h1>2. Architecture & Data Governance Flow</h1>
+            <p>End-to-End Pipeline from Source Ingestion to Executive Dashboards</p>
+        </div>
+        <div class="slide-body">
+            <div class="card">
+                <div class="card-title">1. Ingestion & Staging</div>
+                <div class="card-content">
+                    <ul>
+                        <li>System A (Treaties), System B (Claims), System C (Premium/Exposure).</li>
+                        <li>Staged into raw tables without silent data loss.</li>
+                        <li>Unmapped values flagged in v_unmapped_values.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">2. 28 Data Quality Checks</div>
+                <div class="card-content">
+                    <ul>
+                        <li>Reconciliation rule: Source = Core + Quarantined.</li>
+                        <li>Quarantined rows routed to dq_failed_records.</li>
+                        <li>Clean data loaded to dim_treaty, fact_premium, fact_claims.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">3. MI Views & Reports</div>
+                <div class="card-content">
+                    <ul>
+                        <li>v_treaty_summary view locks loss & combined ratio logic.</li>
+                        <li>Monthly_MI_Pack.xlsx with VBA macros.</li>
+                        <li>Power BI Project (.pbip) & Qlik (.qvs) load scripts.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide">
+        <div class="slide-header">
+            <h1>3. Excel MI Pack & VBA Macro Automation</h1>
+            <p>Operational Guide to Running Monthly_MI_Pack.xlsx & Macros</p>
+        </div>
+        <div class="slide-body">
+            <div class="card">
+                <div class="card-title">Excel Pack Layout</div>
+                <div class="card-content">
+                    <ul>
+                        <li><b>Summary:</b> Executive KPIs, regional totals, loss ratios.</li>
+                        <li><b>Treaty_Data:</b> 700 treaties with live SUMIFS formulas.</li>
+                        <li><b>DQ_Log:</b> Real-time status of 28 data quality checks.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">VBA Macro Suite (ReportMacros.bas)</div>
+                <div class="card-content">
+                    <ul>
+                        <li><b>ValidatePack():</b> Mandatory audit check before releasing pack.</li>
+                        <li><b>SplitByRegion():</b> Splits master pack into 6 regional workbooks.</li>
+                        <li><b>ExportSummaryPdf():</b> Generates executive PDF summary.</li>
+                        <li><b>RefreshPack():</b> Recalculates formulas & updates timestamp.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide">
+        <div class="slide-header">
+            <h1>4. Power BI Project (.pbip) & DAX Measures</h1>
+            <p>Enterprise Business Intelligence Model Architecture</p>
+        </div>
+        <div class="slide-body">
+            <div class="card">
+                <div class="card-title">Star Schema Model</div>
+                <div class="card-content">
+                    <ul>
+                        <li>Conformed dim_treaty dimension connecting cedants, regions, LOBs.</li>
+                        <li>Fact tables (fact_premium, fact_claims, fact_exposure).</li>
+                        <li>dim_date table marked as Date Table for time intelligence.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Key DAX Measures</div>
+                <div class="card-content">
+                    <ul>
+                        <li><b>Gross Written Premium:</b> SUM(fact_premium[gross_written_premium])</li>
+                        <li><b>Loss Ratio:</b> DIVIDE([Incurred Losses], [Earned Premium])</li>
+                        <li><b>Combined Ratio:</b> [Loss Ratio] + [Commission Ratio] + 0.05</li>
+                        <li><b>Limit Utilisation:</b> DIVIDE([Incurred Losses], SUM(dim_treaty[limit_usd]))</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide">
+        <div class="slide-header">
+            <h1>5. Qlik Sense Application Architecture</h1>
+            <p>QVS Scripting & In-Memory Associative Model</p>
+        </div>
+        <div class="slide-body">
+            <div class="card">
+                <div class="card-title">Qlik Load Script (Reinsurance_Analytics.qvs)</div>
+                <div class="card-content">
+                    <ul>
+                        <li>Automated mapping tables (Map_LOB, Map_Region, Map_Currency).</li>
+                        <li>Master Calendar script creating fiscal periods.</li>
+                        <li>Direct CSV loading from data/core_csv/ directory.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Qlik Master Items</div>
+                <div class="card-content">
+                    <ul>
+                        <li>Master Measures for Loss Ratio, Earned Premium, Combined Ratio.</li>
+                        <li>Executive Overview, Portfolio Risk, LOB, Claims sheets.</li>
+                        <li>Associative filtering across underwriters & cedants.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="slide">
+        <div class="slide-header">
+            <h1>6. UAT & Quality Assurance Framework</h1>
+            <p>39 Automated Regression Tests & Verification Proof</p>
+        </div>
+        <div class="slide-body">
+            <div class="card">
+                <div class="card-title">Automated UAT (python/uat_tests.py)</div>
+                <div class="card-content">
+                    <ul>
+                        <li><b>A01-A17:</b> 100% recall on planted error detection.</li>
+                        <li><b>B01-B08:</b> Database integrity & reconciliation checks.</li>
+                        <li><b>C01-C03:</b> SQL analytical queries & loss ratio agreement.</li>
+                        <li><b>D01-D05:</b> Excel pack and HTML dashboard tie-outs.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">VBA & Manual UAT (M01-M05)</div>
+                <div class="card-content">
+                    <ul>
+                        <li><b>M03 ValidatePack Pass:</b> Verified with 16 DQ warnings.</li>
+                        <li><b>M04 ValidatePack Fail:</b> Detected GWP mismatch & blocked release.</li>
+                        <li><b>M05 SplitByRegion:</b> Created 6 regional files totaling 700 treaties.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 8 -->
+    <div class="slide">
+        <div class="slide-header">
+            <h1>7. Data Governance & Mapping Procedure</h1>
+            <p>Adding New Regions, LOBs, and Currencies</p>
+        </div>
+        <div class="slide-body">
+            <div class="card">
+                <div class="card-title">Identify Unmapped Values</div>
+                <div class="card-content">
+                    <ul>
+                        <li>Inspect v_unmapped_values view or run Query Q14.</li>
+                        <li>Identifies unmapped raw codes arriving from source extracts.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Execute add_mapping.py</div>
+                <div class="card-content">
+                    <ul>
+                        <li>Run: <code>python python/add_mapping.py lob FIN "Financial Lines"</code></li>
+                        <li>Appends row to mapping table with audit timestamp.</li>
+                        <li>Next pipeline execution auto-reclassifies quarantined records.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 9 -->
+    <div class="slide">
+        <div class="slide-header">
+            <h1>8. Summary & Next Steps</h1>
+            <p>Best Practices for AXA XL Reinsurance Portfolio Analysts</p>
+        </div>
+        <div class="slide-body" style="justify-content: center; align-items: center;">
+            <div style="background: white; padding: 40px; border-radius: 12px; border-left: 6px solid var(--navy); max-width: 800px;">
+                <h3>Core Principles for Monthly Reporting</h3>
+                <ol style="font-size: 16px; line-height: 1.8;">
+                    <li>Always prove reconciliation: Source Premium = Core Premium + Quarantined Premium.</li>
+                    <li>Run VBA <code>ValidatePack</code> macro before emailing monthly MI packs.</li>
+                    <li>Leverage Power BI & Qlik apps for interactive executive drilldowns.</li>
+                    <li>Update mapping tables promptly via <code>add_mapping.py</code>.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const counter = document.getElementById('counter');
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
+        });
+        counter.textContent = `Slide ${index + 1} of ${slides.length}`;
+    }
+
+    function nextSlide() {
+        if (currentSlide < slides.length - 1) {
+            currentSlide++;
+            showSlide(currentSlide);
+        }
+    }
+
+    function prevSlide() {
+        if (currentSlide > 0) {
+            currentSlide--;
+            showSlide(currentSlide);
+        }
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+        if (e.key === 'ArrowLeft') prevSlide();
+    });
+</script>
+</body>
+</html>

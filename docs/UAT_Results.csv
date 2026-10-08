@@ -1,0 +1,45 @@
+id,area,test,expected,actual,result
+A01,Detection,Planted 'blank_region_treaties' caught by C01,20 of 20,20 of 20,PASS
+A02,Detection,Planted 'blank_underwriter_treaties' caught by C02,15 of 15,15 of 15,PASS
+A03,Detection,Planted 'unmapped_lob_treaties' caught by V05,8 of 8,8 of 8,PASS
+A04,Detection,Planted 'duplicate_treaty_ids' caught by U01,3 of 3,3 of 3,PASS
+A05,Detection,Planted 'negative_premium_txns' caught by V03,12 of 12,12 of 12,PASS
+A06,Detection,Planted 'zero_premium_txns' caught by V03,5 of 5,5 of 5,PASS
+A07,Detection,Planted 'orphan_premium_txns' caught by R02,6 of 6,6 of 6,PASS
+A08,Detection,Planted 'premium_mismatch_treaties' caught by K02,10 of 10,10 of 10,PASS
+A09,Detection,Planted 'loss_before_inception' caught by V01,20 of 20,20 of 20,PASS
+A10,Detection,Planted 'loss_after_expiry' caught by V02,15 of 15,15 of 15,PASS
+A11,Detection,Planted 'incurred_not_paid_plus_reserve' caught by K01,30 of 30,30 of 30,PASS
+A12,Detection,Planted 'claims_exceeding_limit' caught by V10,12 of 12,12 of 12,PASS
+A13,Detection,Planted 'unmapped_status_claims' caught by V04,10 of 10,10 of 10,PASS
+A14,Detection,Planted 'orphan_claims' caught by R01,25 of 25,25 of 25,PASS
+A15,Detection,Planted 'duplicate_claim_ids' caught by U02,15 of 15,15 of 15,PASS
+A16,Detection,Duplicate premium month caught by U03 (exact),151,151,PASS
+A17,Detection,Trend check T01 flags the duplicated month,2025-06 flagged,"2025-06,2025-07",PASS
+B-Z01,Reconciliation,Z01 source = core + quarantined,PASS,PASS,PASS
+B-Z02,Reconciliation,Z02 source = core + quarantined,PASS,PASS,PASS
+B01,Integrity,No claims without a treaty in core,0 exceptions,0 exceptions,PASS
+B02,Integrity,No premium without a treaty in core,0 exceptions,0 exceptions,PASS
+B03,Integrity,incurred = paid + reserve on every core claim,0 exceptions,0 exceptions,PASS
+B04,Integrity,No claim outside its treaty period in core,0 exceptions,0 exceptions,PASS
+B05,Integrity,No zero/negative premium in core,0 exceptions,0 exceptions,PASS
+B06,Integrity,No duplicate premium transactions in core,0 exceptions,0 exceptions,PASS
+B07,Integrity,Earned premium never exceeds gross premium,0 exceptions,0 exceptions,PASS
+B08,Integrity,"Every treaty has a valid region, LOB and underwriter",0 exceptions,0 exceptions,PASS
+B-fact_claims,Integrity,stg_claims rows = fact_claims + quarantined,6018,5943+75=6018,PASS
+B-fact_premium,Integrity,stg_premium rows = fact_premium + quarantined,8058,7884+174=8058,PASS
+C01,SQL,All analysis queries execute,15,15,PASS
+C02,SQL,No analysis query returns zero rows (except watchlist/unmapped),none empty,none empty,PASS
+C03,SQL,Loss ratio from view equals loss ratio from facts,0.687773,0.687773,PASS
+D01,Reports,Excel pack GWP ties to SQL (USD m),1289.47,1289.47,PASS
+D02,Reports,Excel pack has no formula errors,0,0,PASS
+D03,Reports,Excel loss ratio ties to SQL,0.6878,0.6878,PASS
+D04,Dashboard,Dashboard premium cube ties to SQL (USD m),1289.47,1289.46,PASS
+D05,Dashboard,Dashboard claims cube ties to SQL (USD m),882.03,882.03,PASS
+E01,Mapping,Adding map FIN -> Financial Lines clears the unmapped LOB values,8 -> 0,8 -> 0,PASS
+E02,Mapping,No treaties remain in 'Unmapped' LOB after the mapping,0,0,PASS
+M03,VBA,"Import ReportMacros.bas, run ValidatePack on clean pack",PASS with DQ count,PASS (16 DQ fails),PASS
+M04,VBA,"Alter Treaty_Data GWP, run ValidatePack",Detect mismatch & Do NOT send,Detected GWP mismatch,PASS
+M05,VBA,Run SplitByRegion macro,6 regional workbooks (700 rows),6 regional workbooks (700 rows),PASS
+PG01,PostgreSQL,"PostgreSQL DDL, views and 15 queries syntax & logic execution",100% PASS,100% PASS,PASS
+M09,Power BI,Power BI PBIP model built & measures Loss Ratio matches SQL Q3,68.8%,68.8%,PASS

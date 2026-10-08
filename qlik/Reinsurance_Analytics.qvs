@@ -1,0 +1,117 @@
+///$tab Main
+SET DateFormat='YYYY-MM-DD';
+SET TimestampFormat='YYYY-MM-DD hh:mm:ss';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+
+///$tab Mapping Tables
+Map_LOB:
+MAPPING LOAD source_value, mapped_value FROM [lib://DataFiles/map_lob.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Map_Region:
+MAPPING LOAD source_value, mapped_value FROM [lib://DataFiles/map_region.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Map_Currency:
+MAPPING LOAD source_value, mapped_value FROM [lib://DataFiles/map_currency.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Map_Claim_Status:
+MAPPING LOAD source_value, mapped_value FROM [lib://DataFiles/map_claim_status.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+///$tab Dimensions
+Dim_Region:
+LOAD
+    region_id,
+    region_name
+FROM [lib://DataFiles/dim_region.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Dim_LOB:
+LOAD
+    lob_id,
+    lob_name
+FROM [lib://DataFiles/dim_lob.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Dim_Underwriter:
+LOAD
+    underwriter_id,
+    underwriter_name
+FROM [lib://DataFiles/dim_underwriter.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Dim_Cedant:
+LOAD
+    cedant_id,
+    cedant_code,
+    cedant_name,
+    country AS cedant_country,
+    cedant_type,
+    rating
+FROM [lib://DataFiles/dim_cedant.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Dim_Treaty:
+LOAD
+    treaty_id,
+    cedant_id,
+    lob_id,
+    region_id,
+    underwriter_id,
+    treaty_type,
+    underwriting_year,
+    Date(Date#(inception_date, 'YYYY-MM-DD')) AS inception_date,
+    Date(Date#(expiry_date, 'YYYY-MM-DD')) AS expiry_date,
+    currency,
+    share_pct,
+    limit_usd,
+    retention_usd,
+    est_annual_premium_usd,
+    dq_flag AS treaty_dq_flag
+FROM [lib://DataFiles/dim_treaty.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+///$tab Facts
+Fact_Premium:
+LOAD
+    premium_id,
+    treaty_id,
+    Date(Date#(txn_date, 'YYYY-MM-DD')) AS date_key,
+    original_currency,
+    gross_written_premium,
+    ceded_premium,
+    gross_written_premium - ceded_premium AS net_premium,
+    commission,
+    earned_premium,
+    earned_commission
+FROM [lib://DataFiles/fact_premium.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Fact_Claims:
+LOAD
+    claim_id,
+    treaty_id,
+    Date(Date#(loss_date, 'YYYY-MM-DD')) AS date_key,
+    Date(Date#(report_date, 'YYYY-MM-DD')) AS report_date,
+    claim_type,
+    paid_amount,
+    case_reserve,
+    incurred_amount,
+    status AS claim_status,
+    exceeds_limit,
+    dq_flag AS claim_dq_flag
+FROM [lib://DataFiles/fact_claims.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+Fact_Exposure:
+LOAD
+    treaty_id,
+    Date(Date#(as_of_date, 'YYYY-MM-DD')) AS exposure_as_of_date,
+    sum_insured_usd,
+    limit_exposure_usd,
+    peak_zone
+FROM [lib://DataFiles/fact_exposure.csv] (txt, utf8, embedded labels, delimiter is ',');
+
+///$tab Master Calendar
+MasterCalendar:
+LOAD
+    date_key,
+    Year(date_key) AS Year,
+    Month(date_key) AS Month,
+    Dual(Month(date_key) & '-' & Year(date_key), Year(date_key)*12 + Month(date_key)) AS YearMonth,
+    'Q' & Ceil(Month(date_key)/3) AS Quarter,
+    Year(date_key) & '-Q' & Ceil(Month(date_key)/3) AS YearQuarter
+FROM [lib://DataFiles/dim_date.csv] (txt, utf8, embedded labels, delimiter is ',');

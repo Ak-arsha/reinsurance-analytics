@@ -1,0 +1,171 @@
+{
+  "name": "Reinsurance Analytics Dashboard",
+  "pages": [
+    {
+      "name": "Executive Overview",
+      "displayName": "Executive Overview",
+      "displayOption": "FitToPage",
+      "visuals": [
+        {
+          "title": "GWP Card",
+          "type": "card",
+          "measure": "[Gross Written Premium]"
+        },
+        {
+          "title": "Loss Ratio Card",
+          "type": "card",
+          "measure": "[Loss Ratio]"
+        },
+        {
+          "title": "Combined Ratio Card",
+          "type": "card",
+          "measure": "[Combined Ratio]"
+        },
+        {
+          "title": "Premium by Region",
+          "type": "barChart",
+          "category": "dim_region[region_name]",
+          "value": "[Gross Written Premium]"
+        },
+        {
+          "title": "Loss Ratio by Line of Business",
+          "type": "columnChart",
+          "category": "dim_lob[lob_name]",
+          "value": "[Loss Ratio]"
+        },
+        {
+          "title": "Monthly Premium vs Incurred Losses",
+          "type": "lineChart",
+          "category": "dim_date[year_month]",
+          "values": [
+            "[Gross Written Premium]",
+            "[Incurred Losses]"
+          ]
+        },
+        {
+          "title": "Executive Insight Text",
+          "type": "textbox",
+          "measure": "[Insight Text]"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio Risk",
+      "displayName": "Portfolio Risk",
+      "visuals": [
+        {
+          "title": "Total Exposure",
+          "type": "card",
+          "measure": "[Total Exposure]"
+        },
+        {
+          "title": "Watchlist Count",
+          "type": "card",
+          "measure": "[Watchlist Treaties]"
+        },
+        {
+          "title": "Risk Band Breakdown",
+          "type": "pieChart",
+          "category": "v_treaty_summary[risk_band]",
+          "value": "[Treaty Count]"
+        },
+        {
+          "title": "Watchlist Treaties Table",
+          "type": "table",
+          "columns": [
+            "treaty_id",
+            "cedant_name",
+            "lob_name",
+            "limit_usd",
+            "incurred",
+            "limit_utilisation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Line of Business",
+      "displayName": "Line of Business",
+      "visuals": [
+        {
+          "title": "LOB Slicer",
+          "type": "slicer",
+          "field": "dim_lob[lob_name]"
+        },
+        {
+          "title": "LOB Summary Table",
+          "type": "matrix",
+          "rows": [
+            "dim_lob[lob_name]"
+          ],
+          "values": [
+            "[Gross Written Premium]",
+            "[Earned Premium]",
+            "[Incurred Losses]",
+            "[Loss Ratio]",
+            "[Combined Ratio]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claims Analysis",
+      "displayName": "Claims Analysis",
+      "visuals": [
+        {
+          "title": "Claim Count",
+          "type": "card",
+          "measure": "[Claim Count]"
+        },
+        {
+          "title": "Incurred Losses",
+          "type": "card",
+          "measure": "[Incurred Losses]"
+        },
+        {
+          "title": "Claims by Type",
+          "type": "donutChart",
+          "category": "fact_claims[claim_type]",
+          "value": "[Incurred Losses]"
+        },
+        {
+          "title": "Top 10 Loss-Making Treaties",
+          "type": "table",
+          "columns": [
+            "treaty_id",
+            "cedant_name",
+            "incurred",
+            "loss_ratio"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Quality",
+      "displayName": "Data Quality & Governance",
+      "visuals": [
+        {
+          "title": "DQ Checks Passed",
+          "type": "card",
+          "measure": "[DQ Checks Passed]"
+        },
+        {
+          "title": "Quarantined Records",
+          "type": "card",
+          "measure": "[Quarantined Records]"
+        },
+        {
+          "title": "Data Quality Check Log",
+          "type": "table",
+          "columns": [
+            "check_id",
+            "check_name",
+            "category",
+            "severity",
+            "status"
+          ]
+        }
+      ]
+    }
+  ]
+}

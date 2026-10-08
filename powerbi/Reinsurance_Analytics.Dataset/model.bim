@@ -1,0 +1,510 @@
+{
+  "name": "Reinsurance_Analytics_Model",
+  "compatibilityLevel": 1550,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "tables": [
+      {
+        "name": "dim_region",
+        "columns": [
+          {
+            "name": "region_id",
+            "dataType": "int64",
+            "sourceColumn": "region_id"
+          },
+          {
+            "name": "region_name",
+            "dataType": "string",
+            "sourceColumn": "region_name"
+          }
+        ]
+      },
+      {
+        "name": "dim_lob",
+        "columns": [
+          {
+            "name": "lob_id",
+            "dataType": "int64",
+            "sourceColumn": "lob_id"
+          },
+          {
+            "name": "lob_name",
+            "dataType": "string",
+            "sourceColumn": "lob_name"
+          }
+        ]
+      },
+      {
+        "name": "dim_underwriter",
+        "columns": [
+          {
+            "name": "underwriter_id",
+            "dataType": "int64",
+            "sourceColumn": "underwriter_id"
+          },
+          {
+            "name": "underwriter_name",
+            "dataType": "string",
+            "sourceColumn": "underwriter_name"
+          }
+        ]
+      },
+      {
+        "name": "dim_cedant",
+        "columns": [
+          {
+            "name": "cedant_id",
+            "dataType": "int64",
+            "sourceColumn": "cedant_id"
+          },
+          {
+            "name": "cedant_code",
+            "dataType": "string",
+            "sourceColumn": "cedant_code"
+          },
+          {
+            "name": "cedant_name",
+            "dataType": "string",
+            "sourceColumn": "cedant_name"
+          },
+          {
+            "name": "country",
+            "dataType": "string",
+            "sourceColumn": "country"
+          },
+          {
+            "name": "cedant_type",
+            "dataType": "string",
+            "sourceColumn": "cedant_type"
+          },
+          {
+            "name": "rating",
+            "dataType": "string",
+            "sourceColumn": "rating"
+          }
+        ]
+      },
+      {
+        "name": "dim_treaty",
+        "columns": [
+          {
+            "name": "treaty_id",
+            "dataType": "string",
+            "sourceColumn": "treaty_id"
+          },
+          {
+            "name": "cedant_id",
+            "dataType": "int64",
+            "sourceColumn": "cedant_id"
+          },
+          {
+            "name": "lob_id",
+            "dataType": "int64",
+            "sourceColumn": "lob_id"
+          },
+          {
+            "name": "region_id",
+            "dataType": "int64",
+            "sourceColumn": "region_id"
+          },
+          {
+            "name": "underwriter_id",
+            "dataType": "int64",
+            "sourceColumn": "underwriter_id"
+          },
+          {
+            "name": "treaty_type",
+            "dataType": "string",
+            "sourceColumn": "treaty_type"
+          },
+          {
+            "name": "underwriting_year",
+            "dataType": "int64",
+            "sourceColumn": "underwriting_year"
+          },
+          {
+            "name": "inception_date",
+            "dataType": "dateTime",
+            "sourceColumn": "inception_date"
+          },
+          {
+            "name": "expiry_date",
+            "dataType": "dateTime",
+            "sourceColumn": "expiry_date"
+          },
+          {
+            "name": "currency",
+            "dataType": "string",
+            "sourceColumn": "currency"
+          },
+          {
+            "name": "share_pct",
+            "dataType": "double",
+            "sourceColumn": "share_pct"
+          },
+          {
+            "name": "limit_usd",
+            "dataType": "double",
+            "sourceColumn": "limit_usd"
+          },
+          {
+            "name": "retention_usd",
+            "dataType": "double",
+            "sourceColumn": "retention_usd"
+          },
+          {
+            "name": "est_annual_premium_usd",
+            "dataType": "double",
+            "sourceColumn": "est_annual_premium_usd"
+          },
+          {
+            "name": "dq_flag",
+            "dataType": "string",
+            "sourceColumn": "dq_flag"
+          }
+        ]
+      },
+      {
+        "name": "dim_date",
+        "dataCategory": "Time",
+        "columns": [
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date_key",
+            "isKey": true
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year"
+          },
+          {
+            "name": "quarter",
+            "dataType": "int64",
+            "sourceColumn": "quarter"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "sourceColumn": "month"
+          },
+          {
+            "name": "year_month",
+            "dataType": "string",
+            "sourceColumn": "year_month"
+          },
+          {
+            "name": "year_quarter",
+            "dataType": "string",
+            "sourceColumn": "year_quarter"
+          }
+        ]
+      },
+      {
+        "name": "fact_premium",
+        "columns": [
+          {
+            "name": "premium_id",
+            "dataType": "string",
+            "sourceColumn": "premium_id"
+          },
+          {
+            "name": "treaty_id",
+            "dataType": "string",
+            "sourceColumn": "treaty_id"
+          },
+          {
+            "name": "txn_date",
+            "dataType": "dateTime",
+            "sourceColumn": "txn_date"
+          },
+          {
+            "name": "original_currency",
+            "dataType": "string",
+            "sourceColumn": "original_currency"
+          },
+          {
+            "name": "gross_written_premium",
+            "dataType": "double",
+            "sourceColumn": "gross_written_premium"
+          },
+          {
+            "name": "ceded_premium",
+            "dataType": "double",
+            "sourceColumn": "ceded_premium"
+          },
+          {
+            "name": "commission",
+            "dataType": "double",
+            "sourceColumn": "commission"
+          },
+          {
+            "name": "earned_premium",
+            "dataType": "double",
+            "sourceColumn": "earned_premium"
+          },
+          {
+            "name": "earned_commission",
+            "dataType": "double",
+            "sourceColumn": "earned_commission"
+          }
+        ]
+      },
+      {
+        "name": "fact_claims",
+        "columns": [
+          {
+            "name": "claim_id",
+            "dataType": "string",
+            "sourceColumn": "claim_id"
+          },
+          {
+            "name": "treaty_id",
+            "dataType": "string",
+            "sourceColumn": "treaty_id"
+          },
+          {
+            "name": "loss_date",
+            "dataType": "dateTime",
+            "sourceColumn": "loss_date"
+          },
+          {
+            "name": "report_date",
+            "dataType": "dateTime",
+            "sourceColumn": "report_date"
+          },
+          {
+            "name": "claim_type",
+            "dataType": "string",
+            "sourceColumn": "claim_type"
+          },
+          {
+            "name": "paid_amount",
+            "dataType": "double",
+            "sourceColumn": "paid_amount"
+          },
+          {
+            "name": "case_reserve",
+            "dataType": "double",
+            "sourceColumn": "case_reserve"
+          },
+          {
+            "name": "incurred_amount",
+            "dataType": "double",
+            "sourceColumn": "incurred_amount"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status"
+          },
+          {
+            "name": "exceeds_limit",
+            "dataType": "int64",
+            "sourceColumn": "exceeds_limit"
+          },
+          {
+            "name": "dq_flag",
+            "dataType": "string",
+            "sourceColumn": "dq_flag"
+          }
+        ]
+      },
+      {
+        "name": "fact_exposure",
+        "columns": [
+          {
+            "name": "treaty_id",
+            "dataType": "string",
+            "sourceColumn": "treaty_id"
+          },
+          {
+            "name": "as_of_date",
+            "dataType": "dateTime",
+            "sourceColumn": "as_of_date"
+          },
+          {
+            "name": "sum_insured_usd",
+            "dataType": "double",
+            "sourceColumn": "sum_insured_usd"
+          },
+          {
+            "name": "limit_exposure_usd",
+            "dataType": "double",
+            "sourceColumn": "limit_exposure_usd"
+          },
+          {
+            "name": "peak_zone",
+            "dataType": "string",
+            "sourceColumn": "peak_zone"
+          }
+        ]
+      },
+      {
+        "name": "_Measures",
+        "measures": [
+          {
+            "name": "Gross Written Premium",
+            "expression": "SUM ( fact_premium[gross_written_premium] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Ceded Premium",
+            "expression": "SUM ( fact_premium[ceded_premium] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Net Premium",
+            "expression": "[Gross Written Premium] - [Ceded Premium]",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Earned Premium",
+            "expression": "SUM ( fact_premium[earned_premium] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Earned Commission",
+            "expression": "SUM ( fact_premium[earned_commission] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Paid Losses",
+            "expression": "SUM ( fact_claims[paid_amount] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Case Reserves",
+            "expression": "SUM ( fact_claims[case_reserve] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Incurred Losses",
+            "expression": "SUM ( fact_claims[incurred_amount] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Claim Count",
+            "expression": "COUNTROWS ( fact_claims )",
+            "formatString": "#,##0"
+          },
+          {
+            "name": "Treaty Count",
+            "expression": "DISTINCTCOUNT ( dim_treaty[treaty_id] )",
+            "formatString": "#,##0"
+          },
+          {
+            "name": "Total Exposure",
+            "expression": "SUM ( fact_exposure[limit_exposure_usd] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Average Premium",
+            "expression": "DIVIDE ( [Gross Written Premium], [Treaty Count] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Average Claim",
+            "expression": "DIVIDE ( [Incurred Losses], [Claim Count] )",
+            "formatString": "$#,##0"
+          },
+          {
+            "name": "Loss Ratio",
+            "expression": "DIVIDE ( [Incurred Losses], [Earned Premium] )",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Commission Ratio",
+            "expression": "DIVIDE ( [Earned Commission], [Earned Premium] )",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Admin Expense Ratio",
+            "expression": "0.05",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Combined Ratio",
+            "expression": "[Loss Ratio] + [Commission Ratio] + [Admin Expense Ratio]",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Limit Utilisation",
+            "expression": "DIVIDE ( [Incurred Losses], SUM ( dim_treaty[limit_usd] ) )",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Watchlist Treaties",
+            "expression": "COUNTROWS ( FILTER ( VALUES ( dim_treaty[treaty_id] ), [Limit Utilisation] >= 0.8 ) )",
+            "formatString": "#,##0"
+          },
+          {
+            "name": "Insight Text",
+            "expression": "SELECTEDVALUE ( dim_region[region_name], \"Portfolio\" ) & \" writes \" & FORMAT ( DIVIDE ( [Gross Written Premium], CALCULATE ( [Gross Written Premium], ALL ( dim_region ), ALL ( dim_lob ) ) ), \"0%\" ) & \" of premium with a loss ratio of \" & FORMAT ( [Loss Ratio], \"0.0%\" ) & \".\""
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromTable": "dim_treaty",
+        "fromColumn": "cedant_id",
+        "toTable": "dim_cedant",
+        "toColumn": "cedant_id"
+      },
+      {
+        "fromTable": "dim_treaty",
+        "fromColumn": "lob_id",
+        "toTable": "dim_lob",
+        "toColumn": "lob_id"
+      },
+      {
+        "fromTable": "dim_treaty",
+        "fromColumn": "region_id",
+        "toTable": "dim_region",
+        "toColumn": "region_id"
+      },
+      {
+        "fromTable": "dim_treaty",
+        "fromColumn": "underwriter_id",
+        "toTable": "dim_underwriter",
+        "toColumn": "underwriter_id"
+      },
+      {
+        "fromTable": "fact_premium",
+        "fromColumn": "treaty_id",
+        "toTable": "dim_treaty",
+        "toColumn": "treaty_id"
+      },
+      {
+        "fromTable": "fact_claims",
+        "fromColumn": "treaty_id",
+        "toTable": "dim_treaty",
+        "toColumn": "treaty_id"
+      },
+      {
+        "fromTable": "fact_exposure",
+        "fromColumn": "treaty_id",
+        "toTable": "dim_treaty",
+        "toColumn": "treaty_id"
+      },
+      {
+        "fromTable": "fact_premium",
+        "fromColumn": "txn_date",
+        "toTable": "dim_date",
+        "toColumn": "date"
+      },
+      {
+        "fromTable": "fact_claims",
+        "fromColumn": "loss_date",
+        "toTable": "dim_date",
+        "toColumn": "date"
+      }
+    ]
+  }
+}

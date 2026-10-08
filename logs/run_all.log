@@ -1,0 +1,72 @@
+2026-10-08 08:53:59,960 INFO START generate source extracts
+2026-10-08 08:54:01,392 INFO DONE  generate source extracts (1.4s)
+2026-10-08 08:54:01,393 INFO START load, validate, map, build core + views
+2026-10-08 08:54:01,936 INFO DONE  load, validate, map, build core + views (0.5s)
+2026-10-08 08:54:01,937 INFO START executive insights
+2026-10-08 08:54:02,018 INFO DONE  executive insights (0.1s)
+2026-10-08 08:54:02,018 INFO START Excel packs + e-mail draft
+2026-10-08 08:54:23,210 INFO DONE  Excel packs + e-mail draft (21.2s)
+2026-10-08 08:54:23,211 INFO START export CSVs for Power BI/Qlik
+2026-10-08 08:54:23,551 INFO DONE  export CSVs for Power BI/Qlik (0.3s)
+2026-10-08 08:54:23,551 INFO START dashboard
+2026-10-08 08:54:23,684 INFO DONE  dashboard (0.1s)
+2026-10-08 08:54:23,684 INFO START SQL query documentation
+2026-10-08 08:54:23,871 INFO DONE  SQL query documentation (0.2s)
+2026-10-08 08:54:23,871 INFO START UAT regression tests
+2026-10-08 08:54:25,600 INFO DONE  UAT regression tests (1.7s)
+2026-10-08 08:54:25,600 INFO Run complete. UAT PASSED
+2026-10-08 08:55:46,915 INFO START load, validate, map, build core + views
+2026-10-08 08:55:47,500 INFO DONE  load, validate, map, build core + views (0.6s)
+2026-10-08 08:55:47,500 INFO START executive insights
+2026-10-08 08:55:47,586 INFO DONE  executive insights (0.1s)
+2026-10-08 08:55:47,586 INFO START Excel packs + e-mail draft
+2026-10-08 08:56:02,941 INFO DONE  Excel packs + e-mail draft (15.4s)
+2026-10-08 08:56:02,941 INFO START export CSVs for Power BI/Qlik
+2026-10-08 08:56:03,139 INFO DONE  export CSVs for Power BI/Qlik (0.2s)
+2026-10-08 08:56:03,139 INFO START dashboard
+2026-10-08 08:56:03,272 INFO DONE  dashboard (0.1s)
+2026-10-08 08:56:03,272 INFO START data dictionary
+2026-10-08 08:56:03,294 INFO DONE  data dictionary (0.0s)
+2026-10-08 08:56:03,295 INFO START SQL query documentation
+2026-10-08 08:56:03,459 INFO DONE  SQL query documentation (0.2s)
+2026-10-08 08:56:03,459 INFO START UAT regression tests
+2026-10-08 08:56:05,036 INFO DONE  UAT regression tests (1.6s)
+2026-10-08 08:56:05,036 INFO Run complete. UAT PASSED
+2026-10-08 15:09:14,928 INFO START generate source extracts
+2026-10-08 15:09:18,729 INFO DONE  generate source extracts (3.8s)
+2026-10-08 15:09:18,729 INFO START load, validate, map, build core + views
+2026-10-08 15:09:20,586 INFO DONE  load, validate, map, build core + views (1.9s)
+2026-10-08 15:09:20,586 INFO START executive insights
+2026-10-08 15:09:20,768 INFO DONE  executive insights (0.2s)
+2026-10-08 15:09:20,768 INFO START Excel packs + e-mail draft
+2026-10-08 15:09:25,537 INFO DONE  Excel packs + e-mail draft (4.8s)
+2026-10-08 15:09:25,537 INFO START export CSVs for Power BI/Qlik
+2026-10-08 15:09:26,014 INFO DONE  export CSVs for Power BI/Qlik (0.5s)
+2026-10-08 15:09:26,014 INFO START dashboard
+2026-10-08 15:09:26,312 INFO DONE  dashboard (0.3s)
+2026-10-08 15:09:26,312 INFO START data dictionary
+2026-10-08 15:09:26,389 INFO DONE  data dictionary (0.1s)
+2026-10-08 15:09:26,391 INFO START SQL query documentation
+2026-10-08 15:09:26,793 INFO DONE  SQL query documentation (0.4s)
+2026-10-08 15:09:26,794 INFO START UAT regression tests
+2026-10-08 15:09:31,576 INFO DONE  UAT regression tests (4.8s)
+2026-10-08 15:09:31,576 INFO Run complete. UAT FAILED
+2026-10-08 15:11:47,967 INFO START generate source extracts
+2026-10-08 15:11:51,778 INFO DONE  generate source extracts (3.8s)
+2026-10-08 15:11:51,778 INFO START load, validate, map, build core + views
+2026-10-08 15:11:53,559 INFO DONE  load, validate, map, build core + views (1.8s)
+2026-10-08 15:11:53,559 INFO START executive insights
+2026-10-08 15:11:53,751 INFO DONE  executive insights (0.2s)
+2026-10-08 15:11:53,751 INFO START Excel packs + e-mail draft
+2026-10-08 15:11:58,491 INFO DONE  Excel packs + e-mail draft (4.7s)
+2026-10-08 15:11:58,491 INFO START export CSVs for Power BI/Qlik
+2026-10-08 15:11:58,939 INFO DONE  export CSVs for Power BI/Qlik (0.4s)
+2026-10-08 15:11:58,939 INFO START dashboard
+2026-10-08 15:11:59,236 INFO DONE  dashboard (0.3s)
+2026-10-08 15:11:59,236 INFO START data dictionary
+2026-10-08 15:11:59,314 INFO DONE  data dictionary (0.1s)
+2026-10-08 15:11:59,315 INFO START SQL query documentation
+2026-10-08 15:11:59,764 INFO DONE  SQL query documentation (0.4s)
+2026-10-08 15:11:59,764 INFO START UAT regression tests
+2026-10-08 15:12:10,515 INFO DONE  UAT regression tests (10.8s)
+2026-10-08 15:12:10,515 INFO Run complete. UAT PASSED

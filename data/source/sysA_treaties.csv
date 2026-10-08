@@ -1,0 +1,704 @@
+TreatyID,CedantCode,CedantName,CedantCountry,CedantType,CedantRating,Region,LobCode,TreatyType,UWYear,Inception,Expiry,Currency,SharePct,Limit,Retention,EstAnnualPremium,Underwriter
+T0362,C165,Harbor Indemnity,USA,Insurer,A,North America,SPEC,Excess of Loss,2026,2026-08-19,2027-08-18,USD,100,4500000.0,410000.0,717143.41,
+T0530,C162,Harbor Mutual,Canada,Insurer,BBB+,N. America,PROF,Proportional,2026,2026-06-04,2027-06-03,USD,15,2000000.0,390000.0,345477.97,Carlos Ibarra
+T0620,C141,Granite Insurance,Singapore,Insurer,A+,APAC,PROP,Proportional,2026,2026-06-17,2027-06-16,USD,25,12000000.0,2110000.0,1100638.68,Omar Haddad
+T0067,C157,Sterling Insurance,India,Insurer,A-,Asia Pacific,PROP,Proportional,2023,2023-10-27,2024-10-26,INR,20,3325000000.0,275833333.33,348799925.25,Kenji Sato
+T0380,C153,Vantage Assurance,Germany,Insurer,A+,EU,PROP,Excess of Loss,2021,2021-03-21,2022-03-20,EUR,100,20462962.96,2657407.41,1886392.14,Aarav Mehta
+T0038,C141,Granite Insurance,Singapore,Insurer,A+,Asia Pacific,PROP,Excess of Loss,2025,2025-02-03,2026-02-02,USD,100,8800000.0,1320000.0,1178208.84,Omar Haddad
+T0243,C154,Orion Assurance,Mexico,Captive,A-,N. America,SPEC,Excess of Loss,2025,2025-12-06,2026-12-05,USD,100,26100000.0,2260000.0,3718954.39,Priya Nair
+T0359,C102,Summit Indemnity,Australia,Insurer,A+,Asia-Pacific,CAS,Proportional,2024,2024-05-23,2025-05-22,USD,50,6400000.0,840000.0,653438.97,Priya Nair
+T0697,C135,Sterling Indemnity,Spain,Insurer,BBB+,EU,PROF,Proportional,2026,2026-06-17,2027-06-16,EUR,15,7500000.0,416666.67,1172023.41,Priya Nair
+T0085,C103,Northwind Mutual,India,Insurer,A-,Asia-Pacific,FINL,Excess of Loss,2025,2025-11-28,2026-11-27,INR,100,1383333333.33,151666666.67,215488219.34,Aarav Mehta
+T0313,C147,Evergreen General,USA,Insurer,A+,N. America,CAS,Proportional,2026,2026-06-26,2027-06-25,USD,50,15000000.0,1990000.0,2658918.1,Sophie Laurent
+T0682,C112,Crown Mutual,Canada,Insurer,A-,N. America,CAS,Excess of Loss,2022,2022-03-26,2023-03-25,USD,100,6800000.0,470000.0,985501.74,Aarav Mehta
+T0410,C112,Crown Mutual,Canada,Insurer,A-,N. America,FINL,Excess of Loss,2021,2021-10-29,2022-10-28,USD,100,38200000.0,6660000.0,3430911.19,Sophie Laurent
+T0463,C105,Atlas Indemnity,Canada,Insurer,A-,North America,PROP,Facultative,2025,2025-07-07,2026-07-06,USD,100,48900000.0,8830000.0,3747022.43,Hannah Weber
+T0354,C170,Meridian General,USA,Insurer,A+,N. America,CAS,Excess of Loss,2022,2022-04-13,2023-04-12,USD,100,31400000.0,3450000.0,3401751.16,Priya Nair
+T0565,C164,Vantage General,USA,Insurer,A+,N. America,CAS,Proportional,2025,2025-04-27,2026-04-26,USD,50,10000000.0,1420000.0,879598.77,Sophie Laurent
+T0274,C126,Summit Insurance,France,Insurer,A+,EU,SPEC,Excess of Loss,2023,2023-01-23,2024-01-22,EUR,100,7222222.22,1259259.26,611769.2,Priya Nair
+T0118,C164,Vantage General,USA,Insurer,A+,North America,PROP,Excess of Loss,2024,2024-03-19,2025-03-18,USD,100,37800000.0,5820000.0,3563649.14,Carlos Ibarra
+T0486,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,CAS,Excess of Loss,2024,2024-04-11,2025-04-10,USD,100,4700000.0,740000.0,811463.93,Kenji Sato
+T0506,C122,Pioneer General,Germany,Insurer,A-,EU,PROF,Proportional,2021,2021-01-19,2022-01-18,EUR,25,6111111.11,453703.7,479066.77,Sophie Laurent
+T0132,C150,Cobalt General,Canada,Captive,A,NA,PROP,Excess of Loss,2025,2025-07-28,2026-07-27,USD,100,2600000.0,270000.0,273403.48,Omar Haddad
+T0370,C129,Atlas Mutual,France,Insurer,A,Europe,PROP,Excess of Loss,2024,2024-10-03,2025-10-02,EUR,100,22314814.81,4462962.96,1772373.71,Carlos Ibarra
+T0574,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,CAS,Proportional,2023,2023-08-13,2024-08-12,EUR,20,5000000.0,277777.78,830100.11,Priya Nair
+T0349,C145,Harbor Insurance,Canada,Mutual,BBB,North America,FINL,Proportional,2021,2021-08-19,2022-08-18,USD,30,18400000.0,1820000.0,2729214.72,Carlos Ibarra
+T0122,C167,Evergreen Assurance,Canada,Insurer,BBB+,NA,PROP,Excess of Loss,2024,2024-07-26,2025-07-25,USD,100,17800000.0,2230000.0,2039202.2,Sophie Laurent
+T0072,C105,Atlas Indemnity,Canada,Insurer,A-,North America,PROP,Excess of Loss,2024,2024-06-22,2025-06-21,USD,100,3400000.0,260000.0,492959.79,Aarav Mehta
+T0024,C119,Atlas Assurance,Mexico,Captive,A-,N. America,SPEC,Excess of Loss,2025,2025-06-11,2026-06-10,USD,100,9300000.0,800000.0,1759533.41,Aarav Mehta
+T0194,C132,Pioneer Insurance,Germany,Insurer,A,EU,PROP,Proportional,2025,2025-10-21,2026-10-20,EUR,15,11759259.26,1175925.93,905140.01,Priya Nair
+T0491,C127,Cobalt Insurance,South Africa,Insurer,BBB+,MEA,SPEC,Excess of Loss,2024,2024-07-03,2025-07-02,USD,100,10900000.0,1690000.0,1326996.31,Priya Nair
+T0276,C166,Harbor General,Canada,Insurer,A,NA,FINL,Proportional,2024,2024-09-15,2025-09-14,USD,40,34200000.0,2790000.0,4693145.85,Omar Haddad
+T0237,C134,Summit General,Canada,Insurer,A+,NA,FINL,Proportional,2024,2024-05-30,2025-05-29,USD,15,29200000.0,1650000.0,2385754.43,Aarav Mehta
+T0327,C103,Northwind Mutual,India,Insurer,A-,APAC,FINL,Proportional,2025,2025-01-25,2026-01-24,INR,30,691666666.67,135833333.33,59582778.65,Priya Nair
+T0124,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,CAS,Facultative,2025,2025-03-23,2026-03-22,USD,100,40300000.0,3950000.0,2909329.05,James Whitfield
+T0546,C144,Northwind Insurance,Canada,Mutual,A,NA,PROP,Facultative,2025,2025-02-15,2026-02-14,USD,100,16300000.0,3170000.0,1493814.66,Omar Haddad
+T0473,C113,Sterling Mutual,UK,Insurer,A-,EMEA-Europe,PROP,Excess of Loss,2024,2024-04-06,2025-04-05,GBP,100,10629921.26,1677165.35,1334830.82,Carlos Ibarra
+T0607,C130,Cobalt Mutual,Italy,Insurer,A+,Europe,FINL,Excess of Loss,2025,2025-07-03,2026-07-02,EUR,100,20370370.37,2277777.78,2846288.39,
+T0311,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,PROP,Excess of Loss,2024,2024-11-26,2025-11-25,INR,100,1425000000.0,157500000.0,166053263.7,Priya Nair
+T0197,C145,Harbor Insurance,Canada,Mutual,BBB,North America,FINL,Proportional,2021,2021-09-03,2022-09-02,USD,30,4900000.0,360000.0,544022.12,Omar Haddad
+T0149,C121,Evergreen Mutual,Brazil,Mutual,A-,Latin America,CAS,Excess of Loss,2022,2022-10-07,2023-10-06,USD,100,11100000.0,2170000.0,896968.42,James Whitfield
+T0545,C126,Summit Insurance,France,Insurer,A+,EU,CAS,Proportional,2021,2021-03-19,2022-03-18,EUR,25,67777777.78,5518518.52,6447877.45,Priya Nair
+T0561,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,PROP,Proportional,2022,2022-09-18,2023-09-17,USD,25,5800000.0,1150000.0,975290.23,Hannah Weber
+T0109,C123,Orion General,Canada,Insurer,A+,N. America,PROP,Excess of Loss,2022,2022-04-23,2023-04-22,USD,100,10800000.0,1730000.0,1265134.86,Carlos Ibarra
+T0073,C125,Granite Indemnity,Germany,Insurer,BBB,EU,CAS,Proportional,2021,2021-02-19,2022-02-18,EUR,50,61759259.26,4083333.33,9015083.7,Carlos Ibarra
+T0382,C132,Pioneer Insurance,Germany,Insurer,A,Europe,CAS,Proportional,2024,2024-08-19,2025-08-18,EUR,40,4537037.04,833333.33,838169.99,Kenji Sato
+T0643,C122,Pioneer General,Germany,Insurer,A-,EMEA-Europe,PROP,Excess of Loss,2025,2025-02-27,2026-02-26,EUR,100,14537037.04,2675925.93,2053742.34,Sophie Laurent
+T0680,C170,Meridian General,USA,Insurer,A+,NA,PROP,Excess of Loss,2022,2022-06-21,2023-06-20,USD,100,23700000.0,3950000.0,1975597.94,Hannah Weber
+T0249,C109,Crown General,USA,Insurer,A,North America,SPEC,Excess of Loss,2024,2024-11-05,2025-11-04,USD,100,39900000.0,3500000.0,3034535.93,Aarav Mehta
+T0645,C130,Cobalt Mutual,Italy,Insurer,A+,EU,PROP,Excess of Loss,2023,2023-02-17,2024-02-16,EUR,100,8518518.52,1398148.15,757294.07,Sophie Laurent
+T0150,C111,Granite Assurance,Australia,Insurer,BBB+,Asia-Pacific,CAS,Proportional,2022,2022-03-24,2023-03-23,USD,40,54600000.0,3210000.0,4082542.1,James Whitfield
+T0637,C136,Crown Insurance,China,Captive,A,APAC,SPEC,Facultative,2025,2025-02-03,2026-02-02,USD,100,2800000.0,300000.0,217145.72,Carlos Ibarra
+T0698,C147,Evergreen General,USA,Insurer,A+,North America,PROF,Proportional,2022,2022-03-14,2023-03-13,USD,20,3600000.0,670000.0,459685.97,Sophie Laurent
+T0452,C118,Meridian Insurance,Japan,Insurer,A,APAC,PROF,Proportional,2026,2026-03-28,2027-03-27,USD,25,4800000.0,660000.0,748911.49,James Whitfield
+T0689,C113,Sterling Mutual,UK,Insurer,A-,EU,FINL,Excess of Loss,2022,2022-06-24,2023-06-23,GBP,100,50000000.0,8913385.83,4571650.14,Hannah Weber
+T0663,C130,Cobalt Mutual,Italy,Insurer,A+,EU,CAS,Excess of Loss,2024,2024-08-25,2025-08-24,EUR,100,49351851.85,4185185.19,4040033.31,Carlos Ibarra
+T0696,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin America,CAS,Excess of Loss,2024,2024-06-21,2025-06-20,USD,100,12000000.0,2180000.0,2340839.57,Aarav Mehta
+T0407,C113,Sterling Mutual,UK,Insurer,A-,EMEA-Europe,CAS,Excess of Loss,2025,2025-09-28,2026-09-27,GBP,100,25748031.5,4645669.29,2068130.25,Hannah Weber
+T0515,C130,Cobalt Mutual,Italy,Insurer,A+,Europe,SPEC,Proportional,2026,2026-05-12,2027-05-11,EUR,40,11759259.26,1851851.85,907278.77,Kenji Sato
+T0599,C158,Atlas Insurance,China,Insurer,A,Asia Pacific,CAS,Proportional,2024,2024-11-05,2025-11-04,USD,10,1900000.0,260000.0,220932.91,Aarav Mehta
+T0578,C113,Sterling Mutual,UK,Insurer,A-,EU,SPEC,Excess of Loss,2026,2026-08-15,2027-08-14,GBP,100,4566929.13,472440.94,736678.81,Kenji Sato
+T0300,C167,Evergreen Assurance,Canada,Insurer,BBB+,NA,SPEC,Facultative,2024,2024-11-24,2025-11-23,USD,100,37300000.0,2560000.0,3881581.02,
+T0385,C112,Crown Mutual,Canada,Insurer,A-,N. America,FINL,Proportional,2024,2024-12-23,2025-12-22,USD,30,43300000.0,5450000.0,4543842.05,Carlos Ibarra
+T0513,C105,Atlas Indemnity,Canada,Insurer,A-,NORTH AMERICA,FINL,Proportional,2024,2024-09-11,2025-09-10,USD,25,28100000.0,4850000.0,2480083.45,Aarav Mehta
+T0484,C148,Meridian Assurance,Spain,Insurer,A,EU,PROP,Excess of Loss,2024,2024-01-10,2025-01-09,EUR,100,28703703.7,3851851.85,3867502.52,Kenji Sato
+T0121,C134,Summit General,Canada,Insurer,A+,North America,FINL,Proportional,2023,2023-08-03,2024-08-02,USD,15,16600000.0,910000.0,3318988.84,Sophie Laurent
+T0004,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,PROP,Proportional,2026,2026-03-13,2027-03-12,INR,20,1908333333.33,381666666.67,147548054.84,Omar Haddad
+T0133,C133,Northwind General,India,Mutual,BBB+,APAC,FINL,Excess of Loss,2025,2025-03-05,2026-03-04,INR,100,308333333.33,58333333.33,37030304.41,Aarav Mehta
+T0268,C167,Evergreen Assurance,Canada,Insurer,BBB+,North America,SPEC,Proportional,2023,2023-03-11,2024-03-10,USD,25,5200000.0,280000.0,744676.94,Kenji Sato
+T0105,C169,Evergreen Insurance,USA,Insurer,A,N. America,CAS,Proportional,2023,2023-08-22,2024-08-21,USD,50,20200000.0,1570000.0,1714776.77,Hannah Weber
+T0053,C145,Harbor Insurance,Canada,Mutual,BBB,NORTH AMERICA,PROP,Proportional,2026,2026-08-13,2027-08-12,USD,20,6900000.0,1300000.0,1126386.79,Priya Nair
+T0345,C129,Atlas Mutual,France,Insurer,A,Europe,PROF,Proportional,2022,2022-11-15,2023-11-14,EUR,40,3888888.89,768518.52,685110.59,Priya Nair
+T0640,C132,Pioneer Insurance,Germany,Insurer,A,Europe,SPEC,Proportional,2025,2025-03-10,2026-03-09,EUR,30,97870370.37,8018518.52,7344344.77,Priya Nair
+T0587,C122,Pioneer General,Germany,Insurer,A-,Europe,FINL,Facultative,2023,2023-10-27,2024-10-26,EUR,100,9537037.04,638888.89,953749.26,
+T0283,C130,Cobalt Mutual,Italy,Insurer,A+,EU,CAS,Excess of Loss,2022,2022-02-22,2023-02-21,EUR,100,155000000.0,20416666.67,14556118.65,Hannah Weber
+T0434,C137,Meridian Indemnity,Germany,Insurer,BBB,EMEA-Europe,PROP,Excess of Loss,2022,2022-12-28,2023-12-27,EUR,100,13611111.11,1416666.67,1249293.46,Hannah Weber
+T0558,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,CAS,Proportional,2021,2021-01-14,2022-01-13,USD,20,7800000.0,1040000.0,1205829.07,Aarav Mehta
+T0328,C109,Crown General,USA,Insurer,A,NA,CAS,Proportional,2024,2024-06-08,2025-06-07,USD,15,4300000.0,320000.0,709663.93,Priya Nair
+T0348,C161,Orion Insurance,Singapore,Mutual,A+,Asia Pacific,PROP,Proportional,2024,2024-02-08,2025-02-07,USD,25,4000000.0,330000.0,642076.43,James Whitfield
+T0343,C123,Orion General,Canada,Insurer,A+,NORTH AMERICA,PROP,Excess of Loss,2024,2024-04-01,2025-03-31,USD,100,10300000.0,550000.0,1423189.6,James Whitfield
+T0046,C153,Vantage Assurance,Germany,Insurer,A+,EU,FINL,Facultative,2026,2026-01-26,2027-01-25,EUR,100,2870370.37,185185.19,504126.54,Omar Haddad
+T0579,C165,Harbor Indemnity,USA,Insurer,A,NORTH AMERICA,FINL,Proportional,2025,2025-11-07,2026-11-06,USD,30,10700000.0,1320000.0,979466.76,Carlos Ibarra
+T0043,C148,Meridian Assurance,Spain,Insurer,A,EU,FINL,Excess of Loss,2023,2023-12-23,2024-12-22,EUR,100,18055555.56,2166666.67,1768557.95,Aarav Mehta
+T0142,C122,Pioneer General,Germany,Insurer,A-,EMEA-Europe,CAS,Proportional,2023,2023-04-21,2024-04-20,EUR,40,8611111.11,870370.37,677454.95,Hannah Weber
+T0029,C123,Orion General,Canada,Insurer,A+,NA,SPEC,Excess of Loss,2025,2025-02-26,2026-02-25,USD,100,11300000.0,2090000.0,1214804.91,James Whitfield
+T0559,C167,Evergreen Assurance,Canada,Insurer,BBB+,NORTH AMERICA,PROP,Excess of Loss,2025,2025-06-29,2026-06-28,USD,100,32900000.0,4640000.0,3931360.27,Omar Haddad
+T0213,C101,Granite General,China,Insurer,A,Asia-Pacific,PROP,Facultative,2026,2026-03-23,2027-03-22,USD,100,4700000.0,460000.0,796741.14,Kenji Sato
+T0248,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,SPEC,Proportional,2026,2026-05-16,2027-05-15,USD,50,27400000.0,5180000.0,2427699.54,Sophie Laurent
+T0036,C154,Orion Assurance,Mexico,Captive,A-,NA,SPEC,Proportional,2022,2022-07-07,2023-07-06,USD,20,13800000.0,2190000.0,2626059.25,Kenji Sato
+T0090,C154,Orion Assurance,Mexico,Captive,A-,North America,SPEC,Proportional,2025,2025-08-16,2026-08-15,USD,10,28800000.0,4770000.0,4088871.28,Aarav Mehta
+T0383,C162,Harbor Mutual,Canada,Insurer,BBB+,North America,PROF,Proportional,2022,2022-03-21,2023-03-20,USD,15,20400000.0,1510000.0,2829838.84,Hannah Weber
+T0369,C119,Atlas Assurance,Mexico,Captive,A-,N. America,FIN,Proportional,2024,2024-02-11,2025-02-10,USD,25,22100000.0,3360000.0,2151036.08,Hannah Weber
+T0451,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,SPEC,Proportional,2022,2022-09-18,2023-09-17,USD,10,2700000.0,250000.0,288447.41,Sophie Laurent
+T0008,C143,Northwind Indemnity,USA,Mutual,A,North America,PROP,Proportional,2025,2025-08-11,2026-08-10,USD,20,2000000.0,290000.0,295289.89,Aarav Mehta
+T0524,C158,Atlas Insurance,China,Insurer,A,Asia Pacific,CAS,Proportional,2025,2025-04-26,2026-04-25,USD,10,9900000.0,1080000.0,1079659.87,Carlos Ibarra
+T0152,C113,Sterling Mutual,UK,Insurer,A-,Europe,PROP,Excess of Loss,2026,2026-07-05,2027-07-04,GBP,100,44330708.66,8519685.04,3331557.57,Priya Nair
+T0041,C167,Evergreen Assurance,Canada,Insurer,BBB+,NORTH AMERICA,PROP,Proportional,2022,2022-12-01,2023-11-30,USD,50,16900000.0,2160000.0,1834796.0,Aarav Mehta
+T0669,C109,Crown General,USA,Insurer,A,NORTH AMERICA,PROP,Proportional,2022,2022-02-10,2023-02-09,USD,50,10400000.0,1680000.0,1290103.2,Omar Haddad
+T0360,C105,Atlas Indemnity,Canada,Insurer,A-,N. America,FINL,Facultative,2024,2024-05-31,2025-05-30,USD,100,12900000.0,1750000.0,1350551.76,Hannah Weber
+T0679,C123,Orion General,Canada,Insurer,A+,N. America,PROP,Proportional,2026,2026-05-18,2027-05-17,USD,25,7900000.0,470000.0,865019.38,Hannah Weber
+T0310,C121,Evergreen Mutual,Brazil,Mutual,A-,LATAM,PROP,Proportional,2025,2025-10-14,2026-10-13,USD,25,19000000.0,970000.0,1926766.08,Priya Nair
+T0519,C135,Sterling Indemnity,Spain,Insurer,BBB+,EMEA-Europe,PROP,Proportional,2024,2024-02-14,2025-02-13,EUR,15,4351851.85,768518.52,344678.39,Sophie Laurent
+T0034,C165,Harbor Indemnity,USA,Insurer,A,NA,PROP,Excess of Loss,2022,2022-10-25,2023-10-24,USD,100,2500000.0,130000.0,353306.63,Aarav Mehta
+T0667,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin Am.,SPEC,Excess of Loss,2026,2026-05-02,2027-05-01,USD,100,5000000.0,560000.0,835587.85,James Whitfield
+T0547,C125,Granite Indemnity,Germany,Insurer,BBB,Europe,CAS,Proportional,2023,2023-12-17,2024-12-16,EUR,25,4074074.07,287037.04,462569.43,James Whitfield
+T0425,C105,Atlas Indemnity,Canada,Insurer,A-,NORTH AMERICA,CAS,Proportional,2022,2022-03-25,2023-03-24,USD,30,10800000.0,1130000.0,1353057.42,Hannah Weber
+T0350,C103,Northwind Mutual,India,Insurer,A-,Asia-Pacific,CAS,Proportional,2024,2024-04-08,2025-04-07,INR,25,750000000.0,149166666.67,149296489.89,Sophie Laurent
+T0440,C167,Evergreen Assurance,Canada,Insurer,BBB+,N. America,SPEC,Excess of Loss,2024,2024-01-24,2025-01-23,USD,100,14000000.0,840000.0,1299145.89,Omar Haddad
+T0589,C132,Pioneer Insurance,Germany,Insurer,A,Europe,PROP,Excess of Loss,2025,2025-04-17,2026-04-16,EUR,100,8703703.7,537037.04,660614.7,Sophie Laurent
+T0332,C153,Vantage Assurance,Germany,Insurer,A+,EU,CAS,Excess of Loss,2021,2021-02-24,2022-02-23,EUR,100,9814814.81,1361111.11,1265079.1,James Whitfield
+T0100,C138,Northwind Assurance,Canada,Insurer,BBB,N. America,PROF,Excess of Loss,2021,2021-09-17,2022-09-16,USD,100,36900000.0,4070000.0,2646695.09,Sophie Laurent
+T0553,C101,Granite General,China,Insurer,A,Asia Pacific,FINL,Proportional,2025,2025-03-21,2026-03-20,USD,20,41400000.0,6200000.0,4534046.39,Omar Haddad
+T0609,C167,Evergreen Assurance,Canada,Insurer,BBB+,N. America,PROP,Proportional,2022,2022-11-10,2023-11-09,USD,30,6900000.0,1350000.0,690298.15,Hannah Weber
+T0439,C162,Harbor Mutual,Canada,Insurer,BBB+,NORTH AMERICA,PROF,Facultative,2025,2025-10-08,2026-10-07,USD,100,23800000.0,4390000.0,3098604.94,Hannah Weber
+T0455,C161,Orion Insurance,Singapore,Mutual,A+,Asia-Pacific,PROP,Excess of Loss,2023,2023-10-18,2024-10-17,USD,100,10300000.0,1780000.0,1334992.66,Hannah Weber
+T0536,C150,Cobalt General,Canada,Captive,A,NA,PROF,Excess of Loss,2025,2025-08-08,2026-08-07,USD,100,16500000.0,1860000.0,2187552.79,Priya Nair
+T0225,C153,Vantage Assurance,Germany,Insurer,A+,EU,SPEC,Excess of Loss,2024,2024-03-12,2025-03-11,EUR,100,3055555.56,481481.48,455859.75,Carlos Ibarra
+T0458,C145,Harbor Insurance,Canada,Mutual,BBB,North America,SPEC,Proportional,2021,2021-01-17,2022-01-16,USD,50,6500000.0,560000.0,1011274.09,Aarav Mehta
+T0339,C153,Vantage Assurance,Germany,Insurer,A+,Europe,PROP,Proportional,2023,2023-10-08,2024-10-07,EUR,30,3796296.3,370370.37,441712.69,Kenji Sato
+T0611,C147,Evergreen General,USA,Insurer,A+,N. America,SPEC,Excess of Loss,2023,2023-04-03,2024-04-02,USD,100,2200000.0,310000.0,282289.69,James Whitfield
+T0656,C109,Crown General,USA,Insurer,A,North America,PROP,Facultative,2022,2022-06-30,2023-06-29,USD,100,12900000.0,1490000.0,1258742.76,James Whitfield
+T0420,C146,Cobalt Assurance,France,Insurer,A,Europe,PROP,Facultative,2023,2023-06-17,2024-06-16,EUR,100,10092592.59,1268518.52,1302174.75,Kenji Sato
+T0022,C103,Northwind Mutual,India,Insurer,A-,APAC,PROF,Facultative,2024,2024-11-14,2025-11-13,INR,100,1250000000.0,212500000.0,143270095.38,Omar Haddad
+T0220,C153,Vantage Assurance,Germany,Insurer,A+,Europe,CAS,Excess of Loss,2025,2025-05-19,2026-05-18,EUR,100,4444444.44,287037.04,413386.37,Kenji Sato
+T0179,C101,Granite General,China,Insurer,A,APAC,CAS,Proportional,2024,2024-10-11,2025-10-10,USD,40,28100000.0,2750000.0,2878407.44,Sophie Laurent
+T0494,C113,Sterling Mutual,UK,Insurer,A-,Europe,SPEC,Proportional,2025,2025-10-04,2026-10-03,GBP,10,6850393.7,559055.12,702147.68,Aarav Mehta
+T0223,C143,Northwind Indemnity,USA,Mutual,A,N. America,PROP,Excess of Loss,2022,2022-03-23,2023-03-22,USD,100,12300000.0,1620000.0,1036878.85,Aarav Mehta
+T0437,C104,Lumen Indemnity,Singapore,Insurer,A+,Asia-Pacific,PROF,Excess of Loss,2021,2021-10-31,2022-10-30,USD,100,11000000.0,1570000.0,1259593.86,Aarav Mehta
+T0361,C145,Harbor Insurance,Canada,Mutual,BBB,,CAS,Proportional,2021,2021-03-20,2022-03-19,USD,40,5900000.0,570000.0,669663.41,Aarav Mehta
+T0464,C109,Crown General,USA,Insurer,A,North America,FINL,Proportional,2022,2022-06-03,2023-06-02,USD,20,31000000.0,2870000.0,5968654.19,Hannah Weber
+T0665,C116,Vantage Indemnity,Canada,Captive,BBB,NORTH AMERICA,FINL,Excess of Loss,2023,2023-10-18,2024-10-17,USD,100,11600000.0,590000.0,1189224.43,Omar Haddad
+T0502,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,CAS,Facultative,2023,2023-11-05,2024-11-04,INR,100,191666666.67,10833333.33,24507445.74,Omar Haddad
+T0135,C159,Orion Mutual,Spain,Insurer,A-,EU,CAS,Excess of Loss,2026,2026-03-03,2027-03-02,EUR,100,7407407.41,425925.93,787704.15,Hannah Weber
+T0424,C101,Granite General,China,Insurer,A,APAC,FINL,Excess of Loss,2024,2024-01-06,2025-01-05,USD,100,31800000.0,3760000.0,4181068.95,Carlos Ibarra
+T0144,C136,Crown Insurance,China,Captive,A,Asia-Pacific,CAS,Proportional,2022,2022-05-05,2023-05-04,USD,10,23500000.0,2140000.0,3178280.47,Omar Haddad
+T0453,C102,Summit Indemnity,Australia,Insurer,A+,Asia-Pacific,FIN,Excess of Loss,2021,2021-07-08,2022-07-07,USD,100,60300000.0,10230000.0,10870249.68,Kenji Sato
+T0164,C132,Pioneer Insurance,Germany,Insurer,A,Europe,PROF,Facultative,2024,2024-03-26,2025-03-25,EUR,100,8333333.33,1527777.78,1311118.56,Aarav Mehta
+T0323,C110,Meridian Mutual,Canada,Insurer,BBB+,North America,SPEC,Excess of Loss,2023,2023-05-08,2024-05-07,USD,100,10100000.0,510000.0,1045470.35,Priya Nair
+T0366,C141,Granite Insurance,Singapore,Insurer,A+,,PROP,Excess of Loss,2024,2024-08-09,2025-08-08,USD,100,16600000.0,3020000.0,2929309.95,Hannah Weber
+T0483,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,CAS,Excess of Loss,2025,2025-02-20,2026-02-19,USD,100,2400000.0,330000.0,458354.83,Kenji Sato
+T0286,C130,Cobalt Mutual,Italy,Insurer,A+,EU,SPEC,Excess of Loss,2022,2022-05-19,2023-05-18,EUR,100,16388888.89,1666666.67,2851727.94,Kenji Sato
+T0481,C139,Lumen Assurance,Brazil,Mutual,BBB+,LATAM,SPEC,Excess of Loss,2022,2022-09-01,2023-08-31,USD,100,6800000.0,970000.0,1053048.26,Sophie Laurent
+T0588,C146,Cobalt Assurance,France,Insurer,A,EU,PROP,Facultative,2022,2022-01-03,2023-01-02,EUR,100,17314814.81,3240740.74,2248341.63,Aarav Mehta
+T0130,C118,Meridian Insurance,Japan,Insurer,A,Asia Pacific,CAS,Excess of Loss,2023,2023-03-31,2024-03-30,USD,100,12700000.0,2400000.0,955039.49,Carlos Ibarra
+T0635,C132,Pioneer Insurance,Germany,Insurer,A,Europe,SPEC,Facultative,2024,2024-12-20,2025-12-19,EUR,100,10000000.0,1333333.33,818524.59,Priya Nair
+T0603,C157,Sterling Insurance,India,Insurer,A-,Asia-Pacific,CAS,Excess of Loss,2025,2025-01-01,2025-12-31,INR,100,1408333333.33,236666666.67,147474899.53,Priya Nair
+T0209,C165,Harbor Indemnity,USA,Insurer,A,N. America,SPEC,Excess of Loss,2025,2025-11-14,2026-11-13,USD,100,7500000.0,410000.0,825945.95,Sophie Laurent
+T0259,C153,Vantage Assurance,Germany,Insurer,A+,Europe,CAS,Proportional,2025,2025-03-04,2026-03-03,EUR,40,62129629.63,7620370.37,6989663.75,Carlos Ibarra
+T0294,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,FINL,Excess of Loss,2026,2026-07-02,2027-07-01,EUR,100,72777777.78,7083333.33,5237453.21,Hannah Weber
+T0054,C148,Meridian Assurance,Spain,Insurer,A,Europe,CAS,Facultative,2024,2024-08-27,2025-08-26,EUR,100,15277777.78,851851.85,1890331.1,Carlos Ibarra
+T0428,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,CAS,Proportional,2025,2025-04-18,2026-04-17,USD,50,24100000.0,2920000.0,2249868.34,Carlos Ibarra
+T0139,C126,Summit Insurance,France,Insurer,A+,EU,FINL,Excess of Loss,2021,2021-07-19,2022-07-18,EUR,100,3981481.48,277777.78,504201.02,Sophie Laurent
+T0251,C146,Cobalt Assurance,France,Insurer,A,EMEA-Europe,CAS,Proportional,2022,2022-11-10,2023-11-09,EUR,50,27314814.81,5398148.15,2050164.56,Omar Haddad
+T0167,C141,Granite Insurance,Singapore,Insurer,A+,Asia Pacific,PROF,Facultative,2023,2023-07-24,2024-07-23,USD,100,20400000.0,2850000.0,2791132.95,Aarav Mehta
+T0367,C123,Orion General,Canada,Insurer,A+,North America,CAS,Excess of Loss,2023,2023-01-03,2024-01-02,USD,100,11500000.0,1960000.0,1845215.64,James Whitfield
+T0511,C161,Orion Insurance,Singapore,Mutual,A+,Asia-Pacific,PROP,Proportional,2021,2021-04-21,2022-04-20,USD,10,38500000.0,4300000.0,4013920.68,Sophie Laurent
+T0284,C125,Granite Indemnity,Germany,Insurer,BBB,EMEA-Europe,FINL,Excess of Loss,2024,2024-08-11,2025-08-10,EUR,100,129259259.26,7240740.74,14002751.33,Priya Nair
+T0555,C127,Cobalt Insurance,South Africa,Insurer,BBB+,Middle East & Africa,PROF,Excess of Loss,2025,2025-11-07,2026-11-06,USD,100,6000000.0,970000.0,518472.95,Priya Nair
+T0391,C103,Northwind Mutual,India,Insurer,A-,APAC,PROP,Excess of Loss,2025,2025-07-02,2026-07-01,INR,100,333333333.33,61666666.67,42407887.89,Kenji Sato
+T0156,C154,Orion Assurance,Mexico,Captive,A-,North America,PROP,Excess of Loss,2023,2023-12-27,2024-12-26,USD,100,18800000.0,2370000.0,3219157.81,Hannah Weber
+T0605,C139,Lumen Assurance,Brazil,Mutual,BBB+,Latin America,CAS,Proportional,2026,2026-01-07,2027-01-06,USD,25,7000000.0,1080000.0,1383279.69,Hannah Weber
+T0177,C119,Atlas Assurance,Mexico,Captive,A-,NA,PROF,Excess of Loss,2022,2022-02-13,2023-02-12,USD,100,3500000.0,500000.0,509627.15,James Whitfield
+T0433,C162,Harbor Mutual,Canada,Insurer,BBB+,NORTH AMERICA,CAS,Proportional,2024,2024-06-07,2025-06-06,USD,50,8000000.0,900000.0,604763.46,Sophie Laurent
+T0337,C145,Harbor Insurance,Canada,Mutual,BBB,N. America,CAS,Excess of Loss,2022,2022-08-24,2023-08-23,USD,100,2300000.0,210000.0,215279.84,Kenji Sato
+T0344,C119,Atlas Assurance,Mexico,Captive,A-,N. America,PROP,Excess of Loss,2025,2025-09-14,2026-09-13,USD,100,19800000.0,1890000.0,1676601.59,Aarav Mehta
+T0051,C102,Summit Indemnity,Australia,Insurer,A+,Asia Pacific,PROP,Excess of Loss,2026,2026-01-01,2026-12-31,USD,100,18300000.0,3160000.0,2124685.81,James Whitfield
+T0537,C114,Evergreen Indemnity,Canada,Insurer,A,N. America,PROP,Facultative,2026,2026-05-04,2027-05-03,USD,100,6800000.0,1000000.0,951887.29,Aarav Mehta
+T0613,C119,Atlas Assurance,Mexico,Captive,A-,N. America,PROF,Proportional,2025,2025-10-01,2026-09-30,USD,30,7900000.0,610000.0,836673.35,Kenji Sato
+T0231,C161,Orion Insurance,Singapore,Mutual,A+,Asia Pacific,CAS,Proportional,2021,2021-01-14,2022-01-13,USD,25,25100000.0,3990000.0,2667314.91,Sophie Laurent
+T0542,C144,Northwind Insurance,Canada,Mutual,A,NA,SPEC,Proportional,2021,2021-01-29,2022-01-28,USD,10,6500000.0,1140000.0,884565.88,Kenji Sato
+T0449,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,FINL,Proportional,2026,2026-03-07,2027-03-06,INR,50,3400000000.0,192500000.0,243818819.83,Kenji Sato
+T0200,C128,Lumen Insurance,USA,Insurer,BBB,NORTH AMERICA,SPEC,Excess of Loss,2025,2025-07-30,2026-07-29,USD,100,62800000.0,6240000.0,11313303.13,Carlos Ibarra
+T0641,C101,Granite General,China,Insurer,A,Asia-Pacific,FINL,Proportional,2022,2022-06-13,2023-06-12,USD,50,6100000.0,700000.0,712896.68,James Whitfield
+T0289,C111,Granite Assurance,Australia,Insurer,BBB+,Asia-Pacific,SPEC,Facultative,2024,2024-12-04,2025-12-03,USD,100,19100000.0,1510000.0,1808356.51,Priya Nair
+T0610,C141,Granite Insurance,Singapore,Insurer,A+,APAC,PROP,Proportional,2022,2022-06-15,2023-06-14,USD,50,40700000.0,6220000.0,6444020.75,Kenji Sato
+T0320,C154,Orion Assurance,Mexico,Captive,A-,North America,PROF,Excess of Loss,2026,2026-04-25,2027-04-24,USD,100,5100000.0,480000.0,742454.79,Priya Nair
+T0514,C127,Cobalt Insurance,South Africa,Insurer,BBB+,,SPEC,Facultative,2021,2021-01-06,2022-01-05,USD,100,8900000.0,1150000.0,1134283.48,Aarav Mehta
+T0569,C167,Evergreen Assurance,Canada,Insurer,BBB+,North America,CAS,Proportional,2023,2023-03-16,2024-03-15,USD,10,40500000.0,4630000.0,3031854.62,Sophie Laurent
+T0694,C112,Crown Mutual,Canada,Insurer,A-,N. America,SPEC,Excess of Loss,2025,2025-01-07,2026-01-06,USD,100,36000000.0,2530000.0,2958650.19,Carlos Ibarra
+T0198,C162,Harbor Mutual,Canada,Insurer,BBB+,,PROP,Excess of Loss,2025,2025-08-08,2026-08-07,USD,100,9100000.0,1330000.0,1241449.89,James Whitfield
+T0554,C124,Pioneer Mutual,Germany,Insurer,A+,EMEA-Europe,SPEC,Excess of Loss,2022,2022-02-17,2023-02-16,EUR,100,1203703.7,74074.07,185185.19,Kenji Sato
+T0517,C146,Cobalt Assurance,France,Insurer,A,Europe,FINL,Proportional,2024,2024-01-14,2025-01-13,EUR,20,5092592.59,601851.85,376170.72,James Whitfield
+T0069,C161,Orion Insurance,Singapore,Mutual,A+,Asia-Pacific,FINL,Excess of Loss,2025,2025-06-15,2026-06-14,USD,100,3900000.0,680000.0,510411.7,Sophie Laurent
+T0204,C119,Atlas Assurance,Mexico,Captive,A-,North America,PROP,Proportional,2025,2025-03-18,2026-03-17,USD,15,17400000.0,2590000.0,1412913.68,Priya Nair
+T0639,C162,Harbor Mutual,Canada,Insurer,BBB+,North America,SPEC,Proportional,2024,2024-07-15,2025-07-14,USD,40,22400000.0,4240000.0,1897949.9,James Whitfield
+T0418,C111,Granite Assurance,Australia,Insurer,BBB+,Asia-Pacific,CAS,Facultative,2021,2021-05-16,2022-05-15,USD,100,5400000.0,640000.0,793310.37,Hannah Weber
+T0127,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,CAS,Excess of Loss,2023,2023-11-05,2024-11-04,USD,100,60600000.0,8020000.0,4651121.37,Hannah Weber
+T0446,C158,Atlas Insurance,China,Insurer,A,Asia-Pacific,PROP,Excess of Loss,2025,2025-10-24,2026-10-23,USD,100,12100000.0,970000.0,1059239.11,Carlos Ibarra
+T0566,C148,Meridian Assurance,Spain,Insurer,A,EU,PROP,Facultative,2022,2022-10-08,2023-10-07,EUR,100,22500000.0,2370370.37,1850013.91,Sophie Laurent
+T0154,C167,Evergreen Assurance,Canada,Insurer,BBB+,NORTH AMERICA,PROF,Proportional,2025,2025-08-27,2026-08-26,USD,50,12400000.0,1090000.0,1262302.96,James Whitfield
+T0188,C170,Meridian General,USA,Insurer,A+,,CAS,Excess of Loss,2025,2025-08-30,2026-08-29,USD,100,4800000.0,400000.0,356833.6,James Whitfield
+T0141,C160,Orion Indemnity,Brazil,Insurer,A,LATAM,CAS,Proportional,2024,2024-06-12,2025-06-11,USD,30,22500000.0,1740000.0,4256647.39,James Whitfield
+T0229,C128,Lumen Insurance,USA,Insurer,BBB,North America,PROP,Proportional,2022,2022-01-01,2022-12-31,USD,40,7200000.0,510000.0,545523.01,Aarav Mehta
+T0422,C169,Evergreen Insurance,USA,Insurer,A,North America,PROP,Excess of Loss,2022,2022-06-11,2023-06-10,USD,100,39700000.0,7440000.0,5475155.81,Sophie Laurent
+T0166,C111,Granite Assurance,Australia,Insurer,BBB+,Asia Pacific,SPEC,Proportional,2025,2025-11-14,2026-11-13,USD,25,2000000.0,320000.0,374127.32,Aarav Mehta
+T0482,C115,Cobalt Indemnity,Mexico,Insurer,A,North America,CAS,Facultative,2023,2023-05-18,2024-05-17,USD,100,19700000.0,3600000.0,1818062.53,Priya Nair
+T0683,C102,Summit Indemnity,Australia,Insurer,A+,APAC,CAS,Excess of Loss,2025,2025-06-20,2026-06-19,USD,100,5500000.0,710000.0,1092292.63,Sophie Laurent
+T0254,C101,Granite General,China,Insurer,A,APAC,PROF,Proportional,2023,2023-06-21,2024-06-20,USD,40,15500000.0,1500000.0,1315235.02,Kenji Sato
+T0618,C132,Pioneer Insurance,Germany,Insurer,A,Europe,SPEC,Excess of Loss,2023,2023-11-08,2024-11-07,EUR,100,3796296.3,583333.33,568430.27,Kenji Sato
+T0108,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,PROF,Excess of Loss,2022,2022-02-14,2023-02-13,USD,100,31600000.0,5470000.0,3519468.99,Kenji Sato
+T0469,C109,Crown General,USA,Insurer,A,N. America,SPEC,Excess of Loss,2024,2024-03-05,2025-03-04,USD,100,3200000.0,570000.0,301053.87,Omar Haddad
+T0282,C115,Cobalt Indemnity,Mexico,Insurer,A,North America,PROP,Facultative,2022,2022-06-14,2023-06-13,USD,100,17700000.0,1050000.0,1456075.82,Hannah Weber
+T0571,C161,Orion Insurance,Singapore,Mutual,A+,APAC,PROP,Excess of Loss,2023,2023-09-22,2024-09-21,USD,100,3200000.0,620000.0,437946.41,Carlos Ibarra
+T0195,C133,Northwind General,India,Mutual,BBB+,APAC,PROP,Proportional,2024,2024-04-03,2025-04-02,INR,30,2266666666.67,379166666.67,179770579.1,Sophie Laurent
+T0700,C137,Meridian Indemnity,Germany,Insurer,BBB,Europe,PROP,Excess of Loss,2025,2025-06-06,2026-06-05,EUR,100,4814814.81,583333.33,413096.2,James Whitfield
+T0233,C165,Harbor Indemnity,USA,Insurer,A,NA,FINL,Excess of Loss,2024,2024-12-05,2025-12-04,USD,100,12400000.0,1270000.0,2471010.73,
+T0629,C166,Harbor General,Canada,Insurer,A,North America,SPEC,Excess of Loss,2024,2024-05-23,2025-05-22,USD,100,5300000.0,1010000.0,492712.5,James Whitfield
+T0526,C125,Granite Indemnity,Germany,Insurer,BBB,Europe,PROF,Excess of Loss,2024,2024-11-04,2025-11-03,EUR,100,14074074.07,1564814.81,1176124.18,James Whitfield
+T0052,C134,Summit General,Canada,Insurer,A+,N. America,PROP,Proportional,2026,2026-06-15,2027-06-14,USD,20,9300000.0,760000.0,764285.02,Sophie Laurent
+T0659,C126,Summit Insurance,France,Insurer,A+,Europe,PROP,Excess of Loss,2022,2022-12-10,2023-12-09,EUR,100,6111111.11,518518.52,446532.13,Carlos Ibarra
+T0076,C129,Atlas Mutual,France,Insurer,A,Europe,CAS,Facultative,2023,2023-11-12,2024-11-11,EUR,100,18425925.93,2490740.74,1373414.3,Priya Nair
+T0485,C126,Summit Insurance,France,Insurer,A+,EMEA-Europe,FINL,Facultative,2025,2025-07-03,2026-07-02,EUR,100,74907407.41,10981481.48,5381640.01,Kenji Sato
+T0318,C148,Meridian Assurance,Spain,Insurer,A,Europe,PROP,Excess of Loss,2025,2025-04-24,2026-04-23,EUR,100,36018518.52,6370370.37,4463135.43,Aarav Mehta
+T0577,C159,Orion Mutual,Spain,Insurer,A-,Europe,PROP,Proportional,2025,2025-08-05,2026-08-04,EUR,15,41944444.44,3268518.52,6181710.31,Aarav Mehta
+T0673,C132,Pioneer Insurance,Germany,Insurer,A,Europe,CAS,Excess of Loss,2024,2024-01-09,2025-01-08,EUR,100,13796296.3,2037037.04,1516406.61,Carlos Ibarra
+T0591,C170,Meridian General,USA,Insurer,A+,NORTH AMERICA,SPEC,Excess of Loss,2023,2023-01-14,2024-01-13,USD,100,13700000.0,2130000.0,1109977.28,James Whitfield
+T0580,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,SPEC,Excess of Loss,2026,2026-02-28,2027-02-27,EUR,100,23518518.52,3194444.44,1916886.33,
+T0013,C109,Crown General,USA,Insurer,A,North America,PROP,Proportional,2025,2025-10-27,2026-10-26,USD,10,7200000.0,1250000.0,1097638.24,Hannah Weber
+T0459,C123,Orion General,Canada,Insurer,A+,NA,SPEC,Excess of Loss,2025,2025-04-19,2026-04-18,USD,100,9800000.0,1000000.0,702486.11,Priya Nair
+T0505,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,PROP,Excess of Loss,2023,2023-07-04,2024-07-03,USD,100,81100000.0,15280000.0,8489133.62,Sophie Laurent
+T0406,C106,Granite Mutual,UK,Insurer,A-,Europe,SPEC,Proportional,2025,2025-05-08,2026-05-07,GBP,10,9527559.06,1574803.15,914634.14,James Whitfield
+T0371,C123,Orion General,Canada,Insurer,A+,NORTH AMERICA,CAS,Proportional,2022,2022-09-05,2023-09-04,USD,30,6500000.0,610000.0,679737.69,Omar Haddad
+T0112,C158,Atlas Insurance,China,Insurer,A,APAC,PROP,Excess of Loss,2022,2022-12-01,2023-11-30,USD,100,4900000.0,540000.0,886328.7,Hannah Weber
+T0342,C146,Cobalt Assurance,France,Insurer,A,EMEA-Europe,FINL,Proportional,2022,2022-02-06,2023-02-05,EUR,20,37037037.04,7296296.3,2664998.49,Sophie Laurent
+T0050,C137,Meridian Indemnity,Germany,Insurer,BBB,EMEA-Europe,CAS,Facultative,2023,2023-05-12,2024-05-11,EUR,100,12129629.63,981481.48,1302942.77,Sophie Laurent
+T0384,C132,Pioneer Insurance,Germany,Insurer,A,EU,SPEC,Proportional,2022,2022-12-23,2023-12-22,EUR,10,20370370.37,1509259.26,2044937.88,Carlos Ibarra
+T0467,C135,Sterling Indemnity,Spain,Insurer,BBB+,EU,PROP,Proportional,2022,2022-08-03,2023-08-02,EUR,10,14166666.67,2037037.04,2775760.13,Hannah Weber
+T0245,C153,Vantage Assurance,Germany,Insurer,A+,EMEA-Europe,CAS,Proportional,2021,2021-10-17,2022-10-16,EUR,10,2407407.41,361111.11,254162.29,James Whitfield
+T0600,C158,Atlas Insurance,China,Insurer,A,Asia-Pacific,PROP,Excess of Loss,2024,2024-12-15,2025-12-14,USD,100,17300000.0,2070000.0,1601634.58,Sophie Laurent
+T0470,C132,Pioneer Insurance,Germany,Insurer,A,,FINL,Excess of Loss,2026,2026-01-01,2026-12-31,EUR,100,37777777.78,4222222.22,6560073.26,Sophie Laurent
+T0180,C137,Meridian Indemnity,Germany,Insurer,BBB,EMEA-Europe,CAS,Excess of Loss,2024,2024-10-03,2025-10-02,EUR,100,4259259.26,611111.11,813547.64,
+T0596,C125,Granite Indemnity,Germany,Insurer,BBB,Europe,PROF,Proportional,2025,2025-11-03,2026-11-02,EUR,15,13148148.15,935185.19,1892581.93,Priya Nair
+T0063,C122,Pioneer General,Germany,Insurer,A-,Europe,FINL,Proportional,2024,2024-06-13,2025-06-12,EUR,10,3055555.56,453703.7,349039.48,Aarav Mehta
+T0280,C167,Evergreen Assurance,Canada,Insurer,BBB+,North America,PROP,Proportional,2025,2025-01-29,2026-01-28,USD,20,9600000.0,1490000.0,715466.55,Carlos Ibarra
+T0631,C169,Evergreen Insurance,USA,Insurer,A,NA,FINL,Excess of Loss,2022,2022-09-10,2023-09-09,USD,100,2700000.0,320000.0,432206.23,Carlos Ibarra
+T0423,C115,Cobalt Indemnity,Mexico,Insurer,A,N. America,FINL,Excess of Loss,2025,2025-09-23,2026-09-22,USD,100,31200000.0,4400000.0,3844172.23,James Whitfield
+T0057,C125,Granite Indemnity,Germany,Insurer,BBB,EU,PROP,Proportional,2025,2025-08-30,2026-08-29,EUR,50,1944444.44,296296.3,317486.54,Hannah Weber
+T0307,C136,Crown Insurance,China,Captive,A,Asia-Pacific,CAS,Excess of Loss,2025,2025-11-21,2026-11-20,USD,100,10400000.0,1270000.0,1406185.5,Kenji Sato
+T0301,C160,Orion Indemnity,Brazil,Insurer,A,Latin Am.,CAS,Excess of Loss,2025,2025-05-23,2026-05-22,USD,100,1600000.0,140000.0,262359.25,James Whitfield
+T0395,C101,Granite General,China,Insurer,A,Asia-Pacific,CAS,Excess of Loss,2025,2025-01-20,2026-01-19,USD,100,2600000.0,510000.0,231132.04,Hannah Weber
+T0374,C148,Meridian Assurance,Spain,Insurer,A,EMEA-Europe,PROP,Proportional,2025,2025-11-11,2026-11-10,EUR,30,10000000.0,1444444.44,933168.12,Carlos Ibarra
+T0590,C169,Evergreen Insurance,USA,Insurer,A,NA,FINL,Proportional,2021,2021-05-11,2022-05-10,USD,10,24400000.0,2600000.0,1937000.83,James Whitfield
+T0035,C143,Northwind Indemnity,USA,Mutual,A,N. America,PROP,Facultative,2025,2025-12-29,2026-12-28,USD,100,12900000.0,2220000.0,1413693.57,Kenji Sato
+T0303,C147,Evergreen General,USA,Insurer,A+,N. America,PROP,Excess of Loss,2024,2024-10-18,2025-10-17,USD,100,2800000.0,310000.0,370583.27,Priya Nair
+T0171,C152,Lumen Mutual,South Africa,Captive,A+,ME&A,FINL,Excess of Loss,2022,2022-08-30,2023-08-29,USD,100,3200000.0,440000.0,341491.51,Kenji Sato
+T0612,C123,Orion General,Canada,Insurer,A+,N. America,CAS,Excess of Loss,2022,2022-06-15,2023-06-14,USD,100,37800000.0,6380000.0,3012294.05,Sophie Laurent
+T0125,C139,Lumen Assurance,Brazil,Mutual,BBB+,Latin Am.,CAS,Proportional,2024,2024-05-30,2025-05-29,USD,20,39200000.0,4580000.0,4918528.16,Aarav Mehta
+T0619,C139,Lumen Assurance,Brazil,Mutual,BBB+,Latin Am.,PROP,Proportional,2022,2022-04-04,2023-04-03,USD,30,8200000.0,860000.0,1154482.88,Aarav Mehta
+T0187,C157,Sterling Insurance,India,Insurer,A-,APAC,PROP,Excess of Loss,2025,2025-06-19,2026-06-18,INR,100,1383333333.33,235000000.0,108354134.56,Aarav Mehta
+T0445,C144,Northwind Insurance,Canada,Mutual,A,,CAS,Excess of Loss,2026,2026-05-07,2027-05-06,USD,100,11700000.0,1860000.0,1118266.92,Hannah Weber
+T0086,C105,Atlas Indemnity,Canada,Insurer,A-,N. America,FINL,Facultative,2023,2023-10-16,2024-10-15,USD,100,11300000.0,2220000.0,1928761.05,Sophie Laurent
+T0426,C166,Harbor General,Canada,Insurer,A,NORTH AMERICA,PROP,Proportional,2024,2024-02-06,2025-02-05,USD,25,5000000.0,490000.0,789008.06,Omar Haddad
+T0389,C166,Harbor General,Canada,Insurer,A,NORTH AMERICA,PROP,Excess of Loss,2026,2026-05-29,2027-05-28,USD,100,19200000.0,2200000.0,3498481.43,James Whitfield
+T0534,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,SPEC,Proportional,2024,2024-06-21,2025-06-20,USD,20,5400000.0,760000.0,851348.06,Carlos Ibarra
+T0557,C135,Sterling Indemnity,Spain,Insurer,BBB+,Europe,SPEC,Proportional,2025,2025-07-14,2026-07-13,EUR,10,6018518.52,537037.04,995938.45,Aarav Mehta
+T0116,C157,Sterling Insurance,India,Insurer,A-,Asia-Pacific,SPEC,Excess of Loss,2025,2025-01-14,2026-01-13,INR,100,1050000000.0,125833333.33,107994529.78,Hannah Weber
+T0686,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin America,SPEC,Excess of Loss,2025,2025-09-21,2026-09-20,USD,100,12900000.0,910000.0,1121914.84,Omar Haddad
+T0190,C141,Granite Insurance,Singapore,Insurer,A+,APAC,CAS,Excess of Loss,2023,2023-05-26,2024-05-25,USD,100,5900000.0,810000.0,726822.2,Hannah Weber
+T0117,C154,Orion Assurance,Mexico,Captive,A-,N. America,PROP,Proportional,2022,2022-10-02,2023-10-01,USD,15,24100000.0,2320000.0,2153442.92,Kenji Sato
+T0262,C135,Sterling Indemnity,Spain,Insurer,BBB+,Europe,FINL,Excess of Loss,2024,2024-06-04,2025-06-03,EUR,100,44814814.81,8027777.78,3410211.97,Carlos Ibarra
+T0480,C125,Granite Indemnity,Germany,Insurer,BBB,Europe,CAS,Excess of Loss,2023,2023-02-11,2024-02-10,EUR,100,8055555.56,907407.41,649839.55,Kenji Sato
+T0058,C115,Cobalt Indemnity,Mexico,Insurer,A,N. America,SPEC,Proportional,2025,2025-10-07,2026-10-06,USD,50,2300000.0,350000.0,219433.44,Carlos Ibarra
+T0653,C144,Northwind Insurance,Canada,Mutual,A,North America,PROP,Facultative,2021,2021-10-30,2022-10-29,USD,100,31100000.0,5270000.0,2400542.95,Aarav Mehta
+T0317,C150,Cobalt General,Canada,Captive,A,NORTH AMERICA,PROF,Proportional,2021,2021-12-22,2022-12-21,USD,40,17800000.0,2160000.0,1814847.21,Kenji Sato
+T0654,C162,Harbor Mutual,Canada,Insurer,BBB+,N. America,PROP,Excess of Loss,2022,2022-09-03,2023-09-02,USD,100,7200000.0,1180000.0,859138.9,Carlos Ibarra
+T0687,C114,Evergreen Indemnity,Canada,Insurer,A,North America,CAS,Proportional,2022,2022-03-28,2023-03-27,USD,40,48800000.0,9650000.0,4439683.79,James Whitfield
+T0397,C133,Northwind General,India,Mutual,BBB+,,PROP,Excess of Loss,2026,2026-07-05,2027-07-04,INR,100,1466666666.67,95833333.33,175414691.75,Omar Haddad
+T0355,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin Am.,CAS,Excess of Loss,2024,2024-11-19,2025-11-18,USD,100,17400000.0,1100000.0,2152165.49,Kenji Sato
+T0356,C114,Evergreen Indemnity,Canada,Insurer,A,,CAS,Facultative,2025,2025-06-18,2026-06-17,USD,100,29600000.0,3730000.0,2929610.59,Sophie Laurent
+T0126,C138,Northwind Assurance,Canada,Insurer,BBB,NA,PROP,Excess of Loss,2023,2023-03-24,2024-03-23,USD,100,6100000.0,320000.0,811525.82,Aarav Mehta
+T0461,C147,Evergreen General,USA,Insurer,A+,North America,FINL,Excess of Loss,2026,2026-08-26,2027-08-25,USD,100,17000000.0,1150000.0,1374826.83,Carlos Ibarra
+T0257,C156,Crown Indemnity,China,Insurer,BBB+,Asia Pacific,PROF,Excess of Loss,2025,2025-08-11,2026-08-10,USD,100,13500000.0,2130000.0,1543934.3,Aarav Mehta
+T0504,C167,Evergreen Assurance,Canada,Insurer,BBB+,NA,CAS,Facultative,2021,2021-11-25,2022-11-24,USD,100,27000000.0,2460000.0,3493004.76,Sophie Laurent
+T0676,C147,Evergreen General,USA,Insurer,A+,N. America,CAS,Excess of Loss,2021,2021-11-07,2022-11-06,USD,100,13000000.0,1890000.0,1018736.08,James Whitfield
+T0396,C152,Lumen Mutual,South Africa,Captive,A+,Middle East & Africa,SPEC,Proportional,2022,2022-06-11,2023-06-10,USD,20,18800000.0,1150000.0,2878145.37,Priya Nair
+T0518,C162,Harbor Mutual,Canada,Insurer,BBB+,NORTH AMERICA,PROF,Proportional,2023,2023-01-10,2024-01-09,USD,15,47400000.0,9330000.0,4124246.46,Aarav Mehta
+T0457,C156,Crown Indemnity,China,Insurer,BBB+,Asia Pacific,PROP,Excess of Loss,2022,2022-08-05,2023-08-04,USD,100,7200000.0,850000.0,868019.68,Kenji Sato
+T0357,C133,Northwind General,India,Mutual,BBB+,APAC,SPEC,Proportional,2022,2022-12-18,2023-12-17,INR,30,4300000000.0,419166666.67,351362861.47,Priya Nair
+T0297,C170,Meridian General,USA,Insurer,A+,NORTH AMERICA,FIN,Proportional,2026,2026-02-23,2027-02-22,USD,40,13100000.0,1320000.0,1839256.37,James Whitfield
+T0287,C125,Granite Indemnity,Germany,Insurer,BBB,Europe,SPEC,Proportional,2022,2022-03-02,2023-03-01,EUR,30,12222222.22,1370370.37,1783099.49,Sophie Laurent
+T0677,C134,Summit General,Canada,Insurer,A+,NORTH AMERICA,PROP,Proportional,2023,2023-01-05,2024-01-04,USD,25,16800000.0,1800000.0,1208580.37,Hannah Weber
+T0048,C153,Vantage Assurance,Germany,Insurer,A+,EMEA-Europe,PROP,Proportional,2026,2026-04-10,2027-04-09,EUR,10,7870370.37,925925.93,1070252.35,Sophie Laurent
+T0158,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,FIN,Excess of Loss,2025,2025-04-23,2026-04-22,USD,100,6800000.0,1060000.0,576442.19,Sophie Laurent
+T0448,C126,Summit Insurance,France,Insurer,A+,Europe,SPEC,Excess of Loss,2024,2024-09-01,2025-08-31,EUR,100,7407407.41,740740.74,770648.47,Carlos Ibarra
+T0235,C155,Summit Mutual,South Africa,Mutual,A-,ME&A,SPEC,Excess of Loss,2022,2022-04-18,2023-04-17,USD,100,5000000.0,350000.0,834826.36,Hannah Weber
+T0556,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,PROP,Excess of Loss,2024,2024-11-07,2025-11-06,USD,100,6800000.0,540000.0,555324.86,Priya Nair
+T0608,C119,Atlas Assurance,Mexico,Captive,A-,NA,FINL,Proportional,2023,2023-08-20,2024-08-19,USD,30,8100000.0,1350000.0,992163.71,Kenji Sato
+T0219,C154,Orion Assurance,Mexico,Captive,A-,NORTH AMERICA,PROP,Facultative,2022,2022-08-08,2023-08-07,USD,100,4100000.0,600000.0,359340.56,Omar Haddad
+T0331,C101,Granite General,China,Insurer,A,Asia-Pacific,PROP,Proportional,2023,2023-11-26,2024-11-25,USD,30,10900000.0,1760000.0,844470.05,Sophie Laurent
+T0560,C103,Northwind Mutual,India,Insurer,A-,Asia Pacific,PROP,Excess of Loss,2024,2024-05-26,2025-05-25,INR,100,1366666666.67,210000000.0,124713665.32,Omar Haddad
+T0196,C135,Sterling Indemnity,Spain,Insurer,BBB+,EU,PROP,Excess of Loss,2022,2022-03-17,2023-03-16,EUR,100,1481481.48,231481.48,255690.57,Carlos Ibarra
+T0091,C115,Cobalt Indemnity,Mexico,Insurer,A,NORTH AMERICA,CAS,Proportional,2024,2024-03-04,2025-03-03,USD,30,32400000.0,2140000.0,2821405.71,Carlos Ibarra
+T0163,C149,Sterling General,Australia,Mutual,A-,Asia-Pacific,PROP,Excess of Loss,2025,2025-03-03,2026-03-02,USD,100,38600000.0,6870000.0,3080380.96,Hannah Weber
+T0478,C139,Lumen Assurance,Brazil,Mutual,BBB+,LATAM,PROP,Proportional,2022,2022-11-04,2023-11-03,USD,30,6100000.0,650000.0,1147601.14,Hannah Weber
+T0296,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,PROP,Proportional,2022,2022-09-08,2023-09-07,USD,25,8800000.0,530000.0,985021.1,Priya Nair
+T0509,C142,Atlas General,Japan,Captive,A,Asia Pacific,PROF,Proportional,2022,2022-05-06,2023-05-05,USD,25,17700000.0,2720000.0,1291012.22,Priya Nair
+T0675,C149,Sterling General,Australia,Mutual,A-,APAC,SPEC,Excess of Loss,2021,2021-08-14,2022-08-13,USD,100,14500000.0,2030000.0,1299450.85,Aarav Mehta
+T0507,C112,Crown Mutual,Canada,Insurer,A-,NORTH AMERICA,FINL,Proportional,2022,2022-05-19,2023-05-18,USD,10,15200000.0,1900000.0,1128882.09,Aarav Mehta
+T0017,C135,Sterling Indemnity,Spain,Insurer,BBB+,Europe,PROP,Excess of Loss,2022,2022-06-28,2023-06-27,EUR,100,6944444.44,731481.48,642246.01,Hannah Weber
+T0330,C115,Cobalt Indemnity,Mexico,Insurer,A,NORTH AMERICA,PROF,Excess of Loss,2024,2024-03-31,2025-03-30,USD,100,2400000.0,410000.0,367398.62,Hannah Weber
+T0157,C161,Orion Insurance,Singapore,Mutual,A+,Asia Pacific,SPEC,Excess of Loss,2024,2024-06-11,2025-06-10,USD,100,3800000.0,560000.0,712863.89,Kenji Sato
+T0358,C119,Atlas Assurance,Mexico,Captive,A-,North America,FINL,Proportional,2025,2025-11-30,2026-11-29,USD,20,24900000.0,2310000.0,2313408.55,Sophie Laurent
+T0044,C131,Pioneer Indemnity,Chile,Mutual,A+,LATAM,PROP,Proportional,2022,2022-03-13,2023-03-12,USD,10,14500000.0,1330000.0,2009112.84,Omar Haddad
+T0441,C167,Evergreen Assurance,Canada,Insurer,BBB+,NORTH AMERICA,FINL,Excess of Loss,2026,2026-02-26,2027-02-25,USD,100,15100000.0,1870000.0,1278059.28,Aarav Mehta
+T0417,C137,Meridian Indemnity,Germany,Insurer,BBB,EMEA-Europe,PROP,Excess of Loss,2024,2024-06-06,2025-06-05,EUR,100,32592592.59,5592592.59,5440907.13,Sophie Laurent
+T0499,C135,Sterling Indemnity,Spain,Insurer,BBB+,Europe,PROF,Proportional,2022,2022-02-28,2023-02-27,EUR,40,7037037.04,1361111.11,704431.51,Kenji Sato
+T0364,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,SPEC,Excess of Loss,2023,2023-05-28,2024-05-27,EUR,100,15555555.56,1333333.33,1624225.72,Carlos Ibarra
+T0298,C148,Meridian Assurance,Spain,Insurer,A,Europe,CAS,Proportional,2025,2025-05-31,2026-05-30,EUR,15,8148148.15,731481.48,865129.95,Omar Haddad
+T0306,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,SPEC,Excess of Loss,2026,2026-04-17,2027-04-16,USD,100,16200000.0,2580000.0,2086972.49,
+T0597,C170,Meridian General,USA,Insurer,A+,NORTH AMERICA,SPEC,Excess of Loss,2026,2026-05-14,2027-05-13,USD,100,19500000.0,3880000.0,1632652.75,James Whitfield
+T0146,C137,Meridian Indemnity,Germany,Insurer,BBB,EU,PROP,Excess of Loss,2025,2025-12-04,2026-12-03,EUR,100,20000000.0,1925925.93,1530125.22,Aarav Mehta
+T0652,C117,Vantage Mutual,India,Insurer,BBB,Asia Pacific,SPEC,Excess of Loss,2025,2025-01-30,2026-01-29,INR,100,2408333333.33,248333333.33,207270460.07,Carlos Ibarra
+T0199,C117,Vantage Mutual,India,Insurer,BBB,APAC,SPEC,Proportional,2024,2024-09-16,2025-09-15,INR,25,675000000.0,119166666.67,54067566.08,Aarav Mehta
+T0573,C114,Evergreen Indemnity,Canada,Insurer,A,NORTH AMERICA,PROF,Excess of Loss,2026,2026-08-09,2027-08-08,USD,100,32600000.0,2020000.0,3319403.76,Omar Haddad
+T0651,C105,Atlas Indemnity,Canada,Insurer,A-,N. America,FINL,Excess of Loss,2025,2025-01-14,2026-01-13,USD,100,3900000.0,570000.0,383643.05,Omar Haddad
+T0290,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,CAS,Excess of Loss,2023,2023-02-22,2024-02-21,USD,100,12600000.0,1530000.0,976480.81,Kenji Sato
+T0442,C104,Lumen Indemnity,Singapore,Insurer,A+,,PROP,Excess of Loss,2026,2026-03-25,2027-03-24,USD,100,28000000.0,4530000.0,3207010.36,Hannah Weber
+T0405,C115,Cobalt Indemnity,Mexico,Insurer,A,North America,PROP,Excess of Loss,2023,2023-12-29,2024-12-28,USD,100,21500000.0,2390000.0,2654657.09,James Whitfield
+T0427,C169,Evergreen Insurance,USA,Insurer,A,North America,SPEC,Proportional,2025,2025-09-21,2026-09-20,USD,40,33400000.0,4520000.0,4212397.75,Aarav Mehta
+T0099,C170,Meridian General,USA,Insurer,A+,NORTH AMERICA,SPEC,Excess of Loss,2025,2025-10-30,2026-10-29,USD,100,5600000.0,620000.0,975972.31,Omar Haddad
+T0444,C161,Orion Insurance,Singapore,Mutual,A+,APAC,PROP,Excess of Loss,2025,2025-10-23,2026-10-22,USD,100,17900000.0,1200000.0,1955949.34,Omar Haddad
+T0552,C112,Crown Mutual,Canada,Insurer,A-,N. America,FINL,Excess of Loss,2024,2024-09-13,2025-09-12,USD,100,9900000.0,1460000.0,755427.13,Hannah Weber
+T0304,C114,Evergreen Indemnity,Canada,Insurer,A,NORTH AMERICA,PROP,Excess of Loss,2023,2023-08-24,2024-08-23,USD,100,6600000.0,1050000.0,1033107.91,Aarav Mehta
+T0326,C110,Meridian Mutual,Canada,Insurer,BBB+,N. America,SPEC,Facultative,2022,2022-10-23,2023-10-22,USD,100,6800000.0,530000.0,574169.48,Omar Haddad
+T0682,C112,Crown Mutual,Canada,Insurer,A-,N. America,CAS,Excess of Loss,2022,2022-03-26,2023-03-25,USD,100,6800000.0,470000.0,985501.74,Aarav Mehta
+T0586,C153,Vantage Assurance,Germany,Insurer,A+,EMEA-Europe,PROF,Proportional,2023,2023-11-24,2024-11-23,EUR,15,2314814.81,296296.3,267331.02,James Whitfield
+T0278,C134,Summit General,Canada,Insurer,A+,N. America,CAS,Proportional,2022,2022-04-13,2023-04-12,USD,15,30400000.0,1790000.0,2190578.3,Priya Nair
+T0421,C144,Northwind Insurance,Canada,Mutual,A,North America,FINL,Excess of Loss,2023,2023-01-12,2024-01-11,USD,100,11700000.0,1160000.0,1131231.75,Sophie Laurent
+T0322,C141,Granite Insurance,Singapore,Insurer,A+,Asia-Pacific,PROF,Excess of Loss,2023,2023-01-24,2024-01-23,USD,100,3400000.0,680000.0,347493.55,James Whitfield
+T0140,C122,Pioneer General,Germany,Insurer,A-,EU,CAS,Facultative,2021,2021-01-19,2022-01-18,EUR,100,20277777.78,3629629.63,2125663.67,Sophie Laurent
+T0324,C154,Orion Assurance,Mexico,Captive,A-,N. America,FINL,Excess of Loss,2023,2023-08-14,2024-08-13,USD,100,58800000.0,3460000.0,5562233.12,Aarav Mehta
+T0128,C146,Cobalt Assurance,France,Insurer,A,EU,PROF,Excess of Loss,2024,2024-02-24,2025-02-23,EUR,100,4074074.07,231481.48,524510.08,Aarav Mehta
+T0593,C150,Cobalt General,Canada,Captive,A,NA,SPEC,Proportional,2023,2023-04-11,2024-04-10,USD,20,38100000.0,6140000.0,3412676.76,Priya Nair
+T0479,C113,Sterling Mutual,UK,Insurer,A-,EMEA-Europe,CAS,Excess of Loss,2025,2025-08-06,2026-08-05,GBP,100,3700787.4,464566.93,413702.68,Hannah Weber
+T0628,C159,Orion Mutual,Spain,Insurer,A-,EU,CAS,Facultative,2026,2026-07-08,2027-07-07,EUR,100,78055555.56,14546296.3,7845887.71,Sophie Laurent
+T0387,C166,Harbor General,Canada,Insurer,A,NORTH AMERICA,PROP,Proportional,2023,2023-01-07,2024-01-06,USD,40,5900000.0,1030000.0,421047.31,Omar Haddad
+T0465,C133,Northwind General,India,Mutual,BBB+,Asia Pacific,PROP,Proportional,2025,2025-03-22,2026-03-21,INR,30,750000000.0,133333333.33,101647051.69,Aarav Mehta
+T0202,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,PROP,Excess of Loss,2026,2026-08-25,2027-08-24,USD,100,6200000.0,730000.0,889567.97,Omar Haddad
+T0347,C126,Summit Insurance,France,Insurer,A+,Europe,CAS,Facultative,2024,2024-06-07,2025-06-06,EUR,100,9351851.85,768518.52,863088.52,Hannah Weber
+T0189,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin Am.,PROP,Excess of Loss,2024,2024-11-02,2025-11-01,USD,100,3400000.0,400000.0,602030.27,James Whitfield
+T0568,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,PROP,Proportional,2025,2025-06-23,2026-06-22,INR,15,891666666.67,67500000.0,118548504.55,Priya Nair
+T0606,C106,Granite Mutual,UK,Insurer,A-,Europe,PROP,Proportional,2026,2026-03-16,2027-03-15,GBP,30,6220472.44,582677.17,482295.84,Priya Nair
+T0583,C113,Sterling Mutual,UK,Insurer,A-,Europe,PROP,Excess of Loss,2026,2026-03-06,2027-03-05,GBP,100,6929133.86,370078.74,592478.33,Aarav Mehta
+T0129,C101,Granite General,China,Insurer,A,APAC,CAS,Excess of Loss,2024,2024-05-08,2025-05-07,USD,100,7000000.0,980000.0,566910.67,Hannah Weber
+T0633,C151,Harbor Assurance,USA,Insurer,A-,NORTH AMERICA,PROF,Excess of Loss,2025,2025-07-01,2026-06-30,USD,100,12700000.0,2440000.0,1219748.12,Aarav Mehta
+T0123,C170,Meridian General,USA,Insurer,A+,NORTH AMERICA,PROP,Proportional,2022,2022-10-03,2023-10-02,USD,30,19400000.0,3470000.0,1391556.51,Carlos Ibarra
+T0010,C111,Granite Assurance,Australia,Insurer,BBB+,Asia-Pacific,PROP,Excess of Loss,2023,2023-08-12,2024-08-11,USD,100,16200000.0,1580000.0,1858151.27,Priya Nair
+T0495,C117,Vantage Mutual,India,Insurer,BBB,Asia-Pacific,PROP,Excess of Loss,2025,2025-07-11,2026-07-10,INR,100,1766666666.67,271666666.67,274657556.63,Priya Nair
+T0165,C122,Pioneer General,Germany,Insurer,A-,EU,CAS,Excess of Loss,2023,2023-08-31,2024-08-30,EUR,100,8148148.15,592592.59,1030118.45,Kenji Sato
+T0293,C135,Sterling Indemnity,Spain,Insurer,BBB+,,PROP,Proportional,2021,2021-05-05,2022-05-04,EUR,20,14166666.67,2564814.81,2142453.64,Carlos Ibarra
+T0664,C123,Orion General,Canada,Insurer,A+,North America,PROF,Excess of Loss,2021,2021-10-16,2022-10-15,USD,100,25500000.0,1520000.0,2564179.08,James Whitfield
+T0582,C135,Sterling Indemnity,Spain,Insurer,BBB+,EU,PROP,Excess of Loss,2023,2023-05-21,2024-05-20,EUR,100,13981481.48,2361111.11,1052537.34,Priya Nair
+T0102,C114,Evergreen Indemnity,Canada,Insurer,A,NA,PROF,Proportional,2022,2022-09-06,2023-09-05,USD,20,12400000.0,1110000.0,1003243.66,Hannah Weber
+T0468,C160,Orion Indemnity,Brazil,Insurer,A,LATAM,PROP,Proportional,2021,2021-05-11,2022-05-10,USD,50,28700000.0,4570000.0,2353430.98,Aarav Mehta
+T0352,C147,Evergreen General,USA,Insurer,A+,N. America,FINL,Excess of Loss,2023,2023-07-29,2024-07-28,USD,100,48300000.0,4400000.0,5565135.53,Hannah Weber
+T0060,C165,Harbor Indemnity,USA,Insurer,A,North America,PROF,Excess of Loss,2026,2026-03-01,2027-02-28,USD,100,5800000.0,850000.0,487229.53,Hannah Weber
+T0049,C160,Orion Indemnity,Brazil,Insurer,A,,FINL,Proportional,2023,2023-03-31,2024-03-30,USD,20,14200000.0,1810000.0,2195640.12,Sophie Laurent
+T0630,C110,Meridian Mutual,Canada,Insurer,BBB+,North America,CAS,Excess of Loss,2022,2022-04-06,2023-04-05,USD,100,7000000.0,360000.0,986924.38,Omar Haddad
+T0595,C135,Sterling Indemnity,Spain,Insurer,BBB+,EMEA-Europe,FINL,Facultative,2024,2024-06-26,2025-06-25,EUR,100,7777777.78,462962.96,981986.71,James Whitfield
+T0110,C136,Crown Insurance,China,Captive,A,APAC,PROP,Facultative,2025,2025-06-15,2026-06-14,USD,100,36800000.0,7290000.0,2652491.09,Omar Haddad
+T0471,C130,Cobalt Mutual,Italy,Insurer,A+,EU,PROP,Proportional,2025,2025-06-18,2026-06-17,EUR,10,10370370.37,898148.15,926597.05,Omar Haddad
+T0615,C126,Summit Insurance,France,Insurer,A+,Europe,PROF,Proportional,2021,2021-04-10,2022-04-09,EUR,20,32962962.96,2157407.41,2903951.38,Sophie Laurent
+T0134,C170,Meridian General,USA,Insurer,A+,North America,PROP,Proportional,2021,2021-04-04,2022-04-03,USD,20,6900000.0,1220000.0,738699.18,Aarav Mehta
+T0240,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,PROP,Excess of Loss,2023,2023-08-21,2024-08-20,EUR,100,19629629.63,3212962.96,1926857.91,Omar Haddad
+T0655,C132,Pioneer Insurance,Germany,Insurer,A,Europe,SPEC,Excess of Loss,2022,2022-05-02,2023-05-01,EUR,100,10000000.0,1138888.89,982303.22,Hannah Weber
+T0077,C138,Northwind Assurance,Canada,Insurer,BBB,North America,CAS,Proportional,2023,2023-06-18,2024-06-17,USD,20,15600000.0,2550000.0,1354882.47,Sophie Laurent
+T0224,C161,Orion Insurance,Singapore,Mutual,A+,Asia Pacific,FINL,Proportional,2025,2025-05-23,2026-05-22,USD,50,28800000.0,5560000.0,5015447.86,Sophie Laurent
+T0151,C105,Atlas Indemnity,Canada,Insurer,A-,North America,CAS,Proportional,2022,2022-08-06,2023-08-05,USD,20,34000000.0,5360000.0,2607105.97,Omar Haddad
+T0576,C136,Crown Insurance,China,Captive,A,Asia-Pacific,SPEC,Excess of Loss,2021,2021-04-03,2022-04-02,USD,100,4900000.0,310000.0,478642.6,Sophie Laurent
+T0319,C102,Summit Indemnity,Australia,Insurer,A+,Asia Pacific,CAS,Excess of Loss,2026,2026-08-14,2027-08-13,USD,100,3400000.0,390000.0,446115.14,James Whitfield
+T0435,C136,Crown Insurance,China,Captive,A,Asia Pacific,FINL,Proportional,2022,2022-12-26,2023-12-25,USD,30,17000000.0,1920000.0,1324566.0,Kenji Sato
+T0533,C102,Summit Indemnity,Australia,Insurer,A+,,CAS,Proportional,2024,2024-03-23,2025-03-22,USD,50,43000000.0,4900000.0,5009444.42,Hannah Weber
+T0007,C110,Meridian Mutual,Canada,Insurer,BBB+,NA,CAS,Proportional,2025,2025-07-19,2026-07-18,USD,30,8000000.0,1580000.0,687071.96,Hannah Weber
+T0642,C146,Cobalt Assurance,France,Insurer,A,Europe,SPEC,Excess of Loss,2022,2022-01-29,2023-01-28,EUR,100,40462962.96,4009259.26,4635004.22,Aarav Mehta
+T0312,C167,Evergreen Assurance,Canada,Insurer,BBB+,NORTH AMERICA,PROF,Excess of Loss,2026,2026-05-11,2027-05-10,USD,100,9300000.0,1720000.0,930245.33,Sophie Laurent
+T0019,C131,Pioneer Indemnity,Chile,Mutual,A+,LATAM,FINL,Proportional,2024,2024-07-12,2025-07-11,USD,20,3800000.0,530000.0,730349.02,Sophie Laurent
+T0192,C131,Pioneer Indemnity,Chile,Mutual,A+,LATAM,FINL,Proportional,2024,2024-10-25,2025-10-24,USD,40,26300000.0,1990000.0,2309004.24,Kenji Sato
+T0414,C128,Lumen Insurance,USA,Insurer,BBB,North America,CAS,Proportional,2024,2024-12-15,2025-12-14,USD,50,8100000.0,1140000.0,746165.6,Omar Haddad
+T0487,C167,Evergreen Assurance,Canada,Insurer,BBB+,North America,PROP,Excess of Loss,2025,2025-02-27,2026-02-26,USD,100,16900000.0,1800000.0,1489081.3,Hannah Weber
+T0281,C125,Granite Indemnity,Germany,Insurer,BBB,EMEA-Europe,PROP,Excess of Loss,2022,2022-02-06,2023-02-05,EUR,100,13796296.3,1120370.37,1148868.48,Carlos Ibarra
+T0329,C162,Harbor Mutual,Canada,Insurer,BBB+,North America,PROP,Proportional,2024,2024-09-20,2025-09-19,USD,15,12800000.0,2020000.0,1015041.81,Priya Nair
+T0001,C109,Crown General,USA,Insurer,A,NA,PROP,Excess of Loss,2024,2024-05-15,2025-05-14,USD,100,31700000.0,2870000.0,2875045.86,Kenji Sato
+T0061,C141,Granite Insurance,Singapore,Insurer,A+,Asia Pacific,CAS,Excess of Loss,2022,2022-04-16,2023-04-15,USD,100,6200000.0,1090000.0,949776.83,Sophie Laurent
+T0661,C125,Granite Indemnity,Germany,Insurer,BBB,Europe,CAS,Excess of Loss,2025,2025-10-06,2026-10-05,EUR,100,16388888.89,1046296.3,1475599.49,Omar Haddad
+T0601,C146,Cobalt Assurance,France,Insurer,A,EMEA-Europe,CAS,Proportional,2025,2025-09-23,2026-09-22,EUR,20,24907407.41,2879629.63,4598706.69,Priya Nair
+T0523,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,PROP,Excess of Loss,2025,2025-10-10,2026-10-09,EUR,100,9629629.63,1462962.96,1338534.9,Hannah Weber
+T0098,C125,Granite Indemnity,Germany,Insurer,BBB,EMEA-Europe,PROP,Proportional,2022,2022-03-29,2023-03-28,EUR,50,14722222.22,2157407.41,2065599.13,James Whitfield
+T0496,C136,Crown Insurance,China,Captive,A,Asia-Pacific,SPEC,Proportional,2025,2025-04-05,2026-04-04,USD,10,12500000.0,1450000.0,1462714.0,James Whitfield
+T0430,C144,Northwind Insurance,Canada,Mutual,A,North America,PROP,Excess of Loss,2023,2023-04-15,2024-04-14,USD,100,15500000.0,2200000.0,2753749.47,Omar Haddad
+T0340,C161,Orion Insurance,Singapore,Mutual,A+,Asia-Pacific,PROP,Excess of Loss,2021,2021-08-03,2022-08-02,USD,100,9600000.0,1080000.0,1248061.65,Omar Haddad
+T0685,C130,Cobalt Mutual,Italy,Insurer,A+,Europe,CAS,Proportional,2025,2025-01-28,2026-01-27,EUR,15,27129629.63,2046296.3,2245378.75,Hannah Weber
+T0693,C105,Atlas Indemnity,Canada,Insurer,A-,NA,SPEC,Proportional,2021,2021-03-07,2022-03-06,USD,20,5500000.0,420000.0,511442.25,Aarav Mehta
+T0270,C113,Sterling Mutual,UK,Insurer,A-,EU,CAS,Proportional,2025,2025-04-26,2026-04-25,GBP,50,8582677.17,700787.4,657272.2,Omar Haddad
+T0097,C153,Vantage Assurance,Germany,Insurer,A+,EU,PROF,Excess of Loss,2025,2025-01-26,2026-01-25,EUR,100,3425925.93,370370.37,474854.89,Hannah Weber
+T0684,C154,Orion Assurance,Mexico,Captive,A-,NA,CAS,Facultative,2025,2025-04-17,2026-04-16,USD,100,21100000.0,1760000.0,1519194.63,Kenji Sato
+T0056,C164,Vantage General,USA,Insurer,A+,North America,CAS,Excess of Loss,2024,2024-09-19,2025-09-18,USD,100,6700000.0,990000.0,753202.13,Hannah Weber
+T0351,C117,Vantage Mutual,India,Insurer,BBB,Asia-Pacific,PROP,Proportional,2023,2023-03-15,2024-03-14,INR,40,1150000000.0,75833333.33,188542674.0,Omar Haddad
+T0501,C150,Cobalt General,Canada,Captive,A,N. America,FINL,Proportional,2025,2025-11-27,2026-11-26,USD,15,12700000.0,940000.0,912944.76,James Whitfield
+T0260,C101,Granite General,China,Insurer,A,APAC,CAS,Proportional,2022,2022-08-17,2023-08-16,USD,30,26700000.0,3510000.0,2584452.8,Carlos Ibarra
+T0476,C130,Cobalt Mutual,Italy,Insurer,A+,Europe,CAS,Excess of Loss,2021,2021-09-15,2022-09-14,EUR,100,8240740.74,740740.74,755088.0,Hannah Weber
+T0011,C132,Pioneer Insurance,Germany,Insurer,A,Europe,CAS,Excess of Loss,2022,2022-02-04,2023-02-03,EUR,100,18888888.89,2500000.0,1742051.39,Carlos Ibarra
+T0443,C161,Orion Insurance,Singapore,Mutual,A+,Asia-Pacific,PROP,Excess of Loss,2024,2024-04-27,2025-04-26,USD,100,19000000.0,3780000.0,1907467.01,Sophie Laurent
+T0305,C165,Harbor Indemnity,USA,Insurer,A,N. America,CAS,Proportional,2024,2024-04-22,2025-04-21,USD,25,27700000.0,2730000.0,2335167.3,Aarav Mehta
+T0216,C138,Northwind Assurance,Canada,Insurer,BBB,NORTH AMERICA,SPEC,Facultative,2023,2023-10-28,2024-10-27,USD,100,4400000.0,710000.0,742504.18,Hannah Weber
+T0314,C123,Orion General,Canada,Insurer,A+,North America,CAS,Proportional,2021,2021-02-05,2022-02-04,USD,50,4900000.0,790000.0,722575.74,Omar Haddad
+T0299,C103,Northwind Mutual,India,Insurer,A-,Asia-Pacific,SPEC,Excess of Loss,2024,2024-03-03,2025-03-02,INR,100,683333333.33,66666666.67,117914237.73,Priya Nair
+T0372,C148,Meridian Assurance,Spain,Insurer,A,Europe,SPEC,Excess of Loss,2025,2025-03-07,2026-03-06,EUR,100,48518518.52,9277777.78,6983367.11,Kenji Sato
+T0027,C105,Atlas Indemnity,Canada,Insurer,A-,NA,PROP,Excess of Loss,2021,2021-02-18,2022-02-17,USD,100,5400000.0,710000.0,668834.97,Omar Haddad
+T0531,C130,Cobalt Mutual,Italy,Insurer,A+,EMEA-Europe,PROF,Proportional,2023,2023-05-01,2024-04-30,EUR,10,2407407.41,444444.44,299947.63,James Whitfield
+T0185,C153,Vantage Assurance,Germany,Insurer,A+,Europe,PROP,Excess of Loss,2024,2024-04-19,2025-04-18,EUR,100,57592592.59,10925925.93,4389724.4,Sophie Laurent
+T0238,C105,Atlas Indemnity,Canada,Insurer,A-,N. America,CAS,Proportional,2023,2023-01-29,2024-01-28,USD,50,5700000.0,830000.0,418000.87,Kenji Sato
+T0377,C101,Granite General,China,Insurer,A,Asia Pacific,CAS,Excess of Loss,2023,2023-07-31,2024-07-30,USD,100,4200000.0,470000.0,747926.1,Aarav Mehta
+T0089,C136,Crown Insurance,China,Captive,A,Asia-Pacific,FINL,Proportional,2026,2026-01-10,2027-01-09,USD,15,5900000.0,770000.0,1062989.45,Hannah Weber
+T0490,C135,Sterling Indemnity,Spain,Insurer,BBB+,Europe,SPEC,Excess of Loss,2025,2025-12-14,2026-12-13,EUR,100,7870370.37,1509259.26,879980.91,Aarav Mehta
+T0493,C114,Evergreen Indemnity,Canada,Insurer,A,NORTH AMERICA,FINL,Proportional,2022,2022-02-22,2023-02-21,USD,10,18600000.0,2610000.0,2992825.24,Aarav Mehta
+T0695,C137,Meridian Indemnity,Germany,Insurer,BBB,EMEA-Europe,PROP,Proportional,2025,2025-01-05,2026-01-04,EUR,50,9166666.67,555555.56,1329855.59,Carlos Ibarra
+T0386,C135,Sterling Indemnity,Spain,Insurer,BBB+,EMEA-Europe,PROP,Proportional,2023,2023-12-25,2024-12-24,EUR,20,19074074.07,3194444.44,2175085.85,Carlos Ibarra
+T0269,C114,Evergreen Indemnity,Canada,Insurer,A,NA,PROP,Proportional,2025,2025-04-12,2026-04-11,USD,20,15400000.0,1240000.0,1211766.15,Kenji Sato
+T0039,C101,Granite General,China,Insurer,A,Asia-Pacific,SPEC,Excess of Loss,2022,2022-11-05,2023-11-04,USD,100,14400000.0,1940000.0,1447081.06,Kenji Sato
+T0153,C128,Lumen Insurance,USA,Insurer,BBB,NA,CAS,Proportional,2023,2023-04-23,2024-04-22,USD,15,21100000.0,2130000.0,1861268.51,Carlos Ibarra
+T0080,C122,Pioneer General,Germany,Insurer,A-,EU,PROP,Facultative,2025,2025-02-24,2026-02-23,EUR,100,22037037.04,4000000.0,1613661.07,Priya Nair
+T0242,C166,Harbor General,Canada,Insurer,A,North America,SPEC,Proportional,2024,2024-01-27,2025-01-26,USD,15,15600000.0,1800000.0,2628890.09,Hannah Weber
+T0250,C108,Pioneer Assurance,Spain,Insurer,BBB+,EMEA-Europe,SPEC,Proportional,2022,2022-07-16,2023-07-15,EUR,25,7407407.41,1314814.81,1050967.29,James Whitfield
+T0636,C153,Vantage Assurance,Germany,Insurer,A+,EMEA-Europe,CAS,Proportional,2022,2022-04-19,2023-04-18,EUR,15,9537037.04,1657407.41,912048.35,Omar Haddad
+T0644,C165,Harbor Indemnity,USA,Insurer,A,NORTH AMERICA,CAS,Facultative,2024,2024-09-30,2025-09-29,USD,100,12500000.0,920000.0,898236.69,James Whitfield
+T0346,C153,Vantage Assurance,Germany,Insurer,A+,EU,CAS,Proportional,2026,2026-01-18,2027-01-17,EUR,30,12870370.37,2527777.78,1363071.39,Kenji Sato
+T0528,C115,Cobalt Indemnity,Mexico,Insurer,A,N. America,SPEC,Facultative,2022,2022-02-08,2023-02-07,USD,100,3700000.0,500000.0,341171.2,James Whitfield
+T0175,C167,Evergreen Assurance,Canada,Insurer,BBB+,N. America,CAS,Excess of Loss,2021,2021-02-10,2022-02-09,USD,100,12200000.0,1520000.0,1253821.97,Sophie Laurent
+T0598,C131,Pioneer Indemnity,Chile,Mutual,A+,LATAM,CAS,Facultative,2024,2024-03-04,2025-03-03,USD,100,16100000.0,1900000.0,1216119.19,Carlos Ibarra
+T0525,C128,Lumen Insurance,USA,Insurer,BBB,North America,PROF,Proportional,2023,2023-01-25,2024-01-24,USD,20,63800000.0,10450000.0,5857120.74,Sophie Laurent
+T0025,C127,Cobalt Insurance,South Africa,Insurer,BBB+,Middle East & Africa,FINL,Proportional,2023,2023-09-16,2024-09-15,USD,30,14000000.0,2210000.0,1075258.24,Priya Nair
+T0162,C141,Granite Insurance,Singapore,Insurer,A+,Asia Pacific,CAS,Excess of Loss,2025,2025-07-28,2026-07-27,USD,100,19900000.0,1200000.0,1771607.12,James Whitfield
+T0094,C146,Cobalt Assurance,France,Insurer,A,EU,SPEC,Excess of Loss,2026,2026-06-03,2027-06-02,EUR,100,7685185.19,629629.63,627391.74,Carlos Ibarra
+T0183,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin Am.,PROF,Proportional,2025,2025-03-02,2026-03-01,USD,40,16000000.0,3080000.0,1206531.13,James Whitfield
+T0699,C167,Evergreen Assurance,Canada,Insurer,BBB+,N. America,PROP,Excess of Loss,2023,2023-10-13,2024-10-12,USD,100,27700000.0,3070000.0,3890822.87,Kenji Sato
+T0120,C135,Sterling Indemnity,Spain,Insurer,BBB+,EU,SPEC,Excess of Loss,2026,2026-08-14,2027-08-13,EUR,100,18055555.56,3398148.15,1550500.9,Priya Nair
+T0691,C101,Granite General,China,Insurer,A,Asia-Pacific,PROF,Excess of Loss,2026,2026-07-10,2027-07-09,USD,100,18500000.0,1790000.0,1331065.72,Carlos Ibarra
+T0263,C159,Orion Mutual,Spain,Insurer,A-,Europe,PROP,Excess of Loss,2025,2025-12-30,2026-12-29,EUR,100,3611111.11,583333.33,462549.43,Sophie Laurent
+T0267,C167,Evergreen Assurance,Canada,Insurer,BBB+,NORTH AMERICA,SPEC,Excess of Loss,2022,2022-02-28,2023-02-27,USD,100,32100000.0,4700000.0,2915673.45,Sophie Laurent
+T0059,C161,Orion Insurance,Singapore,Mutual,A+,APAC,SPEC,Excess of Loss,2023,2023-01-09,2024-01-08,USD,100,21900000.0,2190000.0,2776799.71,Kenji Sato
+T0614,C102,Summit Indemnity,Australia,Insurer,A+,APAC,PROP,Excess of Loss,2022,2022-08-03,2023-08-02,USD,100,1800000.0,350000.0,287008.06,Sophie Laurent
+T0169,C108,Pioneer Assurance,Spain,Insurer,BBB+,Europe,PROP,Facultative,2024,2024-07-14,2025-07-13,EUR,100,3703703.7,685185.19,611886.49,Omar Haddad
+T0082,C123,Orion General,Canada,Insurer,A+,NA,PROP,Excess of Loss,2025,2025-01-25,2026-01-24,USD,100,21600000.0,3080000.0,1927280.52,Aarav Mehta
+T0462,C113,Sterling Mutual,UK,Insurer,A-,EU,PROP,Excess of Loss,2024,2024-08-12,2025-08-11,GBP,100,43228346.46,6220472.44,3399001.65,Hannah Weber
+T0627,C141,Granite Insurance,Singapore,Insurer,A+,Asia-Pacific,CAS,Proportional,2024,2024-12-16,2025-12-15,USD,30,10200000.0,770000.0,1154818.03,Kenji Sato
+T0227,C110,Meridian Mutual,Canada,Insurer,BBB+,N. America,SPEC,Proportional,2026,2026-01-31,2027-01-30,USD,20,5000000.0,290000.0,935322.62,Aarav Mehta
+T0634,C110,Meridian Mutual,Canada,Insurer,BBB+,North America,FINL,Excess of Loss,2024,2024-10-17,2025-10-16,USD,100,8700000.0,1670000.0,1037709.45,James Whitfield
+T0335,C168,Sterling Assurance,Chile,Insurer,A,,SPEC,Proportional,2024,2024-01-08,2025-01-07,USD,30,12100000.0,1360000.0,1181500.43,Sophie Laurent
+T0562,C118,Meridian Insurance,Japan,Insurer,A,APAC,PROP,Proportional,2023,2023-10-07,2024-10-06,USD,30,9100000.0,850000.0,859228.61,Priya Nair
+T0222,C132,Pioneer Insurance,Germany,Insurer,A,Europe,PROP,Facultative,2025,2025-01-24,2026-01-23,EUR,100,12037037.04,1212962.96,975806.05,Priya Nair
+T0489,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,CAS,Excess of Loss,2022,2022-09-29,2023-09-28,EUR,100,40185185.19,5851851.85,3057947.91,Omar Haddad
+T0624,C161,Orion Insurance,Singapore,Mutual,A+,APAC,PROP,Proportional,2023,2023-05-05,2024-05-04,USD,10,5900000.0,320000.0,434388.01,Kenji Sato
+T0510,C170,Meridian General,USA,Insurer,A+,NA,CAS,Proportional,2022,2022-06-08,2023-06-07,USD,10,5800000.0,930000.0,1120197.37,Priya Nair
+T0500,C143,Northwind Indemnity,USA,Mutual,A,,FINL,Proportional,2024,2024-11-11,2025-11-10,USD,50,34800000.0,4170000.0,3953983.72,Kenji Sato
+T0273,C137,Meridian Indemnity,Germany,Insurer,BBB,Europe,PROF,Proportional,2023,2023-04-14,2024-04-13,EUR,20,7037037.04,1074074.07,792143.37,Carlos Ibarra
+T0539,C162,Harbor Mutual,Canada,Insurer,BBB+,NORTH AMERICA,SPEC,Excess of Loss,2026,2026-06-23,2027-06-22,USD,100,42800000.0,4480000.0,3736408.11,Sophie Laurent
+T0503,C141,Granite Insurance,Singapore,Insurer,A+,APAC,SPEC,Proportional,2025,2025-12-10,2026-12-09,USD,15,7300000.0,600000.0,1146578.42,Kenji Sato
+T0646,C130,Cobalt Mutual,Italy,Insurer,A+,Europe,PROP,Facultative,2025,2025-06-02,2026-06-01,EUR,100,25000000.0,3074074.07,1861393.57,Omar Haddad
+T0084,C161,Orion Insurance,Singapore,Mutual,A+,APAC,SPEC,Proportional,2023,2023-01-30,2024-01-29,USD,15,28100000.0,2680000.0,2013952.43,Carlos Ibarra
+T0093,C134,Summit General,Canada,Insurer,A+,N. America,FINL,Excess of Loss,2023,2023-01-19,2024-01-18,USD,100,11500000.0,2050000.0,1061580.65,Kenji Sato
+T0302,C148,Meridian Assurance,Spain,Insurer,A,Europe,FINL,Excess of Loss,2024,2024-04-06,2025-04-05,EUR,100,9444444.44,1027777.78,759501.98,Priya Nair
+T0020,C123,Orion General,Canada,Insurer,A+,NA,PROF,Excess of Loss,2024,2024-09-16,2025-09-15,USD,100,51700000.0,8650000.0,4358946.6,Omar Haddad
+T0047,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,SPEC,Excess of Loss,2022,2022-01-30,2023-01-29,USD,100,11000000.0,1220000.0,1074105.11,
+T0186,C132,Pioneer Insurance,Germany,Insurer,A,Europe,SPEC,Proportional,2023,2023-01-22,2024-01-21,EUR,20,84722222.22,9685185.19,8949111.45,Sophie Laurent
+T0228,C123,Orion General,Canada,Insurer,A+,NA,PROP,Excess of Loss,2026,2026-07-08,2027-07-07,USD,100,7300000.0,570000.0,682460.82,James Whitfield
+T0575,C101,Granite General,China,Insurer,A,APAC,PROP,Excess of Loss,2025,2025-03-23,2026-03-22,USD,100,3200000.0,420000.0,370552.28,James Whitfield
+T0334,C123,Orion General,Canada,Insurer,A+,North America,PROP,Facultative,2023,2023-03-28,2024-03-27,USD,100,8600000.0,1150000.0,1434987.12,Hannah Weber
+T0527,C130,Cobalt Mutual,Italy,Insurer,A+,EMEA-Europe,FINL,Facultative,2025,2025-08-30,2026-08-29,EUR,100,13518518.52,1361111.11,1534901.59,Aarav Mehta
+T0016,C131,Pioneer Indemnity,Chile,Mutual,A+,LATAM,PROP,Proportional,2025,2025-01-16,2026-01-15,USD,25,35100000.0,3290000.0,5293515.36,Sophie Laurent
+T0232,C123,Orion General,Canada,Insurer,A+,NA,PROP,Excess of Loss,2021,2021-11-11,2022-11-10,USD,100,7500000.0,550000.0,694864.18,Carlos Ibarra
+T0400,C115,Cobalt Indemnity,Mexico,Insurer,A,North America,PROP,Proportional,2025,2025-08-26,2026-08-25,USD,20,55000000.0,6240000.0,4498171.21,James Whitfield
+T0429,C105,Atlas Indemnity,Canada,Insurer,A-,NA,FINL,Proportional,2026,2026-05-10,2027-05-09,USD,25,10500000.0,1640000.0,1008002.14,Kenji Sato
+T0315,C105,Atlas Indemnity,Canada,Insurer,A-,N. America,CAS,Proportional,2022,2022-10-01,2023-09-30,USD,10,4200000.0,250000.0,704079.74,Priya Nair
+T0690,C151,Harbor Assurance,USA,Insurer,A-,North America,SPEC,Proportional,2024,2024-06-21,2025-06-20,USD,25,6000000.0,490000.0,695005.46,
+T0279,C126,Summit Insurance,France,Insurer,A+,EMEA-Europe,SPEC,Facultative,2024,2024-10-14,2025-10-13,EUR,100,9814814.81,1527777.78,885559.96,Carlos Ibarra
+T0316,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,PROP,Proportional,2021,2021-09-29,2022-09-28,USD,20,13900000.0,1230000.0,1080915.74,Hannah Weber
+T0666,C113,Sterling Mutual,UK,Insurer,A-,Europe,SPEC,Excess of Loss,2024,2024-01-07,2025-01-06,GBP,100,12755905.51,1653543.31,1784078.5,Kenji Sato
+T0040,C170,Meridian General,USA,Insurer,A+,North America,CAS,Excess of Loss,2024,2024-12-09,2025-12-08,USD,100,7400000.0,1130000.0,856639.8,Aarav Mehta
+T0160,C136,Crown Insurance,China,Captive,A,Asia Pacific,CAS,Facultative,2024,2024-06-07,2025-06-06,USD,100,12800000.0,1190000.0,2236155.2,James Whitfield
+T0247,C113,Sterling Mutual,UK,Insurer,A-,EMEA-Europe,FIN,Facultative,2023,2023-01-14,2024-01-13,GBP,100,11417322.83,2149606.3,1253907.92,Hannah Weber
+T0239,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,PROF,Proportional,2024,2024-05-31,2025-05-30,USD,25,39300000.0,3090000.0,3579750.15,Kenji Sato
+T0138,C101,Granite General,China,Insurer,A,Asia Pacific,SPEC,Excess of Loss,2025,2025-10-12,2026-10-11,USD,100,20900000.0,2440000.0,1953615.06,Omar Haddad
+T0026,C123,Orion General,Canada,Insurer,A+,NA,CAS,Facultative,2022,2022-10-21,2023-10-20,USD,100,26700000.0,3330000.0,2361838.85,James Whitfield
+T0563,C134,Summit General,Canada,Insurer,A+,North America,FINL,Excess of Loss,2025,2025-09-14,2026-09-13,USD,100,20700000.0,2930000.0,1984647.12,Hannah Weber
+T0660,C101,Granite General,China,Insurer,A,Asia-Pacific,PROP,Excess of Loss,2025,2025-12-17,2026-12-16,USD,100,20800000.0,1580000.0,1728551.41,Hannah Weber
+T0341,C150,Cobalt General,Canada,Captive,A,NA,SPEC,Proportional,2025,2025-10-09,2026-10-08,USD,50,9300000.0,1170000.0,775028.86,Carlos Ibarra
+T0062,C109,Crown General,USA,Insurer,A,North America,CAS,Proportional,2026,2026-02-03,2027-02-02,USD,10,6800000.0,480000.0,644375.24,Priya Nair
+T0308,C154,Orion Assurance,Mexico,Captive,A-,North America,FINL,Excess of Loss,2023,2023-06-03,2024-06-02,USD,100,8800000.0,1270000.0,945611.34,
+T0393,C166,Harbor General,Canada,Insurer,A,N. America,PROP,Proportional,2023,2023-08-11,2024-08-10,USD,30,3500000.0,500000.0,301034.72,Hannah Weber
+T0572,C135,Sterling Indemnity,Spain,Insurer,BBB+,Europe,CAS,Excess of Loss,2025,2025-04-08,2026-04-07,EUR,100,10277777.78,796296.3,1102766.16,Sophie Laurent
+T0159,C124,Pioneer Mutual,Germany,Insurer,A+,EU,PROP,Proportional,2021,2021-01-27,2022-01-26,EUR,40,7962962.96,981481.48,688376.98,Kenji Sato
+T0012,C144,Northwind Insurance,Canada,Mutual,A,NORTH AMERICA,CAS,Facultative,2024,2024-10-21,2025-10-20,USD,100,14400000.0,2530000.0,1513257.16,Hannah Weber
+T0241,C102,Summit Indemnity,Australia,Insurer,A+,Asia Pacific,FINL,Facultative,2023,2023-06-30,2024-06-29,USD,100,15200000.0,2130000.0,1327287.72,James Whitfield
+T0472,C109,Crown General,USA,Insurer,A,North America,PROP,Proportional,2024,2024-01-02,2025-01-01,USD,15,6700000.0,780000.0,929831.6,James Whitfield
+T0018,C160,Orion Indemnity,Brazil,Insurer,A,,CAS,Excess of Loss,2025,2025-07-16,2026-07-15,USD,100,104100000.0,12990000.0,7895433.42,Kenji Sato
+T0208,C168,Sterling Assurance,Chile,Insurer,A,LATAM,PROP,Proportional,2024,2024-12-25,2025-12-24,USD,25,13500000.0,2640000.0,2129207.54,
+T0068,C152,Lumen Mutual,South Africa,Captive,A+,Middle East & Africa,PROP,Excess of Loss,2021,2021-05-03,2022-05-02,USD,100,28600000.0,3360000.0,3328958.11,Sophie Laurent
+T0541,C167,Evergreen Assurance,Canada,Insurer,BBB+,North America,SPEC,Proportional,2021,2021-05-12,2022-05-11,USD,40,26700000.0,4400000.0,2354467.76,Kenji Sato
+T0522,C105,Atlas Indemnity,Canada,Insurer,A-,NA,PROP,Excess of Loss,2021,2021-08-06,2022-08-05,USD,100,3100000.0,280000.0,313684.84,Aarav Mehta
+T0210,C170,Meridian General,USA,Insurer,A+,NA,PROP,Excess of Loss,2022,2022-02-13,2023-02-12,USD,100,7300000.0,1020000.0,657145.69,Hannah Weber
+T0113,C103,Northwind Mutual,India,Insurer,A-,APAC,PROF,Proportional,2022,2022-07-11,2023-07-10,INR,50,725000000.0,39166666.67,74234202.64,James Whitfield
+T0353,C102,Summit Indemnity,Australia,Insurer,A+,Asia Pacific,PROP,Proportional,2024,2024-02-27,2025-02-26,USD,20,8800000.0,1440000.0,1547839.65,Sophie Laurent
+T0668,C157,Sterling Insurance,India,Insurer,A-,Asia Pacific,SPEC,Excess of Loss,2025,2025-02-19,2026-02-18,INR,100,508333333.33,43333333.33,95437288.09,Kenji Sato
+T0584,C115,Cobalt Indemnity,Mexico,Insurer,A,N. America,CAS,Facultative,2024,2024-07-01,2025-06-30,USD,100,2500000.0,330000.0,200000.0,James Whitfield
+T0214,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,CAS,Facultative,2024,2024-04-13,2025-04-12,USD,100,13800000.0,2170000.0,1449871.97,Carlos Ibarra
+T0107,C102,Summit Indemnity,Australia,Insurer,A+,APAC,PROP,Proportional,2024,2024-11-04,2025-11-03,USD,20,33900000.0,6110000.0,2675265.95,Omar Haddad
+T0005,C145,Harbor Insurance,Canada,Mutual,BBB,NORTH AMERICA,PROP,Proportional,2025,2025-11-11,2026-11-10,USD,10,9200000.0,510000.0,769126.34,Aarav Mehta
+T0648,C108,Pioneer Assurance,Spain,Insurer,BBB+,Europe,PROP,Proportional,2023,2023-05-22,2024-05-21,EUR,50,42592592.59,6527777.78,3641022.73,Kenji Sato
+T0103,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,PROP,Excess of Loss,2025,2025-08-10,2026-08-09,EUR,100,8888888.89,500000.0,1282117.8,Kenji Sato
+T0416,C150,Cobalt General,Canada,Captive,A,N. America,FINL,Excess of Loss,2022,2022-03-30,2023-03-29,USD,100,3400000.0,260000.0,382462.09,Kenji Sato
+T0055,C162,Harbor Mutual,Canada,Insurer,BBB+,NA,PROF,Proportional,2026,2026-04-21,2027-04-20,USD,25,12600000.0,1690000.0,928765.12,Sophie Laurent
+T0488,C141,Granite Insurance,Singapore,Insurer,A+,APAC,PROP,Excess of Loss,2025,2025-11-11,2026-11-10,USD,100,43500000.0,5240000.0,5994896.73,Kenji Sato
+T0626,C126,Summit Insurance,France,Insurer,A+,,SPEC,Facultative,2022,2022-10-06,2023-10-05,EUR,100,9629629.63,1537037.04,1102589.17,James Whitfield
+T0474,C123,Orion General,Canada,Insurer,A+,NORTH AMERICA,CAS,Proportional,2021,2021-07-19,2022-07-18,USD,25,35800000.0,4850000.0,2678642.82,James Whitfield
+T0516,C115,Cobalt Indemnity,Mexico,Insurer,A,North America,PROF,Excess of Loss,2023,2023-10-21,2024-10-20,USD,100,23800000.0,4370000.0,2666868.82,Hannah Weber
+T0592,C142,Atlas General,Japan,Captive,A,Asia Pacific,FINL,Excess of Loss,2026,2026-01-09,2027-01-08,USD,100,10200000.0,1880000.0,738589.96,Carlos Ibarra
+T0292,C137,Meridian Indemnity,Germany,Insurer,BBB,EMEA-Europe,PROF,Excess of Loss,2022,2022-03-17,2023-03-16,EUR,100,10185185.19,907407.41,988703.36,Priya Nair
+T0264,C153,Vantage Assurance,Germany,Insurer,A+,Europe,PROF,Excess of Loss,2023,2023-08-03,2024-08-02,EUR,100,18981481.48,3240740.74,2225492.04,Hannah Weber
+T0252,C105,Atlas Indemnity,Canada,Insurer,A-,NORTH AMERICA,SPEC,Excess of Loss,2023,2023-06-11,2024-06-10,USD,100,9800000.0,1780000.0,1334983.08,James Whitfield
+T0564,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,FINL,Excess of Loss,2025,2025-07-15,2026-07-14,INR,100,3508333333.33,204166666.67,282193532.94,Omar Haddad
+T0550,C144,Northwind Insurance,Canada,Mutual,A,N. America,PROF,Proportional,2025,2025-03-19,2026-03-18,USD,15,7900000.0,1200000.0,845779.85,Aarav Mehta
+T0002,C113,Sterling Mutual,UK,Insurer,A-,EMEA-Europe,PROP,Proportional,2026,2026-03-30,2027-03-29,GBP,10,4488188.98,480314.96,448296.55,Hannah Weber
+T0376,C169,Evergreen Insurance,USA,Insurer,A,North America,PROP,Proportional,2022,2022-09-28,2023-09-27,USD,10,8600000.0,740000.0,750096.55,James Whitfield
+T0657,C105,Atlas Indemnity,Canada,Insurer,A-,N. America,SPEC,Facultative,2024,2024-06-11,2025-06-10,USD,100,19600000.0,3430000.0,1608812.85,Hannah Weber
+T0594,C132,Pioneer Insurance,Germany,Insurer,A,Europe,PROP,Proportional,2026,2026-01-26,2027-01-25,EUR,20,8703703.7,583333.33,903914.25,Kenji Sato
+T0368,C106,Granite Mutual,UK,Insurer,A-,Europe,FINL,Proportional,2023,2023-09-08,2024-09-07,GBP,30,8346456.69,1244094.49,875800.15,Omar Haddad
+T0403,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,PROP,Proportional,2025,2025-12-25,2026-12-24,USD,25,5200000.0,850000.0,648608.12,Carlos Ibarra
+T0003,C148,Meridian Assurance,Spain,Insurer,A,EU,FINL,Proportional,2021,2021-04-09,2022-04-08,EUR,40,11203703.7,1944444.44,1088851.81,Priya Nair
+T0096,C153,Vantage Assurance,Germany,Insurer,A+,EU,PROF,Proportional,2022,2022-10-01,2023-09-30,EUR,20,3055555.56,472222.22,403515.1,Sophie Laurent
+T0497,C142,Atlas General,Japan,Captive,A,Asia-Pacific,CAS,Excess of Loss,2024,2024-02-09,2025-02-08,USD,100,26800000.0,4610000.0,2634091.09,Kenji Sato
+T0623,C162,Harbor Mutual,Canada,Insurer,BBB+,NA,FINL,Facultative,2026,2026-05-27,2027-05-26,USD,100,13400000.0,2570000.0,990560.56,Kenji Sato
+T0285,C123,Orion General,Canada,Insurer,A+,N. America,SPEC,Excess of Loss,2024,2024-07-06,2025-07-05,USD,100,13400000.0,1230000.0,1182304.35,Hannah Weber
+T0212,C132,Pioneer Insurance,Germany,Insurer,A,Europe,CAS,Excess of Loss,2025,2025-03-03,2026-03-02,EUR,100,21851851.85,2787037.04,3418500.71,Sophie Laurent
+T0411,C153,Vantage Assurance,Germany,Insurer,A+,Europe,PROP,Proportional,2022,2022-03-21,2023-03-20,EUR,15,14444444.44,2842592.59,1588509.38,Sophie Laurent
+T0174,C115,Cobalt Indemnity,Mexico,Insurer,A,NORTH AMERICA,CAS,Proportional,2026,2026-04-03,2027-04-02,USD,25,53000000.0,9030000.0,6587798.16,Carlos Ibarra
+T0288,C101,Granite General,China,Insurer,A,APAC,CAS,Excess of Loss,2025,2025-01-01,2025-12-31,USD,100,9300000.0,1650000.0,1018062.65,Kenji Sato
+T0538,C139,Lumen Assurance,Brazil,Mutual,BBB+,Latin Am.,PROP,Excess of Loss,2022,2022-09-15,2023-09-14,USD,100,62500000.0,9910000.0,6294232.68,Omar Haddad
+T0143,C110,Meridian Mutual,Canada,Insurer,BBB+,North America,PROP,Excess of Loss,2025,2025-01-15,2026-01-14,USD,100,19700000.0,3920000.0,1465490.29,Priya Nair
+T0413,C113,Sterling Mutual,UK,Insurer,A-,EU,PROP,Excess of Loss,2025,2025-09-23,2026-09-22,GBP,100,11338582.68,622047.24,1420660.48,Sophie Laurent
+T0193,C168,Sterling Assurance,Chile,Insurer,A,Latin Am.,PROP,Proportional,2022,2022-10-29,2023-10-28,USD,10,39800000.0,5050000.0,4179007.79,Omar Haddad
+T0692,C153,Vantage Assurance,Germany,Insurer,A+,EMEA-Europe,FINL,Excess of Loss,2023,2023-11-11,2024-11-10,EUR,100,11388888.89,2203703.7,980527.76,Carlos Ibarra
+T0402,C157,Sterling Insurance,India,Insurer,A-,Asia Pacific,FINL,Excess of Loss,2023,2023-12-15,2024-12-14,INR,100,1391666666.67,132500000.0,121383345.5,Omar Haddad
+T0230,C142,Atlas General,Japan,Captive,A,Asia-Pacific,SPEC,Excess of Loss,2021,2021-01-25,2022-01-24,USD,100,91800000.0,13930000.0,6611100.84,Sophie Laurent
+T0218,C125,Granite Indemnity,Germany,Insurer,BBB,EMEA-Europe,PROP,Excess of Loss,2023,2023-12-12,2024-12-11,EUR,100,1851851.85,333333.33,185185.19,Aarav Mehta
+T0155,C115,Cobalt Indemnity,Mexico,Insurer,A,North America,PROP,Excess of Loss,2024,2024-04-30,2025-04-29,USD,100,8400000.0,1080000.0,701236.82,Priya Nair
+T0431,C150,Cobalt General,Canada,Captive,A,NORTH AMERICA,PROF,Excess of Loss,2021,2021-01-04,2022-01-03,USD,100,15300000.0,2300000.0,2311597.76,Carlos Ibarra
+T0404,C170,Meridian General,USA,Insurer,A+,N. America,PROP,Excess of Loss,2022,2022-10-31,2023-10-30,USD,100,52800000.0,10550000.0,4576634.12,Aarav Mehta
+T0182,C143,Northwind Indemnity,USA,Mutual,A,N. America,SPEC,Excess of Loss,2025,2025-10-28,2026-10-27,USD,100,6600000.0,660000.0,1167360.13,Sophie Laurent
+T0336,C167,Evergreen Assurance,Canada,Insurer,BBB+,NA,PROP,Facultative,2022,2022-08-05,2023-08-04,USD,100,6000000.0,340000.0,843290.58,Sophie Laurent
+T0581,C167,Evergreen Assurance,Canada,Insurer,BBB+,NA,PROP,Excess of Loss,2022,2022-01-14,2023-01-13,USD,100,23100000.0,2750000.0,2223012.84,Priya Nair
+T0075,C155,Summit Mutual,South Africa,Mutual,A-,ME&A,PROP,Proportional,2026,2026-03-21,2027-03-20,USD,25,15500000.0,1020000.0,1506820.72,Kenji Sato
+T0415,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,SPEC,Excess of Loss,2023,2023-05-14,2024-05-13,INR,100,1458333333.33,250833333.33,213883132.36,Hannah Weber
+T0436,C115,Cobalt Indemnity,Mexico,Insurer,A,North America,PROF,Proportional,2025,2025-01-06,2026-01-05,USD,15,21900000.0,4050000.0,1726003.49,Carlos Ibarra
+T0330,C115,Cobalt Indemnity,Mexico,Insurer,A,NORTH AMERICA,PROF,Excess of Loss,2024,2024-03-31,2025-03-30,USD,100,2400000.0,410000.0,367398.62,Hannah Weber
+T0234,C141,Granite Insurance,Singapore,Insurer,A+,APAC,PROP,Proportional,2025,2025-09-13,2026-09-12,USD,40,5700000.0,880000.0,713889.77,James Whitfield
+T0021,C109,Crown General,USA,Insurer,A,NORTH AMERICA,PROF,Facultative,2023,2023-08-25,2024-08-24,USD,100,23700000.0,2420000.0,1710188.07,Carlos Ibarra
+T0602,C104,Lumen Indemnity,Singapore,Insurer,A+,Asia Pacific,CAS,Proportional,2025,2025-03-13,2026-03-12,USD,20,19200000.0,1920000.0,1845518.5,James Whitfield
+T0621,C129,Atlas Mutual,France,Insurer,A,EMEA-Europe,PROP,Proportional,2021,2021-04-27,2022-04-26,EUR,50,17962962.96,2268518.52,1597126.76,Carlos Ibarra
+T0031,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,CAS,Proportional,2023,2023-03-31,2024-03-30,INR,30,525000000.0,57500000.0,94728917.47,Priya Nair
+T0291,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin America,PROP,Excess of Loss,2024,2024-11-11,2025-11-10,USD,100,25700000.0,4840000.0,2893816.21,Aarav Mehta
+T0253,C147,Evergreen General,USA,Insurer,A+,NORTH AMERICA,PROF,Excess of Loss,2023,2023-12-08,2024-12-07,USD,100,2000000.0,380000.0,398856.12,Kenji Sato
+T0070,C102,Summit Indemnity,Australia,Insurer,A+,APAC,PROP,Excess of Loss,2024,2024-05-15,2025-05-14,USD,100,15000000.0,1360000.0,1267598.39,Priya Nair
+T0088,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin America,PROP,Facultative,2021,2021-07-26,2022-07-25,USD,100,6800000.0,1340000.0,642763.96,Kenji Sato
+T0115,C168,Sterling Assurance,Chile,Insurer,A,,FINL,Proportional,2026,2026-05-21,2027-05-20,USD,20,5200000.0,320000.0,893427.6,Sophie Laurent
+T0549,C123,Orion General,Canada,Insurer,A+,NORTH AMERICA,CAS,Proportional,2025,2025-08-31,2026-08-30,USD,25,3500000.0,590000.0,581584.52,Omar Haddad
+T0092,C135,Sterling Indemnity,Spain,Insurer,BBB+,EMEA-Europe,CAS,Excess of Loss,2026,2026-05-01,2027-04-30,EUR,100,3981481.48,583333.33,449010.66,Carlos Ibarra
+T0466,C102,Summit Indemnity,Australia,Insurer,A+,Asia-Pacific,PROP,Excess of Loss,2022,2022-08-29,2023-08-28,USD,100,19600000.0,1960000.0,1828219.63,Carlos Ibarra
+T0168,C152,Lumen Mutual,South Africa,Captive,A+,MEA,FINL,Proportional,2025,2025-03-16,2026-03-15,USD,15,12700000.0,1430000.0,1590488.49,Sophie Laurent
+T0408,C105,Atlas Indemnity,Canada,Insurer,A-,North America,PROF,Proportional,2025,2025-08-01,2026-07-31,USD,25,23000000.0,4350000.0,1953700.05,Omar Haddad
+T0321,C101,Granite General,China,Insurer,A,Asia Pacific,CAS,Proportional,2024,2024-10-11,2025-10-10,USD,10,25600000.0,1600000.0,1940908.38,James Whitfield
+T0647,C168,Sterling Assurance,Chile,Insurer,A,Latin Am.,PROF,Excess of Loss,2022,2022-08-29,2023-08-28,USD,100,31500000.0,3430000.0,2365610.36,James Whitfield
+T0078,C157,Sterling Insurance,India,Insurer,A-,APAC,FIN,Facultative,2024,2024-02-08,2025-02-07,INR,100,3675000000.0,205000000.0,430842102.57,Hannah Weber
+T0567,C157,Sterling Insurance,India,Insurer,A-,Asia Pacific,PROP,Proportional,2024,2024-08-16,2025-08-15,INR,50,1133333333.33,205833333.33,85901690.77,Omar Haddad
+T0532,C137,Meridian Indemnity,Germany,Insurer,BBB,Europe,CAS,Excess of Loss,2024,2024-02-01,2025-01-31,EUR,100,8796296.3,898148.15,872515.72,Sophie Laurent
+T0258,C155,Summit Mutual,South Africa,Mutual,A-,ME&A,SPEC,Excess of Loss,2022,2022-07-26,2023-07-25,USD,100,95900000.0,13560000.0,6903567.04,Kenji Sato
+T0256,C139,Lumen Assurance,Brazil,Mutual,BBB+,Latin Am.,SPEC,Excess of Loss,2025,2025-09-14,2026-09-13,USD,100,7100000.0,1270000.0,1025098.59,Carlos Ibarra
+T0498,C147,Evergreen General,USA,Insurer,A+,North America,CAS,Proportional,2024,2024-03-23,2025-03-22,USD,10,14000000.0,1690000.0,1491197.26,James Whitfield
+T0131,C153,Vantage Assurance,Germany,Insurer,A+,EU,FINL,Excess of Loss,2026,2026-08-20,2027-08-19,EUR,100,3796296.3,425925.93,667739.44,Hannah Weber
+T0101,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,FINL,Proportional,2023,2023-12-29,2024-12-28,USD,25,15100000.0,2640000.0,2236663.41,Aarav Mehta
+T0172,C148,Meridian Assurance,Spain,Insurer,A,Europe,SPEC,Proportional,2025,2025-08-02,2026-08-01,EUR,10,6018518.52,833333.33,620929.52,James Whitfield
+T0658,C115,Cobalt Indemnity,Mexico,Insurer,A,NORTH AMERICA,PROF,Excess of Loss,2025,2025-12-06,2026-12-05,USD,100,6100000.0,1060000.0,642539.16,Hannah Weber
+T0617,C157,Sterling Insurance,India,Insurer,A-,Asia Pacific,CAS,Proportional,2023,2023-03-10,2024-03-09,INR,30,491666666.67,28333333.33,38423055.58,Priya Nair
+T0454,C145,Harbor Insurance,Canada,Mutual,BBB,NA,SPEC,Facultative,2023,2023-06-19,2024-06-18,USD,100,7900000.0,1100000.0,1336796.9,Hannah Weber
+T0670,C143,Northwind Indemnity,USA,Mutual,A,North America,SPEC,Proportional,2025,2025-07-27,2026-07-26,USD,30,19000000.0,1820000.0,1714418.69,Priya Nair
+T0201,C114,Evergreen Indemnity,Canada,Insurer,A,N. America,PROP,Proportional,2025,2025-09-24,2026-09-23,USD,25,5700000.0,1070000.0,572508.11,Aarav Mehta
+T0203,C157,Sterling Insurance,India,Insurer,A-,Asia-Pacific,SPEC,Proportional,2024,2024-12-12,2025-12-11,INR,30,441666666.67,38333333.33,81116886.36,Kenji Sato
+T0456,C170,Meridian General,USA,Insurer,A+,NA,PROP,Excess of Loss,2023,2023-11-16,2024-11-15,USD,100,69200000.0,10650000.0,9662306.41,Hannah Weber
+T0137,C131,Pioneer Indemnity,Chile,Mutual,A+,Latin America,PROF,Excess of Loss,2023,2023-04-01,2024-03-31,USD,100,5900000.0,380000.0,1130001.37,Aarav Mehta
+T0521,C141,Granite Insurance,Singapore,Insurer,A+,APAC,PROF,Proportional,2024,2024-10-03,2025-10-02,USD,40,31900000.0,3180000.0,2313745.62,James Whitfield
+T0570,C117,Vantage Mutual,India,Insurer,BBB,APAC,FINL,Proportional,2023,2023-04-11,2024-04-10,INR,50,2591666666.67,342500000.0,240383361.5,Omar Haddad
+T0379,C101,Granite General,China,Insurer,A,Asia Pacific,FINL,Excess of Loss,2025,2025-12-01,2026-11-30,USD,100,3100000.0,440000.0,443723.22,James Whitfield
+T0271,C130,Cobalt Mutual,Italy,Insurer,A+,EMEA-Europe,SPEC,Proportional,2023,2023-11-04,2024-11-03,EUR,30,18703703.7,1712962.96,1540700.35,Omar Haddad
+T0064,C136,Crown Insurance,China,Captive,A,Asia Pacific,PROP,Proportional,2025,2025-12-28,2026-12-27,USD,20,28300000.0,4760000.0,3202994.72,Priya Nair
+T0394,C114,Evergreen Indemnity,Canada,Insurer,A,N. America,PROP,Excess of Loss,2022,2022-11-01,2023-10-31,USD,100,14000000.0,2120000.0,1437598.36,James Whitfield
+T0071,C125,Granite Indemnity,Germany,Insurer,BBB,EU,SPEC,Proportional,2024,2024-11-03,2025-11-02,EUR,10,16759259.26,2018518.52,1284626.89,Kenji Sato
+T0535,C136,Crown Insurance,China,Captive,A,Asia Pacific,SPEC,Excess of Loss,2023,2023-12-11,2024-12-10,USD,100,27200000.0,4410000.0,2322996.52,Sophie Laurent
+T0272,C114,Evergreen Indemnity,Canada,Insurer,A,N. America,CAS,Proportional,2024,2024-01-20,2025-01-19,USD,30,62200000.0,8710000.0,4586650.74,James Whitfield
+T0544,C105,Atlas Indemnity,Canada,Insurer,A-,NA,FINL,Proportional,2021,2021-01-01,2021-12-31,USD,40,53300000.0,10550000.0,6325108.11,Omar Haddad
+T0161,C135,Sterling Indemnity,Spain,Insurer,BBB+,Europe,FINL,Excess of Loss,2021,2021-03-05,2022-03-04,EUR,100,2962962.96,240740.74,513056.67,Sophie Laurent
+T0616,C130,Cobalt Mutual,Italy,Insurer,A+,EU,SPEC,Proportional,2024,2024-03-07,2025-03-06,EUR,10,6574074.07,1268518.52,802893.78,James Whitfield
+T0170,C147,Evergreen General,USA,Insurer,A+,N. America,SPEC,Excess of Loss,2025,2025-09-22,2026-09-21,USD,100,11400000.0,1570000.0,1109405.01,Sophie Laurent
+T0037,C125,Granite Indemnity,Germany,Insurer,BBB,Europe,FINL,Proportional,2024,2024-09-14,2025-09-13,EUR,30,8611111.11,453703.7,1309645.38,Hannah Weber
+T0244,C128,Lumen Insurance,USA,Insurer,BBB,NORTH AMERICA,CAS,Proportional,2025,2025-10-21,2026-10-20,USD,20,23000000.0,3470000.0,1854126.76,Kenji Sato
+T0083,C133,Northwind General,India,Mutual,BBB+,APAC,CAS,Proportional,2022,2022-06-12,2023-06-11,INR,10,1283333333.33,251666666.67,219213344.92,Sophie Laurent
+T0261,C126,Summit Insurance,France,Insurer,A+,Europe,CAS,Proportional,2024,2024-11-18,2025-11-17,EUR,15,95740740.74,8990740.74,7491893.36,Kenji Sato
+T0373,C151,Harbor Assurance,USA,Insurer,A-,NORTH AMERICA,SPEC,Proportional,2026,2026-03-20,2027-03-19,USD,30,7300000.0,600000.0,974626.95,Sophie Laurent
+T0023,C157,Sterling Insurance,India,Insurer,A-,APAC,PROP,Excess of Loss,2023,2023-12-13,2024-12-12,INR,100,550000000.0,93333333.33,48431916.19,Aarav Mehta
+T0338,C109,Crown General,USA,Insurer,A,NORTH AMERICA,PROP,Facultative,2024,2024-12-29,2025-12-28,USD,100,14000000.0,1740000.0,2353312.48,Carlos Ibarra
+T0309,C135,Sterling Indemnity,Spain,Insurer,BBB+,Europe,CAS,Excess of Loss,2021,2021-02-15,2022-02-14,EUR,100,4629629.63,500000.0,380062.87,Carlos Ibarra
+T0681,C120,Summit Assurance,Mexico,Insurer,A,NORTH AMERICA,PROP,Excess of Loss,2025,2025-10-08,2026-10-07,USD,100,15800000.0,2670000.0,1651339.15,James Whitfield
+T0508,C163,Lumen General,Canada,Insurer,BBB,North America,FIN,Excess of Loss,2024,2024-11-23,2025-11-22,USD,100,5700000.0,1110000.0,535875.27,Hannah Weber
+T0221,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,CAS,Proportional,2024,2024-08-24,2025-08-23,USD,25,17400000.0,1850000.0,1674352.81,
+T0014,C112,Crown Mutual,Canada,Insurer,A-,NORTH AMERICA,SPEC,Facultative,2021,2021-11-08,2022-11-07,USD,100,2800000.0,440000.0,200000.0,Kenji Sato
+T0674,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,CAS,Excess of Loss,2021,2021-03-15,2022-03-14,EUR,100,4259259.26,314814.81,490344.43,James Whitfield
+T0585,C148,Meridian Assurance,Spain,Insurer,A,EMEA-Europe,CAS,Proportional,2025,2025-01-22,2026-01-21,EUR,30,5277777.78,416666.67,950447.76,Aarav Mehta
+T0512,C122,Pioneer General,Germany,Insurer,A-,Europe,PROF,Excess of Loss,2022,2022-11-07,2023-11-06,EUR,100,6481481.48,518518.52,1272596.12,
+T0178,C164,Vantage General,USA,Insurer,A+,North America,FINL,Excess of Loss,2025,2025-11-29,2026-11-28,USD,100,15500000.0,2140000.0,1444092.19,Sophie Laurent
+T0277,C160,Orion Indemnity,Brazil,Insurer,A,Latin Am.,CAS,Excess of Loss,2021,2021-02-10,2022-02-09,USD,100,10900000.0,1280000.0,1405135.49,
+T0548,C131,Pioneer Indemnity,Chile,Mutual,A+,,PROP,Proportional,2021,2021-01-26,2022-01-25,USD,15,7200000.0,1120000.0,583059.56,Aarav Mehta
+T0477,C159,Orion Mutual,Spain,Insurer,A-,EU,PROP,Proportional,2022,2022-08-15,2023-08-14,EUR,10,10000000.0,1259259.26,823593.73,Priya Nair
+T0226,C144,Northwind Insurance,Canada,Mutual,A,North America,PROP,Proportional,2024,2024-08-26,2025-08-25,USD,30,13300000.0,1050000.0,1660626.58,Sophie Laurent
+T0217,C153,Vantage Assurance,Germany,Insurer,A+,EMEA-Europe,SPEC,Proportional,2021,2021-05-01,2022-04-30,EUR,10,17222222.22,2694444.44,1323517.03,Kenji Sato
+T0030,C139,Lumen Assurance,Brazil,Mutual,BBB+,Latin America,PROP,Excess of Loss,2024,2024-10-13,2025-10-12,USD,100,8700000.0,490000.0,975714.33,Aarav Mehta
+T0181,C151,Harbor Assurance,USA,Insurer,A-,North America,CAS,Proportional,2024,2024-04-27,2025-04-26,USD,20,9100000.0,1480000.0,839650.58,Priya Nair
+T0460,C146,Cobalt Assurance,France,Insurer,A,EU,CAS,Excess of Loss,2024,2024-04-01,2025-03-31,EUR,100,20092592.59,2462962.96,2416488.61,Kenji Sato
+T0632,C127,Cobalt Insurance,South Africa,Insurer,BBB+,MEA,PROP,Excess of Loss,2022,2022-11-15,2023-11-14,USD,100,5100000.0,410000.0,895115.47,Omar Haddad
+T0688,C106,Granite Mutual,UK,Insurer,A-,EU,PROP,Excess of Loss,2026,2026-05-16,2027-05-15,GBP,100,7480314.96,637795.28,1132186.94,Hannah Weber
+T0475,C142,Atlas General,Japan,Captive,A,Asia-Pacific,CAS,Facultative,2023,2023-11-21,2024-11-20,USD,100,20800000.0,4130000.0,2358486.09,Carlos Ibarra
+T0265,C155,Summit Mutual,South Africa,Mutual,A-,ME&A,PROP,Excess of Loss,2021,2021-06-23,2022-06-22,USD,100,14400000.0,2740000.0,1895940.62,Omar Haddad
+T0065,C157,Sterling Insurance,India,Insurer,A-,APAC,CAS,Excess of Loss,2023,2023-03-27,2024-03-26,INR,100,1208333333.33,88333333.33,92610047.46,Hannah Weber
+T0678,C133,Northwind General,India,Mutual,BBB+,APAC,SPEC,Facultative,2023,2023-09-07,2024-09-06,INR,100,1358333333.33,168333333.33,224001487.68,Aarav Mehta
+T0215,C123,Orion General,Canada,Insurer,A+,North America,PROP,Proportional,2024,2024-11-14,2025-11-13,USD,25,66000000.0,11440000.0,6637818.58,Aarav Mehta
+T0662,C115,Cobalt Indemnity,Mexico,Insurer,A,NA,PROP,Excess of Loss,2026,2026-02-07,2027-02-06,USD,100,11700000.0,2070000.0,1178883.92,Sophie Laurent
+T0649,C123,Orion General,Canada,Insurer,A+,North America,PROP,Proportional,2023,2023-06-01,2024-05-31,USD,50,37100000.0,5570000.0,4041290.68,Sophie Laurent
+T0176,C167,Evergreen Assurance,Canada,Insurer,BBB+,N. America,PROF,Facultative,2022,2022-01-13,2023-01-12,USD,100,13400000.0,1510000.0,993803.24,Kenji Sato
+T0399,C144,Northwind Insurance,Canada,Mutual,A,North America,PROP,Excess of Loss,2021,2021-05-28,2022-05-27,USD,100,14400000.0,1720000.0,2302822.48,Kenji Sato
+T0173,C150,Cobalt General,Canada,Captive,A,N. America,PROF,Excess of Loss,2024,2024-12-15,2025-12-14,USD,100,10500000.0,600000.0,818075.45,Carlos Ibarra
+T0333,C111,Granite Assurance,Australia,Insurer,BBB+,Asia-Pacific,PROP,Facultative,2021,2021-05-19,2022-05-18,USD,100,42500000.0,7410000.0,3403407.73,Priya Nair
+T0033,C119,Atlas Assurance,Mexico,Captive,A-,NORTH AMERICA,CAS,Facultative,2024,2024-05-01,2025-04-30,USD,100,9700000.0,550000.0,1780102.9,Sophie Laurent
+T0032,C101,Granite General,China,Insurer,A,Asia Pacific,PROP,Excess of Loss,2025,2025-03-01,2026-02-28,USD,100,9400000.0,840000.0,1170447.0,Aarav Mehta
+T0236,C123,Orion General,Canada,Insurer,A+,North America,CAS,Facultative,2023,2023-08-28,2024-08-27,USD,100,5100000.0,870000.0,664860.32,Omar Haddad
+T0375,C104,Lumen Indemnity,Singapore,Insurer,A+,Asia Pacific,SPEC,Excess of Loss,2026,2026-02-15,2027-02-14,USD,100,8800000.0,740000.0,850892.63,James Whitfield
+T0398,C107,Vantage Insurance,Switzerland,Insurer,A+,EU,PROP,Proportional,2024,2024-10-17,2025-10-16,EUR,25,7777777.78,861111.11,1155245.12,James Whitfield
+T0409,C132,Pioneer Insurance,Germany,Insurer,A,EU,CAS,Proportional,2025,2025-06-01,2026-05-31,EUR,30,8055555.56,1351851.85,612208.36,Aarav Mehta
+T0419,C170,Meridian General,USA,Insurer,A+,NORTH AMERICA,PROP,Excess of Loss,2021,2021-05-24,2022-05-23,USD,100,3600000.0,580000.0,270055.25,James Whitfield
+T0390,C103,Northwind Mutual,India,Insurer,A-,APAC,CAS,Facultative,2022,2022-07-21,2023-07-20,INR,100,1291666666.67,234166666.67,167386021.51,Omar Haddad
+T0672,C136,Crown Insurance,China,Captive,A,Asia Pacific,PROP,Proportional,2022,2022-05-26,2023-05-25,USD,25,37500000.0,3910000.0,4539606.88,Carlos Ibarra
+T0551,C126,Summit Insurance,France,Insurer,A+,Europe,PROP,Proportional,2021,2021-04-06,2022-04-05,EUR,40,17500000.0,2370370.37,3153355.73,Carlos Ibarra
+T0266,C112,Crown Mutual,Canada,Insurer,A-,NORTH AMERICA,PROP,Proportional,2022,2022-04-02,2023-04-01,USD,15,20500000.0,2150000.0,1941550.84,James Whitfield
+T0015,C101,Granite General,China,Insurer,A,Asia-Pacific,PROP,Proportional,2024,2024-05-21,2025-05-20,USD,20,34300000.0,2440000.0,2470818.2,Kenji Sato
+T0095,C115,Cobalt Indemnity,Mexico,Insurer,A,N. America,SPEC,Proportional,2025,2025-09-29,2026-09-28,USD,25,16200000.0,2100000.0,1190443.4,Aarav Mehta
+T0529,C161,Orion Insurance,Singapore,Mutual,A+,Asia-Pacific,SPEC,Excess of Loss,2025,2025-07-23,2026-07-22,USD,100,81800000.0,4780000.0,11178111.03,Sophie Laurent
+T0392,C123,Orion General,Canada,Insurer,A+,North America,SPEC,Proportional,2021,2021-06-25,2022-06-24,USD,10,18900000.0,1800000.0,3758645.46,Aarav Mehta
+T0079,C139,Lumen Assurance,Brazil,Mutual,BBB+,Latin America,PROP,Excess of Loss,2025,2025-02-24,2026-02-23,USD,100,1300000.0,140000.0,252709.42,Kenji Sato
+T0604,C137,Meridian Indemnity,Germany,Insurer,BBB,EU,SPEC,Proportional,2022,2022-07-27,2023-07-26,EUR,40,8518518.52,583333.33,652373.63,Carlos Ibarra
+T0388,C123,Orion General,Canada,Insurer,A+,North America,PROP,Excess of Loss,2024,2024-11-09,2025-11-08,USD,100,45700000.0,3460000.0,7042276.28,Priya Nair
+T0184,C146,Cobalt Assurance,France,Insurer,A,EU,CAS,Excess of Loss,2025,2025-06-28,2026-06-27,EUR,100,7037037.04,1212962.96,994419.21,Aarav Mehta
+T0450,C141,Granite Insurance,Singapore,Insurer,A+,,CAS,Proportional,2024,2024-12-06,2025-12-05,USD,15,225900000.0,39290000.0,20891806.57,Priya Nair
+T0381,C115,Cobalt Indemnity,Mexico,Insurer,A,N. America,PROP,Excess of Loss,2024,2024-03-15,2025-03-14,USD,100,21100000.0,3050000.0,2360609.1,James Whitfield
+T0492,C168,Sterling Assurance,Chile,Insurer,A,Latin Am.,PROF,Proportional,2022,2022-11-17,2023-11-16,USD,30,20400000.0,3040000.0,2673665.04,Omar Haddad
+T0191,C119,Atlas Assurance,Mexico,Captive,A-,NORTH AMERICA,SPEC,Facultative,2022,2022-04-14,2023-04-13,USD,100,12700000.0,950000.0,1511504.54,Kenji Sato
+T0622,C103,Northwind Mutual,India,Insurer,A-,Asia Pacific,SPEC,Proportional,2022,2022-11-05,2023-11-04,INR,15,1916666666.67,223333333.33,146466355.75,Kenji Sato
+T0365,C137,Meridian Indemnity,Germany,Insurer,BBB,Europe,SPEC,Excess of Loss,2025,2025-06-13,2026-06-12,EUR,100,20925925.93,3518518.52,2401363.38,James Whitfield
+T0136,C111,Granite Assurance,Australia,Insurer,BBB+,Asia Pacific,CAS,Proportional,2023,2023-07-17,2024-07-16,USD,25,11400000.0,590000.0,1078724.73,Priya Nair
+T0246,C125,Granite Indemnity,Germany,Insurer,BBB,Europe,CAS,Proportional,2024,2024-11-10,2025-11-09,EUR,30,36296296.3,6675925.93,3227734.03,Carlos Ibarra
+T0275,C166,Harbor General,Canada,Insurer,A,North America,CAS,Excess of Loss,2024,2024-09-22,2025-09-21,USD,100,10700000.0,930000.0,1210144.63,Carlos Ibarra
+T0148,C103,Northwind Mutual,India,Insurer,A-,Asia Pacific,CAS,Excess of Loss,2022,2022-12-20,2023-12-19,INR,100,691666666.67,86666666.67,93596500.54,Priya Nair
+T0106,C123,Orion General,Canada,Insurer,A+,N. America,PROF,Proportional,2026,2026-05-11,2027-05-10,USD,40,13000000.0,1090000.0,1788645.16,Priya Nair
+T0295,C147,Evergreen General,USA,Insurer,A+,North America,PROP,Excess of Loss,2023,2023-05-03,2024-05-02,USD,100,12400000.0,990000.0,1969852.8,Aarav Mehta
+T0325,C165,Harbor Indemnity,USA,Insurer,A,NA,PROP,Excess of Loss,2026,2026-06-30,2027-06-29,USD,100,7800000.0,990000.0,618551.61,Carlos Ibarra
+T0540,C114,Evergreen Indemnity,Canada,Insurer,A,N. America,SPEC,Excess of Loss,2023,2023-11-27,2024-11-26,USD,100,18600000.0,3090000.0,1894228.46,Omar Haddad
+T0111,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,FINL,Facultative,2022,2022-07-08,2023-07-07,EUR,100,15555555.56,2194444.44,1201521.72,Kenji Sato
+T0006,C143,Northwind Indemnity,USA,Mutual,A,N. America,PROF,Proportional,2022,2022-01-02,2023-01-01,USD,30,2700000.0,150000.0,200000.0,Kenji Sato
+T0145,C123,Orion General,Canada,Insurer,A+,North America,PROP,Proportional,2023,2023-06-02,2024-06-01,USD,20,1300000.0,260000.0,223994.32,James Whitfield
+T0104,C136,Crown Insurance,China,Captive,A,APAC,PROF,Proportional,2021,2021-02-21,2022-02-20,USD,20,2400000.0,430000.0,352993.99,Carlos Ibarra
+T0211,C139,Lumen Assurance,Brazil,Mutual,BBB+,Latin Am.,FINL,Proportional,2024,2024-10-13,2025-10-12,USD,25,5700000.0,980000.0,787090.08,Omar Haddad
+T0447,C132,Pioneer Insurance,Germany,Insurer,A,Europe,SPEC,Proportional,2025,2025-06-24,2026-06-23,EUR,40,30648148.15,5175925.93,4769516.34,Priya Nair
+T0042,C153,Vantage Assurance,Germany,Insurer,A+,Europe,FIN,Excess of Loss,2021,2021-09-27,2022-09-26,EUR,100,11481481.48,611111.11,938638.99,Sophie Laurent
+T0363,C125,Granite Indemnity,Germany,Insurer,BBB,EU,PROP,Excess of Loss,2022,2022-06-12,2023-06-11,EUR,100,45648148.15,7861111.11,5111577.32,Priya Nair
+T0650,C167,Evergreen Assurance,Canada,Insurer,BBB+,NA,FINL,Proportional,2023,2023-04-28,2024-04-27,USD,10,6800000.0,780000.0,690148.57,Omar Haddad
+T0378,C117,Vantage Mutual,India,Insurer,BBB,Asia Pacific,PROF,Proportional,2026,2026-01-27,2027-01-26,INR,50,191666666.67,15000000.0,30046833.47,Sophie Laurent
+T0255,C133,Northwind General,India,Mutual,BBB+,Asia-Pacific,SPEC,Excess of Loss,2023,2023-12-18,2024-12-17,INR,100,675000000.0,78333333.33,54110241.22,James Whitfield
+T0147,C170,Meridian General,USA,Insurer,A+,North America,PROF,Proportional,2021,2021-12-05,2022-12-04,USD,30,9300000.0,850000.0,763170.1,Kenji Sato
+T0638,C118,Meridian Insurance,Japan,Insurer,A,Asia-Pacific,CAS,Facultative,2024,2024-07-20,2025-07-19,USD,100,7600000.0,1060000.0,1115169.35,Sophie Laurent
+T0087,C167,Evergreen Assurance,Canada,Insurer,BBB+,NORTH AMERICA,PROP,Excess of Loss,2025,2025-04-20,2026-04-19,USD,100,22400000.0,2420000.0,1627661.62,Carlos Ibarra
+T0543,C161,Orion Insurance,Singapore,Mutual,A+,APAC,PROF,Excess of Loss,2025,2025-09-25,2026-09-24,USD,100,9700000.0,560000.0,997079.11,James Whitfield
+T0432,C103,Northwind Mutual,India,Insurer,A-,Asia-Pacific,SPEC,Excess of Loss,2023,2023-04-06,2024-04-05,INR,100,1400000000.0,86666666.67,167532652.27,Omar Haddad
+T0066,C105,Atlas Indemnity,Canada,Insurer,A-,NORTH AMERICA,PROP,Proportional,2021,2021-02-01,2022-01-31,USD,25,12500000.0,2240000.0,1145701.69,James Whitfield
+T0206,C133,Northwind General,India,Mutual,BBB+,Asia Pacific,PROP,Proportional,2022,2022-01-14,2023-01-13,INR,10,616666666.67,39166666.67,71880933.3,James Whitfield
+T0045,C115,Cobalt Indemnity,Mexico,Insurer,A,N. America,CAS,Excess of Loss,2023,2023-06-15,2024-06-14,USD,100,24200000.0,2130000.0,1774479.04,James Whitfield
+T0028,C119,Atlas Assurance,Mexico,Captive,A-,NA,CAS,Excess of Loss,2026,2026-03-11,2027-03-10,USD,100,9300000.0,910000.0,897772.44,Sophie Laurent
+T0081,C108,Pioneer Assurance,Spain,Insurer,BBB+,EU,PROF,Excess of Loss,2024,2024-03-29,2025-03-28,EUR,100,1666666.67,277777.78,185185.19,Carlos Ibarra
+T0438,C138,Northwind Assurance,Canada,Insurer,BBB,North America,FINL,Excess of Loss,2024,2024-08-21,2025-08-20,USD,100,27200000.0,1620000.0,1946131.79,Aarav Mehta
+T0114,C145,Harbor Insurance,Canada,Mutual,BBB,NA,PROF,Excess of Loss,2024,2024-12-14,2025-12-13,USD,100,76000000.0,7790000.0,7056460.5,Omar Haddad
+T0205,C151,Harbor Assurance,USA,Insurer,A-,North America,CAS,Proportional,2023,2023-09-07,2024-09-06,USD,25,19900000.0,3770000.0,2279213.29,Sophie Laurent
+T0520,C159,Orion Mutual,Spain,Insurer,A-,Europe,SPEC,Excess of Loss,2023,2023-11-02,2024-11-01,EUR,100,7222222.22,657407.41,1164564.26,Priya Nair
+T0671,C120,Summit Assurance,Mexico,Insurer,A,NA,CAS,Excess of Loss,2023,2023-03-30,2024-03-29,USD,100,12200000.0,2080000.0,1086314.36,Carlos Ibarra
+T0625,C137,Meridian Indemnity,Germany,Insurer,BBB,EU,PROF,Facultative,2025,2025-10-10,2026-10-09,EUR,100,2129629.63,185185.19,185185.19,Carlos Ibarra
+T0412,C132,Pioneer Insurance,Germany,Insurer,A,EMEA-Europe,CAS,Proportional,2023,2023-04-20,2024-04-19,EUR,20,8518518.52,1129629.63,765743.11,Priya Nair
+T0009,C112,Crown Mutual,Canada,Insurer,A-,North America,FINL,Excess of Loss,2023,2023-06-02,2024-06-01,USD,100,46700000.0,5660000.0,3468115.25,Carlos Ibarra
+T0074,C143,Northwind Indemnity,USA,Mutual,A,NORTH AMERICA,PROP,Excess of Loss,2025,2025-12-17,2026-12-16,USD,100,58600000.0,11270000.0,4193146.62,Kenji Sato
+T0401,C115,Cobalt Indemnity,Mexico,Insurer,A,North America,SPEC,Proportional,2024,2024-05-26,2025-05-25,USD,15,6500000.0,800000.0,1199260.54,Priya Nair
+T0119,C105,Atlas Indemnity,Canada,Insurer,A-,NORTH AMERICA,CAS,Proportional,2023,2023-09-03,2024-09-02,USD,20,5800000.0,950000.0,497709.64,Priya Nair
+T0627,C141,Granite Insurance,Singapore,Insurer,A+,Asia-Pacific,CAS,Proportional,2024,2024-12-16,2025-12-15,USD,30,10200000.0,770000.0,1154818.03,Kenji Sato
+T0207,C125,Granite Indemnity,Germany,Insurer,BBB,EU,SPEC,Proportional,2022,2022-05-30,2023-05-29,EUR,10,14166666.67,2009259.26,2302725.04,Carlos Ibarra

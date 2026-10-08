@@ -1,0 +1,360 @@
+check_id,source_table,src_row,record_key,detail,disposition
+C01,stg_treaties,127.0,T0361,blank region,Mapped to Unassigned
+C01,stg_treaties,137.0,T0366,blank region,Mapped to Unassigned
+C01,stg_treaties,175.0,T0514,blank region,Mapped to Unassigned
+C01,stg_treaties,178.0,T0198,blank region,Mapped to Unassigned
+C01,stg_treaties,189.0,T0188,blank region,Mapped to Unassigned
+C01,stg_treaties,228.0,T0470,blank region,Mapped to Unassigned
+C01,stg_treaties,248.0,T0445,blank region,Mapped to Unassigned
+C01,stg_treaties,265.0,T0397,blank region,Mapped to Unassigned
+C01,stg_treaties,267.0,T0356,blank region,Mapped to Unassigned
+C01,stg_treaties,315.0,T0442,blank region,Mapped to Unassigned
+C01,stg_treaties,348.0,T0293,blank region,Mapped to Unassigned
+C01,stg_treaties,355.0,T0049,blank region,Mapped to Unassigned
+C01,stg_treaties,370.0,T0533,blank region,Mapped to Unassigned
+C01,stg_treaties,446.0,T0335,blank region,Mapped to Unassigned
+C01,stg_treaties,452.0,T0500,blank region,Mapped to Unassigned
+C01,stg_treaties,493.0,T0018,blank region,Mapped to Unassigned
+C01,stg_treaties,511.0,T0626,blank region,Mapped to Unassigned
+C01,stg_treaties,562.0,T0115,blank region,Mapped to Unassigned
+C01,stg_treaties,617.0,T0548,blank region,Mapped to Unassigned
+C01,stg_treaties,656.0,T0450,blank region,Mapped to Unassigned
+C02,stg_treaties,1.0,T0362,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,36.0,T0607,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,60.0,T0300,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,72.0,T0587,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,204.0,T0233,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,215.0,T0580,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,229.0,T0180,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,307.0,T0306,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,461.0,T0047,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,472.0,T0690,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,486.0,T0308,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,494.0,T0208,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,610.0,T0221,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,614.0,T0512,blank underwriter,Mapped to Unassigned
+C02,stg_treaties,616.0,T0277,blank underwriter,Mapped to Unassigned
+V01,stg_claims,4348.0,CL005714,loss 2025-08-26 < inception 2026-03-13,Quarantined
+V01,stg_claims,1402.0,CL005427,loss 2025-12-22 < inception 2026-05-16,Quarantined
+V01,stg_claims,5924.0,CL000405,loss 2021-01-31 < inception 2021-09-17,Quarantined
+V01,stg_claims,1204.0,CL003901,loss 2024-01-27 < inception 2024-10-11,Quarantined
+V01,stg_claims,1808.0,CL005737,loss 2025-07-18 < inception 2025-10-04,Quarantined
+V01,stg_claims,1339.0,CL003706,loss 2024-04-03 < inception 2024-12-04,Quarantined
+V01,stg_claims,3246.0,CL002443,loss 2023-04-07 < inception 2023-11-05,Quarantined
+V01,stg_claims,4295.0,CL005608,loss 2025-02-26 < inception 2025-08-05,Quarantined
+V01,stg_claims,1477.0,CL001336,loss 2022-01-17 < inception 2022-04-04,Quarantined
+V01,stg_claims,4397.0,CL001718,loss 2022-12-03 < inception 2023-01-05,Quarantined
+V01,stg_claims,5904.0,CL005861,loss 2026-01-26 < inception 2026-04-17,Quarantined
+V01,stg_claims,5991.0,CL005318,loss 2025-05-29 < inception 2026-01-31,Quarantined
+V01,stg_claims,1553.0,CL000826,loss 2021-10-10 < inception 2022-02-13,Quarantined
+V01,stg_claims,5088.0,CL001387,loss 2021-11-04 < inception 2022-02-13,Quarantined
+V01,stg_claims,5937.0,CL004843,loss 2024-08-25 < inception 2024-12-29,Quarantined
+V01,stg_claims,4687.0,CL000371,loss 2021-01-05 < inception 2021-05-24,Quarantined
+V01,stg_claims,1873.0,CL001540,loss 2021-12-25 < inception 2022-05-26,Quarantined
+V01,stg_claims,4648.0,CL003570,loss 2023-09-12 < inception 2024-03-15,Quarantined
+V01,stg_claims,3582.0,CL002016,loss 2023-05-12 < inception 2023-06-02,Quarantined
+V01,stg_claims,5074.0,CL002647,loss 2022-11-14 < inception 2023-04-28,Quarantined
+V02,stg_claims,2733.0,CL000987,loss 2023-05-03 > expiry 2023-03-25,Quarantined
+V02,stg_claims,26.0,CL000294,loss 2023-01-30 > expiry 2022-10-30,Quarantined
+V02,stg_claims,3526.0,CL004953,loss 2026-01-26 > expiry 2026-01-06,Quarantined
+V02,stg_claims,5781.0,CL001478,loss 2023-12-22 > expiry 2023-06-13,Quarantined
+V02,stg_claims,398.0,CL002943,loss 2025-08-26 > expiry 2025-06-03,Quarantined
+V02,stg_claims,5365.0,CL001517,loss 2023-12-22 > expiry 2023-11-03,Quarantined
+V02,stg_claims,1958.0,CL003569,loss 2026-02-02 > expiry 2025-09-15,Quarantined
+V02,stg_claims,3317.0,CL004332,loss 2026-06-12 > expiry 2026-01-13,Quarantined
+V02,stg_claims,2400.0,CL001138,loss 2023-04-17 > expiry 2023-03-28,Quarantined
+V02,stg_claims,3213.0,CL002841,loss 2025-06-01 > expiry 2025-04-18,Quarantined
+V02,stg_claims,2765.0,CL003512,loss 2026-03-08 > expiry 2025-12-08,Quarantined
+V02,stg_claims,1888.0,CL000574,loss 2023-07-30 > expiry 2023-03-29,Quarantined
+V02,stg_claims,639.0,CL002341,loss 2025-02-09 > expiry 2024-12-11,Quarantined
+V02,stg_claims,1060.0,CL000149,loss 2022-04-28 > expiry 2022-04-05,Quarantined
+V02,stg_claims,1294.0,CL000713,loss 2023-09-23 > expiry 2023-07-07,Quarantined
+V03,stg_premium,216.0,PT006354,gross=-81274.19,Quarantined
+V03,stg_premium,266.0,PT003561,gross=0.0,Quarantined
+V03,stg_premium,486.0,PT003214,gross=-1166895.94,Quarantined
+V03,stg_premium,533.0,PT002029,gross=0.0,Quarantined
+V03,stg_premium,940.0,PT000178,gross=0.0,Quarantined
+V03,stg_premium,1397.0,PT005158,gross=0.0,Quarantined
+V03,stg_premium,2423.0,PT005349,gross=-196540.51,Quarantined
+V03,stg_premium,2742.0,PT006814,gross=-12289574.96,Quarantined
+V03,stg_premium,3172.0,PT001852,gross=-232594.41,Quarantined
+V03,stg_premium,3840.0,PT004769,gross=-456262.98,Quarantined
+V03,stg_premium,4064.0,PT007726,gross=-126599.55,Quarantined
+V03,stg_premium,4347.0,PT000225,gross=-363245.55,Quarantined
+V03,stg_premium,5712.0,PT005817,gross=-94523.62,Quarantined
+V03,stg_premium,5726.0,PT001206,gross=-105427.91,Quarantined
+V03,stg_premium,6508.0,PT007004,gross=-133093.9,Quarantined
+V03,stg_premium,6682.0,PT003856,gross=0.0,Quarantined
+V03,stg_premium,7669.0,PT000943,gross=-17957351.61,Quarantined
+V04,stg_claims,490.0,CL001280,status X,Loaded as Unmapped
+V04,stg_claims,1836.0,CL000151,status X,Loaded as Unmapped
+V04,stg_claims,2351.0,CL001116,status X,Loaded as Unmapped
+V04,stg_claims,3528.0,CL003607,status X,Loaded as Unmapped
+V04,stg_claims,3653.0,CL001222,status X,Loaded as Unmapped
+V04,stg_claims,3823.0,CL000230,status X,Loaded as Unmapped
+V04,stg_claims,4622.0,CL004221,status X,Loaded as Unmapped
+V04,stg_claims,5151.0,CL003872,status X,Loaded as Unmapped
+V04,stg_claims,5313.0,CL002967,status X,Loaded as Unmapped
+V04,stg_claims,5676.0,CL000020,status X,Loaded as Unmapped
+V05,stg_treaties,90.0,T0369,LOB FIN,Loaded as Unmapped
+V05,stg_treaties,134.0,T0453,LOB FIN,Loaded as Unmapped
+V05,stg_treaties,277.0,T0297,LOB FIN,Loaded as Unmapped
+V05,stg_treaties,281.0,T0158,LOB FIN,Loaded as Unmapped
+V05,stg_treaties,478.0,T0247,LOB FIN,Loaded as Unmapped
+V05,stg_treaties,570.0,T0078,LOB FIN,Loaded as Unmapped
+V05,stg_treaties,609.0,T0508,LOB FIN,Loaded as Unmapped
+V05,stg_treaties,676.0,T0042,LOB FIN,Loaded as Unmapped
+V10,stg_claims,3558.0,CL005721,incurred 2951068.0 > limit 2600000.0,Flagged
+V10,stg_claims,2597.0,CL002257,incurred 2963215.0 > limit 2200000.0,Flagged
+V10,stg_claims,5794.0,CL004133,incurred 2974820.0 > limit 2400000.0,Flagged
+V10,stg_claims,602.0,CL002962,incurred 3562265.0 > limit 3200000.0,Flagged
+V10,stg_claims,4476.0,CL000896,incurred 3830656.0 > limit 3200000.0,Flagged
+V10,stg_claims,2430.0,CL005471,incurred 3063695.0 > limit 2300000.0,Flagged
+V10,stg_claims,3982.0,CL003762,incurred 4802122.0 > limit 3800000.0,Flagged
+V10,stg_claims,3459.0,CL005836,incurred 4722813.0 > limit 3500000.0,Flagged
+V10,stg_claims,4183.0,CL005584,incurred 5210221.0 > limit 3500000.0,Flagged
+V10,stg_claims,2614.0,CL004149,incurred 1630867.0 > limit 1300000.0,Flagged
+V10,stg_claims,3475.0,CL004969,incurred 1566619.0 > limit 1300000.0,Flagged
+V10,stg_claims,2831.0,CL005163,incurred 233797908.0 > limit 191666667.0,Flagged
+K01,stg_claims,32.0,CL004849,incurred 61041.6 vs paid+reserve 47100.94,Corrected
+K01,stg_claims,240.0,CL001964,incurred 6241.04 vs paid+reserve 5071.53,Corrected
+K01,stg_claims,294.0,CL004846,incurred 31793.15 vs paid+reserve 28753.5,Corrected
+K01,stg_claims,327.0,CL003516,incurred 392346.97 vs paid+reserve 327662.12,Corrected
+K01,stg_claims,539.0,CL005597,incurred 17513.51 vs paid+reserve 13420.95,Corrected
+K01,stg_claims,672.0,CL005222,incurred 2033469.31 vs paid+reserve 1468739.19,Corrected
+K01,stg_claims,723.0,CL002598,incurred 139001.55 vs paid+reserve 103007.45,Corrected
+K01,stg_claims,776.0,CL001658,incurred 528781.86 vs paid+reserve 446250.24,Corrected
+K01,stg_claims,1001.0,CL003196,incurred 128389.81 vs paid+reserve 104845.86,Corrected
+K01,stg_claims,1103.0,CL001381,incurred 104718.35 vs paid+reserve 83020.28,Corrected
+K01,stg_claims,1148.0,CL002884,incurred 68215.65 vs paid+reserve 61102.82,Corrected
+K01,stg_claims,1723.0,CL001513,incurred 57557.98 vs paid+reserve 44992.32,Corrected
+K01,stg_claims,1773.0,CL002645,incurred 2410.98 vs paid+reserve 1734.31,Corrected
+K01,stg_claims,1950.0,CL002760,incurred 419924.63 vs paid+reserve 305446.63,Corrected
+K01,stg_claims,2809.0,CL002675,incurred 16292.38 vs paid+reserve 12428.4,Corrected
+K01,stg_claims,2899.0,CL003303,incurred 510581.7 vs paid+reserve 373288.45,Corrected
+K01,stg_claims,2937.0,CL005682,incurred 10303.8 vs paid+reserve 7553.82,Corrected
+K01,stg_claims,3149.0,CL003858,incurred 115446.29 vs paid+reserve 83756.38,Corrected
+K01,stg_claims,3179.0,CL001450,incurred 36357.4 vs paid+reserve 26546.45,Corrected
+K01,stg_claims,3329.0,CL001961,incurred 24793.03 vs paid+reserve 21379.06,Corrected
+K01,stg_claims,3480.0,CL001769,incurred 32980835.19 vs paid+reserve 26063280.04,Corrected
+K01,stg_claims,4251.0,CL004907,incurred 1724432.64 vs paid+reserve 1388988.29,Corrected
+K01,stg_claims,4445.0,CL003230,incurred 9738.94 vs paid+reserve 8742.55,Corrected
+K01,stg_claims,4540.0,CL003841,incurred 95107.4 vs paid+reserve 77997.61,Corrected
+K01,stg_claims,4827.0,CL002364,incurred 47764.21 vs paid+reserve 37332.41,Corrected
+K01,stg_claims,5116.0,CL005743,incurred 27438.77 vs paid+reserve 22500.78,Corrected
+K01,stg_claims,5587.0,CL001198,incurred 193160.54 vs paid+reserve 140133.87,Corrected
+K01,stg_claims,5836.0,CL002734,incurred 13207.22 vs paid+reserve 10054.24,Corrected
+K01,stg_claims,5863.0,CL001636,incurred 43493.06 vs paid+reserve 33103.45,Corrected
+K01,stg_claims,6017.0,CL000228,incurred 37036.84 vs paid+reserve 31043.56,Corrected
+K02,stg_treaties,101.0,T0034,booked 388637.0 vs est 353307.0,Flagged
+K02,stg_treaties,124.0,T0494,booked 772362.0 vs est 702148.0,Flagged
+K02,stg_treaties,400.0,T0443,booked 2098214.0 vs est 1907467.0,Flagged
+K02,stg_treaties,503.0,T0214,booked 1594859.0 vs est 1449872.0,Flagged
+K02,stg_treaties,561.0,T0088,booked 707040.0 vs est 642764.0,Flagged
+K02,stg_treaties,583.0,T0201,booked 629759.0 vs est 572508.0,Flagged
+K02,stg_treaties,628.0,T0065,booked 101871052.0 vs est 92610047.0,Flagged
+K02,stg_treaties,636.0,T0333,booked 3743748.0 vs est 3403408.0,Flagged
+K02,stg_treaties,677.0,T0363,booked 5622735.0 vs est 5111577.0,Flagged
+K02,stg_treaties,703.0,T0207,booked 2532998.0 vs est 2302725.0,Flagged
+U01,stg_treaties,552.0,T0330,duplicate row,Quarantined
+U01,stg_treaties,702.0,T0627,duplicate row,Quarantined
+U01,stg_treaties,323.0,T0682,duplicate row,Quarantined
+U02,stg_claims,1260.0,CL000388,duplicate row,Quarantined
+U02,stg_claims,5833.0,CL000829,duplicate row,Quarantined
+U02,stg_claims,5625.0,CL000898,duplicate row,Quarantined
+U02,stg_claims,3628.0,CL000930,duplicate row,Quarantined
+U02,stg_claims,5644.0,CL002083,duplicate row,Quarantined
+U02,stg_claims,2283.0,CL002944,duplicate row,Quarantined
+U02,stg_claims,4409.0,CL003434,duplicate row,Quarantined
+U02,stg_claims,4516.0,CL004219,duplicate row,Quarantined
+U02,stg_claims,4890.0,CL004422,duplicate row,Quarantined
+U02,stg_claims,4434.0,CL004840,duplicate row,Quarantined
+U02,stg_claims,5608.0,CL005035,duplicate row,Quarantined
+U02,stg_claims,2059.0,CL005108,duplicate row,Quarantined
+U02,stg_claims,2474.0,CL005372,duplicate row,Quarantined
+U02,stg_claims,4678.0,CL005432,duplicate row,Quarantined
+U02,stg_claims,2453.0,CL005589,duplicate row,Quarantined
+U03,stg_premium,1222.0,PT000130,duplicate of earlier txn,Quarantined
+U03,stg_premium,7083.0,PT000175,duplicate of earlier txn,Quarantined
+U03,stg_premium,6468.0,PT000217,duplicate of earlier txn,Quarantined
+U03,stg_premium,4717.0,PT000227,duplicate of earlier txn,Quarantined
+U03,stg_premium,7336.0,PT000249,duplicate of earlier txn,Quarantined
+U03,stg_premium,7812.0,PT000266,duplicate of earlier txn,Quarantined
+U03,stg_premium,7742.0,PT900006,duplicate of earlier txn,Quarantined
+U03,stg_premium,7602.0,PT900007,duplicate of earlier txn,Quarantined
+U03,stg_premium,7692.0,PT900008,duplicate of earlier txn,Quarantined
+U03,stg_premium,3397.0,PT000424,duplicate of earlier txn,Quarantined
+U03,stg_premium,4180.0,PT000431,duplicate of earlier txn,Quarantined
+U03,stg_premium,2992.0,PT900011,duplicate of earlier txn,Quarantined
+U03,stg_premium,7947.0,PT900012,duplicate of earlier txn,Quarantined
+U03,stg_premium,6235.0,PT900013,duplicate of earlier txn,Quarantined
+U03,stg_premium,4770.0,PT000752,duplicate of earlier txn,Quarantined
+U03,stg_premium,7879.0,PT900015,duplicate of earlier txn,Quarantined
+U03,stg_premium,2238.0,PT000869,duplicate of earlier txn,Quarantined
+U03,stg_premium,6936.0,PT000881,duplicate of earlier txn,Quarantined
+U03,stg_premium,2760.0,PT900018,duplicate of earlier txn,Quarantined
+U03,stg_premium,6501.0,PT900019,duplicate of earlier txn,Quarantined
+U03,stg_premium,6744.0,PT001067,duplicate of earlier txn,Quarantined
+U03,stg_premium,7171.0,PT900021,duplicate of earlier txn,Quarantined
+U03,stg_premium,6167.0,PT900022,duplicate of earlier txn,Quarantined
+U03,stg_premium,5339.0,PT001265,duplicate of earlier txn,Quarantined
+U03,stg_premium,6982.0,PT001281,duplicate of earlier txn,Quarantined
+U03,stg_premium,6117.0,PT900025,duplicate of earlier txn,Quarantined
+U03,stg_premium,6047.0,PT900026,duplicate of earlier txn,Quarantined
+U03,stg_premium,7877.0,PT001463,duplicate of earlier txn,Quarantined
+U03,stg_premium,4617.0,PT001580,duplicate of earlier txn,Quarantined
+U03,stg_premium,5475.0,PT900029,duplicate of earlier txn,Quarantined
+U03,stg_premium,6456.0,PT900030,duplicate of earlier txn,Quarantined
+U03,stg_premium,7966.0,PT001866,duplicate of earlier txn,Quarantined
+U03,stg_premium,7500.0,PT001886,duplicate of earlier txn,Quarantined
+U03,stg_premium,4652.0,PT900033,duplicate of earlier txn,Quarantined
+U03,stg_premium,4316.0,PT900034,duplicate of earlier txn,Quarantined
+U03,stg_premium,5411.0,PT002008,duplicate of earlier txn,Quarantined
+U03,stg_premium,2476.0,PT900036,duplicate of earlier txn,Quarantined
+U03,stg_premium,5481.0,PT002048,duplicate of earlier txn,Quarantined
+U03,stg_premium,6946.0,PT002084,duplicate of earlier txn,Quarantined
+U03,stg_premium,2944.0,PT900039,duplicate of earlier txn,Quarantined
+U03,stg_premium,7599.0,PT002152,duplicate of earlier txn,Quarantined
+U03,stg_premium,2507.0,PT002237,duplicate of earlier txn,Quarantined
+U03,stg_premium,4246.0,PT900042,duplicate of earlier txn,Quarantined
+U03,stg_premium,4197.0,PT002281,duplicate of earlier txn,Quarantined
+U03,stg_premium,2597.0,PT900044,duplicate of earlier txn,Quarantined
+U03,stg_premium,1444.0,PT002369,duplicate of earlier txn,Quarantined
+U03,stg_premium,6489.0,PT002376,duplicate of earlier txn,Quarantined
+U03,stg_premium,4293.0,PT900047,duplicate of earlier txn,Quarantined
+U03,stg_premium,3919.0,PT900048,duplicate of earlier txn,Quarantined
+U03,stg_premium,6233.0,PT002486,duplicate of earlier txn,Quarantined
+U03,stg_premium,2235.0,PT002493,duplicate of earlier txn,Quarantined
+U03,stg_premium,4753.0,PT002513,duplicate of earlier txn,Quarantined
+U03,stg_premium,6852.0,PT002546,duplicate of earlier txn,Quarantined
+U03,stg_premium,6164.0,PT002614,duplicate of earlier txn,Quarantined
+U03,stg_premium,8028.0,PT900054,duplicate of earlier txn,Quarantined
+U03,stg_premium,2140.0,PT900055,duplicate of earlier txn,Quarantined
+U03,stg_premium,7368.0,PT002914,duplicate of earlier txn,Quarantined
+U03,stg_premium,5272.0,PT900057,duplicate of earlier txn,Quarantined
+U03,stg_premium,1758.0,PT003031,duplicate of earlier txn,Quarantined
+U03,stg_premium,6586.0,PT003043,duplicate of earlier txn,Quarantined
+U03,stg_premium,7272.0,PT003110,duplicate of earlier txn,Quarantined
+U03,stg_premium,5140.0,PT003122,duplicate of earlier txn,Quarantined
+U03,stg_premium,6532.0,PT003157,duplicate of earlier txn,Quarantined
+U03,stg_premium,2365.0,PT900063,duplicate of earlier txn,Quarantined
+U03,stg_premium,6997.0,PT900064,duplicate of earlier txn,Quarantined
+U03,stg_premium,5289.0,PT900065,duplicate of earlier txn,Quarantined
+U03,stg_premium,7157.0,PT900066,duplicate of earlier txn,Quarantined
+U03,stg_premium,3656.0,PT900067,duplicate of earlier txn,Quarantined
+U03,stg_premium,3185.0,PT900068,duplicate of earlier txn,Quarantined
+U03,stg_premium,5718.0,PT900069,duplicate of earlier txn,Quarantined
+U03,stg_premium,6736.0,PT003395,duplicate of earlier txn,Quarantined
+U03,stg_premium,6773.0,PT900071,duplicate of earlier txn,Quarantined
+U03,stg_premium,7453.0,PT003432,duplicate of earlier txn,Quarantined
+U03,stg_premium,2754.0,PT003520,duplicate of earlier txn,Quarantined
+U03,stg_premium,6545.0,PT003584,duplicate of earlier txn,Quarantined
+U03,stg_premium,4029.0,PT900075,duplicate of earlier txn,Quarantined
+U03,stg_premium,4869.0,PT003671,duplicate of earlier txn,Quarantined
+U03,stg_premium,3606.0,PT003699,duplicate of earlier txn,Quarantined
+U03,stg_premium,4005.0,PT003804,duplicate of earlier txn,Quarantined
+U03,stg_premium,2406.0,PT004006,duplicate of earlier txn,Quarantined
+U03,stg_premium,3265.0,PT900080,duplicate of earlier txn,Quarantined
+U03,stg_premium,5808.0,PT900081,duplicate of earlier txn,Quarantined
+U03,stg_premium,2071.0,PT004130,duplicate of earlier txn,Quarantined
+U03,stg_premium,6112.0,PT900083,duplicate of earlier txn,Quarantined
+U03,stg_premium,2990.0,PT900084,duplicate of earlier txn,Quarantined
+U03,stg_premium,3796.0,PT900085,duplicate of earlier txn,Quarantined
+U03,stg_premium,2841.0,PT004339,duplicate of earlier txn,Quarantined
+U03,stg_premium,7193.0,PT900087,duplicate of earlier txn,Quarantined
+U03,stg_premium,4266.0,PT004451,duplicate of earlier txn,Quarantined
+U03,stg_premium,7169.0,PT900089,duplicate of earlier txn,Quarantined
+U03,stg_premium,1952.0,PT900090,duplicate of earlier txn,Quarantined
+U03,stg_premium,5329.0,PT004603,duplicate of earlier txn,Quarantined
+U03,stg_premium,7173.0,PT900092,duplicate of earlier txn,Quarantined
+U03,stg_premium,4522.0,PT004833,duplicate of earlier txn,Quarantined
+U03,stg_premium,3152.0,PT900094,duplicate of earlier txn,Quarantined
+U03,stg_premium,5352.0,PT004954,duplicate of earlier txn,Quarantined
+U03,stg_premium,7884.0,PT900096,duplicate of earlier txn,Quarantined
+U03,stg_premium,6993.0,PT900097,duplicate of earlier txn,Quarantined
+U03,stg_premium,7238.0,PT900098,duplicate of earlier txn,Quarantined
+U03,stg_premium,7834.0,PT900099,duplicate of earlier txn,Quarantined
+U03,stg_premium,5319.0,PT005206,duplicate of earlier txn,Quarantined
+U03,stg_premium,5827.0,PT005235,duplicate of earlier txn,Quarantined
+U03,stg_premium,6977.0,PT900102,duplicate of earlier txn,Quarantined
+U03,stg_premium,3439.0,PT005449,duplicate of earlier txn,Quarantined
+U03,stg_premium,7196.0,PT005497,duplicate of earlier txn,Quarantined
+U03,stg_premium,5359.0,PT900105,duplicate of earlier txn,Quarantined
+U03,stg_premium,6306.0,PT900106,duplicate of earlier txn,Quarantined
+U03,stg_premium,7266.0,PT900107,duplicate of earlier txn,Quarantined
+U03,stg_premium,6184.0,PT005746,duplicate of earlier txn,Quarantined
+U03,stg_premium,4105.0,PT900109,duplicate of earlier txn,Quarantined
+U03,stg_premium,4659.0,PT900110,duplicate of earlier txn,Quarantined
+U03,stg_premium,6458.0,PT900111,duplicate of earlier txn,Quarantined
+U03,stg_premium,7627.0,PT005955,duplicate of earlier txn,Quarantined
+U03,stg_premium,2606.0,PT900113,duplicate of earlier txn,Quarantined
+U03,stg_premium,3067.0,PT900114,duplicate of earlier txn,Quarantined
+U03,stg_premium,5505.0,PT006246,duplicate of earlier txn,Quarantined
+U03,stg_premium,7413.0,PT006252,duplicate of earlier txn,Quarantined
+U03,stg_premium,1839.0,PT900117,duplicate of earlier txn,Quarantined
+U03,stg_premium,7252.0,PT900118,duplicate of earlier txn,Quarantined
+U03,stg_premium,4077.0,PT900119,duplicate of earlier txn,Quarantined
+U03,stg_premium,7595.0,PT900120,duplicate of earlier txn,Quarantined
+U03,stg_premium,7227.0,PT900121,duplicate of earlier txn,Quarantined
+U03,stg_premium,7210.0,PT006478,duplicate of earlier txn,Quarantined
+U03,stg_premium,3364.0,PT900123,duplicate of earlier txn,Quarantined
+U03,stg_premium,7931.0,PT006601,duplicate of earlier txn,Quarantined
+U03,stg_premium,6448.0,PT006607,duplicate of earlier txn,Quarantined
+U03,stg_premium,7229.0,PT900126,duplicate of earlier txn,Quarantined
+U03,stg_premium,6809.0,PT900127,duplicate of earlier txn,Quarantined
+U03,stg_premium,6978.0,PT900128,duplicate of earlier txn,Quarantined
+U03,stg_premium,6275.0,PT900129,duplicate of earlier txn,Quarantined
+U03,stg_premium,6328.0,PT006809,duplicate of earlier txn,Quarantined
+U03,stg_premium,5604.0,PT007075,duplicate of earlier txn,Quarantined
+U03,stg_premium,7926.0,PT007152,duplicate of earlier txn,Quarantined
+U03,stg_premium,2216.0,PT900133,duplicate of earlier txn,Quarantined
+U03,stg_premium,7963.0,PT900134,duplicate of earlier txn,Quarantined
+U03,stg_premium,6412.0,PT900135,duplicate of earlier txn,Quarantined
+U03,stg_premium,2182.0,PT900136,duplicate of earlier txn,Quarantined
+U03,stg_premium,5232.0,PT007219,duplicate of earlier txn,Quarantined
+U03,stg_premium,7465.0,PT007256,duplicate of earlier txn,Quarantined
+U03,stg_premium,5680.0,PT007273,duplicate of earlier txn,Quarantined
+U03,stg_premium,5658.0,PT007288,duplicate of earlier txn,Quarantined
+U03,stg_premium,4441.0,PT900141,duplicate of earlier txn,Quarantined
+U03,stg_premium,5351.0,PT007365,duplicate of earlier txn,Quarantined
+U03,stg_premium,1861.0,PT900143,duplicate of earlier txn,Quarantined
+U03,stg_premium,2774.0,PT900144,duplicate of earlier txn,Quarantined
+U03,stg_premium,2004.0,PT900145,duplicate of earlier txn,Quarantined
+U03,stg_premium,6339.0,PT900146,duplicate of earlier txn,Quarantined
+U03,stg_premium,5326.0,PT007739,duplicate of earlier txn,Quarantined
+U03,stg_premium,7778.0,PT900148,duplicate of earlier txn,Quarantined
+U03,stg_premium,6644.0,PT900149,duplicate of earlier txn,Quarantined
+U03,stg_premium,846.0,PT007890,duplicate of earlier txn,Quarantined
+R01,stg_claims,702.0,CL900023,treaty T9023 not found,Quarantined
+R01,stg_claims,804.0,CL900001,treaty T9001 not found,Quarantined
+R01,stg_claims,1121.0,CL900014,treaty T9014 not found,Quarantined
+R01,stg_claims,1153.0,CL900011,treaty T9011 not found,Quarantined
+R01,stg_claims,1459.0,CL900021,treaty T9021 not found,Quarantined
+R01,stg_claims,1974.0,CL900020,treaty T9020 not found,Quarantined
+R01,stg_claims,2540.0,CL900016,treaty T9016 not found,Quarantined
+R01,stg_claims,2550.0,CL900015,treaty T9015 not found,Quarantined
+R01,stg_claims,2877.0,CL900017,treaty T9017 not found,Quarantined
+R01,stg_claims,3000.0,CL900012,treaty T9012 not found,Quarantined
+R01,stg_claims,3485.0,CL900007,treaty T9007 not found,Quarantined
+R01,stg_claims,3489.0,CL900009,treaty T9009 not found,Quarantined
+R01,stg_claims,3501.0,CL900008,treaty T9008 not found,Quarantined
+R01,stg_claims,3825.0,CL900002,treaty T9002 not found,Quarantined
+R01,stg_claims,3875.0,CL900006,treaty T9006 not found,Quarantined
+R01,stg_claims,4041.0,CL900003,treaty T9003 not found,Quarantined
+R01,stg_claims,4425.0,CL900024,treaty T9024 not found,Quarantined
+R01,stg_claims,4681.0,CL900013,treaty T9013 not found,Quarantined
+R01,stg_claims,4874.0,CL900018,treaty T9018 not found,Quarantined
+R01,stg_claims,5305.0,CL900010,treaty T9010 not found,Quarantined
+R01,stg_claims,5327.0,CL900005,treaty T9005 not found,Quarantined
+R01,stg_claims,5534.0,CL900004,treaty T9004 not found,Quarantined
+R01,stg_claims,5590.0,CL900022,treaty T9022 not found,Quarantined
+R01,stg_claims,5595.0,CL900019,treaty T9019 not found,Quarantined
+R01,stg_claims,5789.0,CL900000,treaty T9000 not found,Quarantined
+R02,stg_premium,2057.0,PT800002,treaty ref TR-9002 not found,Quarantined
+R02,stg_premium,2908.0,PT800000,treaty ref TR-9000 not found,Quarantined
+R02,stg_premium,3599.0,PT800001,treaty ref TR-9001 not found,Quarantined
+R02,stg_premium,4016.0,PT800004,treaty ref TR-9004 not found,Quarantined
+R02,stg_premium,4850.0,PT800005,treaty ref TR-9005 not found,Quarantined
+R02,stg_premium,4981.0,PT800003,treaty ref TR-9003 not found,Quarantined
+T01,stg_premium,,2025-06,MoM +101%,Flagged
+T01,stg_premium,,2025-07,MoM -43%,Flagged
